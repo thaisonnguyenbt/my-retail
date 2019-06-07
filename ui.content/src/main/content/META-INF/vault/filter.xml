@@ -4,6 +4,8 @@
     <filter root="/content/my-retail" mode="merge"/>
     <filter root="/content/dam/my-retail" mode="merge"/>
     
-	<filter root="/content/projects" mode="merge"/>
-	<filter root="/content/cq:tags/my-retail" mode="merge"/>
+    <filter root="/content/projects/my-retail" mode="merge"/>
+    <filter root="/content/cq:tags/my-retail" mode="merge"/>
+    <filter root="/content/catalogs/my-retail" mode="merge"/>
+    
 </workspaceFilter>
