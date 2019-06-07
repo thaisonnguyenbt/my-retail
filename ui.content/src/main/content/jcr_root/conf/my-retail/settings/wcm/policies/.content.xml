@@ -2,17 +2,64 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
-    <rep:policy/>
+    <my-retail jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <form jcr:primaryType="nt:unstructured">
+                <container jcr:primaryType="nt:unstructured">
+                    <form-container
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="My.Retail Form"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/my-retail/components/form/button,/apps/my-retail/components/form/hidden,/apps/my-retail/components/form/options,/apps/my-retail/components/form/text]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </form-container>
+                </container>
+            </form>
+            <content jcr:primaryType="nt:unstructured">
+                <teaser jcr:primaryType="nt:unstructured">
+                    <policy_1559545876047
+                        cq:styleDefaultClasses="my-Teaser"
+                        jcr:lastModified="{Date}2019-06-03T15:14:43.235+08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="My.Retail Default"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Component Type"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="my-Teaser"
+                                        cq:styleId="1559545948370"
+                                        cq:styleLabel="My.Retail Teaser"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="my-LinkButton"
+                                        cq:styleId="1559546045806"
+                                        cq:styleLabel="Link Button"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1559545876047>
+                </teaser>
+            </content>
+        </components>
+    </my-retail>
     <wcm jcr:primaryType="nt:unstructured">
         <foundation jcr:primaryType="nt:unstructured">
             <components jcr:primaryType="nt:unstructured">
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
+                        jcr:lastModified="{Date}2019-06-03T23:18:27.960+08:00"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="My.Retail Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:My.Retail,/apps/my-retail/components/form/container]"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:My.Retail,group:My.Retail Commerce,group:My.Retail Form,group:My.Retail.Structure]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -29,23 +76,34 @@
                             jcr:primaryType="nt:unstructured"
                             mergeList="{Boolean}true"/>
                     </content-default>
+                    <policy_1559577545550
+                        jcr:description="My.Retail Structure"
+                        jcr:lastModified="{Date}2019-06-04T00:14:28.412+08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="My.Retail Structure"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/cq/experience-fragments/editor/components/experiencefragment,/libs/wcm/foundation/components/responsivegrid,group:My.Retail,group:My.Retail Commerce,group:My.Retail.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <mapping_1559578104141
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="image/*"
+                                    droptarget="image"
+                                    resourceType="my-retail/components/content/image"/>
+                                <mapping_1559578310599
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="product"
+                                    droptarget="product-data-reference"
+                                    resourceType="my-retail/components/structure/product"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                    </policy_1559577545550>
                 </responsivegrid>
             </components>
         </foundation>
     </wcm>
-    <my-retail jcr:primaryType="nt:unstructured">
-        <components jcr:primaryType="nt:unstructured">
-            <form jcr:primaryType="nt:unstructured">
-                <container jcr:primaryType="nt:unstructured">
-                    <form-container
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="My.Retail Form"
-                        sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/apps/my-retail/components/form/button,/apps/my-retail/components/form/hidden,/apps/my-retail/components/form/options,/apps/my-retail/components/form/text]">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
-                    </form-container>
-                </container>
-            </form>
-        </components>
-    </my-retail>
+    <rep:policy/>
 </jcr:root>
