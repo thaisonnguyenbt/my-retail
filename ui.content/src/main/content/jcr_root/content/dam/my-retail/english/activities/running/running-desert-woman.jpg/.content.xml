@@ -6,8 +6,8 @@
     jcr:uuid="b2f41420-f26b-4b7d-a732-b3d0b89dbb6e">
     <jcr:content
         cq:name="running-desert-woman.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/running"
-        dam:relativePath="we-retail/en/activities/running/running-desert-woman.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/running"
+        dam:relativePath="my-retail/english/activities/running/running-desert-woman.jpg"
         jcr:lastModified="{Date}2016-09-12T17:16:12.895+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

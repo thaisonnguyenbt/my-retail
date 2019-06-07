@@ -5,7 +5,7 @@
     jcr:uuid="0d95b8f9-a169-47de-aec4-d3f652bcdf7f">
     <jcr:content
         dam:assetState="processed"
-        dam:relativePath="we-retail/en/features/cart.png"
+        dam:relativePath="my-retail/english/features/cart.png"
         jcr:lastModified="{Date}2016-06-06T13:56:05.630+03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

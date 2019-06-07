@@ -8,7 +8,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/eq/water-sports/eqswsucal"
+            cq:productReference="/var/commerce/products/my-retail/eq/water-sports/eqswsucal"
             dam:productID="eqswsucal"
             dc:description=""
             dc:format="Multipart/Related; type=application/x-ImageSet"
@@ -24,16 +24,16 @@
                 sling:resourceType="sling/collection">
                 <sling:members
                     jcr:primaryType="nt:unstructured"
-                    sling:resources="[/content/dam/we-retail/en/products/activities/water-sports/source/Cabana.jpg,/content/dam/we-retail/en/products/activities/water-sports/source/Cabana Rolled.jpg,/content/dam/we-retail/en/products/activities/water-sports/source/Cabana Beach.jpg]">
+                    sling:resources="[/content/dam/my-retail/english/products/activities/water-sports/source/Cabana.jpg,/content/dam/my-retail/english/products/activities/water-sports/source/Cabana Rolled.jpg,/content/dam/my-retail/english/products/activities/water-sports/source/Cabana Beach.jpg]">
                     <Cabana_x0020_Rolled.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/water-sports/source/Cabana Rolled.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/water-sports/source/Cabana Rolled.jpg"/>
                     <Cabana.jpg0
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/water-sports/source/Cabana.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/water-sports/source/Cabana.jpg"/>
                     <Cabana_x0020_Beach.jpg0
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/water-sports/source/Cabana Beach.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/water-sports/source/Cabana Beach.jpg"/>
                 </sling:members>
             </s7Set>
         </related>

@@ -6,7 +6,7 @@
     jcr:uuid="c9bb4e20-7dcf-42a3-a55e-e2b774671607">
     <jcr:content
         cq:name="cancellations"
-        cq:parentPath="/content/dam/we-retail/en/faqs/orders"
+        cq:parentPath="/content/dam/my-retail/english/faqs/orders"
         jcr:lastModified="{Date}2019-01-21T11:10:32.508+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
@@ -19,17 +19,17 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/faq"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/faq"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"
                 answer="&lt;p>To cancel an order, please call us 24/7 at 1-800-555-1234 within 12 hours of placing the order. Please make sure to have the Order # you wish to cancel.&lt;br>&#xa;&lt;/p>&#xa;"
                 answer_x0040_ContentType="text/html"
                 question="How can in cancel an order?"
-                tags="[we-retail:order-processing]"/>
+                tags="[my-retail:order-processing]"/>
         </data>
         <metadata
-            cq:tags="[we-retail:commonly-asked-question]"
+            cq:tags="[my-retail:commonly-asked-question]"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>

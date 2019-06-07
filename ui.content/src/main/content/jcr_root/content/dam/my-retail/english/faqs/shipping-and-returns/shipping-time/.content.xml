@@ -6,7 +6,7 @@
     jcr:uuid="608b00bb-ced4-4664-b77a-8ab0c9b1594f">
     <jcr:content
         cq:name="shipping-time"
-        cq:parentPath="/content/dam/we-retail/en/faqs/shipping-and-returns"
+        cq:parentPath="/content/dam/my-retail/english/faqs/shipping-and-returns"
         jcr:description=""
         jcr:lastModified="{Date}2018-01-05T11:17:39.301-08:00"
         jcr:lastModifiedBy="admin"
@@ -20,14 +20,14 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/faq"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/faq"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"
                 answer="&lt;p>All orders placed on the Web site will take at most 24 business hours from the time of order to ship from our warehouses.&lt;/p>&#xa;&lt;p>Business hours exclude weekends (Saturday and Sunday) and U.S. Holidays.&lt;/p>&#xa;"
                 answer_x0040_ContentType="text/html"
                 question="How long will it take ship?"
-                tags="[we-retail:shipping]"/>
+                tags="[my-retail:shipping]"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

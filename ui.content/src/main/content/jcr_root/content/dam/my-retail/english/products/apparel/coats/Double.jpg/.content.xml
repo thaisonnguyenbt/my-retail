@@ -6,10 +6,10 @@
     jcr:uuid="31c47c7d-cc72-476c-8eae-1931ce451310">
     <jcr:content
         cq:name="Double.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/coats"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/coats"
         dam:assetID="31c47c7d-cc72-476c-8eae-1931ce451310"
         dam:lastInvalidateCache="{Date}2016-01-16T23:33:03.373-05:00"
-        dam:relativePath="we-retail/en/products/apparel/coats/Double.jpg"
+        dam:relativePath="my-retail/english/products/apparel/coats/Double.jpg"
         dam:s7damAnchorX="{Long}452"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/me/coats/meotwidot"
+            cq:productReference="/var/commerce/products/my-retail/me/coats/meotwidot"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:59.014+05:30"
             dam:Fileformat="JPEG"

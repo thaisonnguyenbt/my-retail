@@ -6,7 +6,7 @@
     jcr:uuid="7eed7f19-87eb-4964-9011-73393ed8497b">
     <jcr:content
         cq:name="fly-fishing-the-amazon"
-        cq:parentPath="/content/dam/we-retail/en/experiences/fly-fishing-the-amazon"
+        cq:parentPath="/content/dam/my-retail/english/experiences/fly-fishing-the-amazon"
         jcr:description=""
         jcr:lastModified="{Date}2018-02-08T14:41:48.564+01:00"
         jcr:lastModifiedBy="admin"
@@ -14,7 +14,7 @@
         jcr:title="Fly-fishing the Amazon"
         contentFragment="{Boolean}true">
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/we-retail-experience"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/my-retail-experience"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"

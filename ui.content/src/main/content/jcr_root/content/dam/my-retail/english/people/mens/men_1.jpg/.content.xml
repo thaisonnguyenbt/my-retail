@@ -6,10 +6,10 @@
     jcr:uuid="7c14ff46-c284-4c4c-83a5-c271331f6743">
     <jcr:content
         cq:name="men_1.jpg"
-        cq:parentPath="/content/dam/we-retail/en/people/mens"
+        cq:parentPath="/content/dam/my-retail/english/people/mens"
         dam:assetID="aaid:20fe5d02895044a0845939adaf0c183e"
         dam:lastInvalidateCache="{Date}2016-01-16T23:31:51.213-05:00"
-        dam:relativePath="we-retail/en/people/mens/men_1.jpg"
+        dam:relativePath="my-retail/english/people/mens/men_1.jpg"
         dam:s7damAnchorX="{Long}960"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

@@ -6,8 +6,8 @@
     jcr:uuid="ec20a81d-c053-4ad8-80b8-adf2d9494d2b">
     <jcr:content
         cq:name="man-snowboarder.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/snowboarding"
-        dam:relativePath="we-retail/en/activities/snowboarding/man-snowboarder.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/snowboarding"
+        dam:relativePath="my-retail/english/activities/snowboarding/man-snowboarder.jpg"
         jcr:lastModified="{Date}2016-09-12T17:16:55.662+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

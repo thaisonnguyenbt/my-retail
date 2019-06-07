@@ -6,10 +6,10 @@
     jcr:uuid="aa3d1218-5bdb-40f9-a77f-ee44361bece4">
     <jcr:content
         cq:name="Rusty Parrot Bottom.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/activities/surfing/source"
+        cq:parentPath="/content/dam/my-retail/english/products/activities/surfing/source"
         dam:assetID="aaid:7002a6461e6e47f9856dcb6be5650315"
         dam:lastInvalidateCache="{Date}2016-01-16T23:34:06.689-05:00"
-        dam:relativePath="we-retail/en/products/activities/surfing/source/Rusty Parrot Bottom.jpg"
+        dam:relativePath="my-retail/english/products/activities/surfing/source/Rusty Parrot Bottom.jpg"
         dam:s7damAnchorX="{Long}960"
         dam:s7damAnchorY="{Long}277"
         dam:s7damHeight="{Long}554"

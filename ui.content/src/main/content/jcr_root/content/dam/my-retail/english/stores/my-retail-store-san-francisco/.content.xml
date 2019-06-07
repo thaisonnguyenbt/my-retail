@@ -5,8 +5,8 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="b168e79e-143d-4d6a-b265-ee221804bfdc">
     <jcr:content
-        cq:name="we-retail-store-san-francisco"
-        cq:parentPath="/content/dam/we-retail/en/stores"
+        cq:name="my-retail-store-san-francisco"
+        cq:parentPath="/content/dam/my-retail/english/stores"
         jcr:description="we.Retail Store San Francisco"
         jcr:lastModified="{Date}2018-01-05T11:20:42.010-08:00"
         jcr:lastModifiedBy="admin"
@@ -20,7 +20,7 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/we-retail-store-info"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/my-retail-store-info"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"
@@ -33,9 +33,9 @@
                 gift-cards="{Boolean}false"
                 openinghours="&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Monday&lt;/td>&#xa;&lt;td>8AM–5PM&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Tuesday&lt;/td>&#xa;&lt;td>8AM–5PM&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Wednesday&lt;/td>&#xa;&lt;td>8AM–5PM&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Thursday&lt;/td>&#xa;&lt;td>8AM–5PM&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Friday&lt;/td>&#xa;&lt;td>8AM–5PM&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Saturday&lt;/td>&#xa;&lt;td>Closed&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Sunday&lt;/td>&#xa;&lt;td>Closed&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;"
                 openinghours_x0040_ContentType="text/html"
-                reference="[/content/dam/we-retail/en/activities/biking/cycling_1.jpg]"
+                reference="[/content/dam/my-retail/english/activities/biking/cycling_1.jpg]"
                 storelocation="WeRetail San Francisco"
-                tags="[we-retail:activity/biking,we-retail:activity/hiking,we-retail:activity/surfing]"/>
+                tags="[my-retail:activity/biking,my-retail:activity/hiking,my-retail:activity/surfing]"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

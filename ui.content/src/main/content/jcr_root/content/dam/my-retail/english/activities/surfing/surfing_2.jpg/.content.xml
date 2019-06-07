@@ -6,10 +6,10 @@
     jcr:uuid="5920c68b-ad75-4783-84d4-a69eddb638fe">
     <jcr:content
         cq:name="surfing_2.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/surfing"
+        cq:parentPath="/content/dam/my-retail/english/activities/surfing"
         dam:assetID="aaid:abd8508f66d14e4198cd5670344a9826"
         dam:lastInvalidateCache="{Date}2016-01-16T23:31:15.173-05:00"
-        dam:relativePath="we-retail/en/activities/surfing/surfing_2.jpg"
+        dam:relativePath="my-retail/english/activities/surfing/surfing_2.jpg"
         dam:s7damAnchorX="{Long}960"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

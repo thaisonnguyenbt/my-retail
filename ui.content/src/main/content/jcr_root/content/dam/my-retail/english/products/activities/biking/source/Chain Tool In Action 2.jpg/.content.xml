@@ -6,10 +6,10 @@
     jcr:uuid="9f4d5a67-d117-4621-88da-467996b0b7bb">
     <jcr:content
         cq:name="Chain Tool In Action 2.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/activities/biking/source"
+        cq:parentPath="/content/dam/my-retail/english/products/activities/biking/source"
         dam:assetID="9f4d5a67-d117-4621-88da-467996b0b7bb"
         dam:lastInvalidateCache="{Date}2016-01-16T23:34:49.513-05:00"
-        dam:relativePath="we-retail/en/products/activities/biking/source/Chain Tool In Action 2.jpg"
+        dam:relativePath="my-retail/english/products/activities/biking/source/Chain Tool In Action 2.jpg"
         dam:s7damAnchorX="{Long}809"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

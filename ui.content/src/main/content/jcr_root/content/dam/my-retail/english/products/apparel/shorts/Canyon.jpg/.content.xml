@@ -6,10 +6,10 @@
     jcr:uuid="e9577dcc-6a86-41ad-a02e-feafe2b46bb6">
     <jcr:content
         cq:name="Canyon.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/shorts"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/shorts"
         dam:assetID="e9577dcc-6a86-41ad-a02e-feafe2b46bb6"
         dam:lastInvalidateCache="{Date}2016-01-16T23:33:23.314-05:00"
-        dam:relativePath="we-retail/en/products/apparel/shorts/Canyon.jpg"
+        dam:relativePath="my-retail/english/products/apparel/shorts/Canyon.jpg"
         dam:s7damAnchorX="{Long}644"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/me/shorts/mehisusls"
+            cq:productReference="/var/commerce/products/my-retail/me/shorts/mehisusls"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:33.197+05:30"
             dam:Fileformat="JPEG"

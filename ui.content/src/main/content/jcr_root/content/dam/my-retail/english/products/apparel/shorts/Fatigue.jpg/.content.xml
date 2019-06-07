@@ -6,10 +6,10 @@
     jcr:uuid="1a8cedad-43d0-4257-9639-33e4c3cb9b6a">
     <jcr:content
         cq:name="Fatigue.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/shorts"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/shorts"
         dam:assetID="1a8cedad-43d0-4257-9639-33e4c3cb9b6a"
         dam:lastInvalidateCache="{Date}2016-01-16T23:33:43.705-05:00"
-        dam:relativePath="we-retail/en/products/apparel/shorts/Fatigue.jpg"
+        dam:relativePath="my-retail/english/products/apparel/shorts/Fatigue.jpg"
         dam:s7damAnchorX="{Long}450"
         dam:s7damAnchorY="{Long}450"
         dam:s7damHeight="{Long}900"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/me/shorts/mehisusts"
+            cq:productReference="/var/commerce/products/my-retail/me/shorts/mehisusts"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:13.326+05:30"
             dam:Fileformat="JPEG"

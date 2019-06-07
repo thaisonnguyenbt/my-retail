@@ -5,7 +5,7 @@
     jcr:uuid="7af5918c-44b3-4ffa-acc9-9a1818bd8713">
     <jcr:content
         dam:assetState="processed"
-        dam:relativePath="we-retail/en/experiences/wester-australia-by-camper-van/camping-in-western-australia.jpg"
+        dam:relativePath="my-retail/english/experiences/wester-australia-by-camper-van/camping-in-western-australia.jpg"
         jcr:lastModified="{Date}2018-02-07T17:22:55.969+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

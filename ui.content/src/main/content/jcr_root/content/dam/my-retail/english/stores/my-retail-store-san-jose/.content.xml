@@ -7,14 +7,14 @@
     <jcr:content
         cq:lastModified="{Date}2018-01-04T17:32:59.320-08:00"
         cq:lastModifiedBy="admin"
-        cq:name="we-retail-store-san-jose"
-        cq:parentPath="/content/dam/we-retail/en/stores"
-        dam:relativePath="we-retail-stores/en/we-retail-store-san-jose"
-        jcr:description="We Retail Store San Jose"
+        cq:name="my-retail-store-san-jose"
+        cq:parentPath="/content/dam/my-retail/english/stores"
+        dam:relativePath="my-retail-stores/en/my-retail-store-san-jose"
+        jcr:description="My Retail Store San Jose"
         jcr:lastModified="{Date}2018-01-05T11:21:35.734-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
-        jcr:title="We Retail Store San Jose"
+        jcr:title="My Retail Store San Jose"
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2018-01-05T11:21:35.734-08:00">
         <associated
@@ -23,7 +23,7 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/we-retail-store-info"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/my-retail-store-info"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"
@@ -36,9 +36,9 @@
                 gift-cards="{Boolean}false"
                 openinghours="&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Monday&lt;/td>&#xa;&lt;td>8AM–5PM&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Tuesday&lt;/td>&#xa;&lt;td>8AM–5PM&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Wednesday&lt;/td>&#xa;&lt;td>8AM–5PM&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Thursday&lt;/td>&#xa;&lt;td>8AM–5PM&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Friday&lt;/td>&#xa;&lt;td>8AM–5PM&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Saturday&lt;/td>&#xa;&lt;td>Closed&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Sunday&lt;/td>&#xa;&lt;td>Closed&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;"
                 openinghours_x0040_ContentType="text/html"
-                reference="[/content/dam/we-retail/en/activities/hiking/hiking_4.jpg]"
+                reference="[/content/dam/my-retail/english/activities/hiking/hiking_4.jpg]"
                 storelocation="WeRetail San Jose"
-                tags="[we-retail:activity/biking,we-retail:activity/hiking]"/>
+                tags="[my-retail:activity/biking,my-retail:activity/hiking]"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

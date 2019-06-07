@@ -6,8 +6,8 @@
     jcr:uuid="433d53e2-0bbd-4f53-98e5-8801b39049df">
     <jcr:content
         cq:name="running-trail-man.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/running"
-        dam:relativePath="we-retail/en/activities/running/running-trail-man.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/running"
+        dam:relativePath="my-retail/english/activities/running/running-trail-man.jpg"
         jcr:lastModified="{Date}2016-09-12T17:17:11.529+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

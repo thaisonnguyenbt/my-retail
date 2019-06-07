@@ -6,7 +6,7 @@
     jcr:uuid="459ea3b7-4400-4970-9def-421fc3c48eba">
     <jcr:content
         cq:name="expedited-shipping"
-        cq:parentPath="/content/dam/we-retail/en/faqs/shipping-and-returns"
+        cq:parentPath="/content/dam/my-retail/english/faqs/shipping-and-returns"
         jcr:description=""
         jcr:lastModified="{Date}2018-01-05T11:18:38.219-08:00"
         jcr:lastModifiedBy="admin"
@@ -20,14 +20,14 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/faq"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/faq"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"
                 answer="&lt;p>No, we have a single shipping option, 3 day express shipping. Our 3 day shipping applies, free of charge, to all orders regardless of purchase size.&lt;br>&#xa;&lt;/p>&#xa;"
                 answer_x0040_ContentType="text/html"
                 question="Can I request expedite shipping?"
-                tags="[we-retail:shipping]"/>
+                tags="[my-retail:shipping]"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

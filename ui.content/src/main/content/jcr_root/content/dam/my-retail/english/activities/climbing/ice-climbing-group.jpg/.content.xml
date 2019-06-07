@@ -6,8 +6,8 @@
     jcr:uuid="13954258-7e28-4500-99b2-bec353822441">
     <jcr:content
         cq:name="ice-climbing-group.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/climbing"
-        dam:relativePath="we-retail/en/activities/climbing/ice-climbing-group.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/climbing"
+        dam:relativePath="my-retail/english/activities/climbing/ice-climbing-group.jpg"
         jcr:lastModified="{Date}2016-09-12T17:16:56.891+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

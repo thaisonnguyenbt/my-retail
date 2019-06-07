@@ -6,9 +6,9 @@
     jcr:uuid="4bc1d52e-1d7b-4dd3-bcfa-2079adef9031">
     <jcr:content
         cq:name="Footwear.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/footwear"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/footwear"
         dam:assetID="aaid:2087679d1aa04f428cbb226ee6cbe720"
-        dam:relativePath="we-retail/en/products/apparel/footwear/Footwear.jpg"
+        dam:relativePath="my-retail/english/products/apparel/footwear/Footwear.jpg"
         dam:s7damType="Image"
         jcr:lastModified="{Date}2016-09-12T17:17:57.393+05:30"
         jcr:lastModifiedBy="admin"

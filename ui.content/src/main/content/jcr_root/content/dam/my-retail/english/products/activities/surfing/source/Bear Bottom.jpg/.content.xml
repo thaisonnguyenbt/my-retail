@@ -6,10 +6,10 @@
     jcr:uuid="a5fcd1e7-5c52-4480-98cb-d962b079d862">
     <jcr:content
         cq:name="Bear Bottom.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/activities/surfing/source"
+        cq:parentPath="/content/dam/my-retail/english/products/activities/surfing/source"
         dam:assetID="aaid:326e1b26108f4696a852cd80f56759e7"
         dam:lastInvalidateCache="{Date}2016-01-16T23:34:08.896-05:00"
-        dam:relativePath="we-retail/en/products/activities/surfing/source/Bear Bottom.jpg"
+        dam:relativePath="my-retail/english/products/activities/surfing/source/Bear Bottom.jpg"
         dam:s7damAnchorX="{Long}810"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

@@ -6,10 +6,10 @@
     jcr:uuid="8c726185-e81f-4914-98ca-3574959442fd">
     <jcr:content
         cq:name="swimming_2.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/water-sports"
+        cq:parentPath="/content/dam/my-retail/english/activities/water-sports"
         dam:assetID="aaid:ff3ff9100e274c99ab3aac8fabd351a2"
         dam:lastInvalidateCache="{Date}2016-01-16T23:32:09.660-05:00"
-        dam:relativePath="we-retail/en/activities/water-sports/swimming_2.jpg"
+        dam:relativePath="my-retail/english/activities/water-sports/swimming_2.jpg"
         dam:s7damAnchorX="{Long}960"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

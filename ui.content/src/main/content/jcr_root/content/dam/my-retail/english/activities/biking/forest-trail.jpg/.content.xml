@@ -6,8 +6,8 @@
     jcr:uuid="8c18286d-c218-4efc-aa07-35d846406079">
     <jcr:content
         cq:name="forest-trail.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/biking"
-        dam:relativePath="we-retail/en/activities/biking/forest-trail.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/biking"
+        dam:relativePath="my-retail/english/activities/biking/forest-trail.jpg"
         jcr:lastModified="{Date}2016-09-12T17:16:53.224+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

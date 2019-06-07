@@ -3,13 +3,13 @@
     jcr:primaryType="dam:Asset">
     <jcr:content
         dam:lastInvalidateCache="{Date}2016-01-16T23:34:11.025-05:00"
-        dam:relativePath="we-retail/en/products/activities/surfing/rusty_parrot"
+        dam:relativePath="my-retail/english/products/activities/surfing/rusty_parrot"
         dam:s7damType="ImageSet"
         jcr:lastModified="{Date}2016-04-06T19:51:00.385+02:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/eq/surfing/eqsusurud"
+            cq:productReference="/var/commerce/products/my-retail/eq/surfing/eqsusurud"
             dam:productID="eqsusurud"
             dc:description=""
             dc:format="Multipart/Related; type=application/x-ImageSet"
@@ -25,16 +25,16 @@
                 sling:resourceType="sling/collection">
                 <sling:members
                     jcr:primaryType="nt:unstructured"
-                    sling:resources="[/content/dam/we-retail/en/products/activities/surfing/source/Rusty Parrot.jpg,/content/dam/we-retail/en/products/activities/surfing/source/Rusty Parrot Side.jpg,/content/dam/we-retail/en/products/activities/surfing/source/Rusty Parrot Bottom.jpg]">
+                    sling:resources="[/content/dam/my-retail/english/products/activities/surfing/source/Rusty Parrot.jpg,/content/dam/my-retail/english/products/activities/surfing/source/Rusty Parrot Side.jpg,/content/dam/my-retail/english/products/activities/surfing/source/Rusty Parrot Bottom.jpg]">
                     <Rusty_x0020_Parrot_x0020_Bottom.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/surfing/source/Rusty Parrot Bottom.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/surfing/source/Rusty Parrot Bottom.jpg"/>
                     <Rusty_x0020_Parrot_x0020_Side.jpg0
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/surfing/source/Rusty Parrot Side.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/surfing/source/Rusty Parrot Side.jpg"/>
                     <Rusty_x0020_Parrot.jpg0
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/surfing/source/Rusty Parrot.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/surfing/source/Rusty Parrot.jpg"/>
                 </sling:members>
             </s7Set>
         </related>

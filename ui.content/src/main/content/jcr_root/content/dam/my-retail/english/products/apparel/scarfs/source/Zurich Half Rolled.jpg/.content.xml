@@ -6,10 +6,10 @@
     jcr:uuid="1e3c2e32-0523-4220-bb7e-4aced5970d6c">
     <jcr:content
         cq:name="Zurich Half Rolled.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/scarfs/source"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/scarfs/source"
         dam:assetID="aaid:e180c780f7474237bea59e424885881c"
         dam:lastInvalidateCache="{Date}2016-01-16T23:32:16.862-05:00"
-        dam:relativePath="we-retail/en/products/apparel/scarfs/source/Zurich Half Rolled.jpg"
+        dam:relativePath="my-retail/english/products/apparel/scarfs/source/Zurich Half Rolled.jpg"
         dam:s7damAnchorX="{Long}810"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

@@ -6,10 +6,10 @@
     jcr:uuid="916b7ecb-091f-4d0f-9d11-f4cf18ea7044">
     <jcr:content
         cq:name="running_2.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/running"
+        cq:parentPath="/content/dam/my-retail/english/activities/running"
         dam:assetID="aaid:9386b30b18c34f648b8d7eec742bd2b9"
         dam:lastInvalidateCache="{Date}2016-01-16T23:31:14.567-05:00"
-        dam:relativePath="we-retail/en/activities/running/running_2.jpg"
+        dam:relativePath="my-retail/english/activities/running/running_2.jpg"
         dam:s7damAnchorX="{Long}960"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

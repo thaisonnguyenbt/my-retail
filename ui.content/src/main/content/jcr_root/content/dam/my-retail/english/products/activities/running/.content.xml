@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2016-01-08T12:48:52.589-08:00"
         cq:lastModifiedBy="admin"
-        dam:relativePath="we-retail/en/products/activities/running"
+        dam:relativePath="my-retail/english/products/activities/running"
         jcr:primaryType="nt:unstructured"
         jcr:title="Running">
         <folderThumbnail/>

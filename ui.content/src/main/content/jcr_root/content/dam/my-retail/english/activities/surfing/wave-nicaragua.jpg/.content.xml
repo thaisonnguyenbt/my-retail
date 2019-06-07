@@ -6,8 +6,8 @@
     jcr:uuid="31159c37-731d-4a42-9ecc-fb79c520354f">
     <jcr:content
         cq:name="wave-nicaragua.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/surfing"
-        dam:relativePath="we-retail/en/activities/surfing/wave-nicaragua.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/surfing"
+        dam:relativePath="my-retail/english/activities/surfing/wave-nicaragua.jpg"
         jcr:lastModified="{Date}2016-09-12T17:16:38.215+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

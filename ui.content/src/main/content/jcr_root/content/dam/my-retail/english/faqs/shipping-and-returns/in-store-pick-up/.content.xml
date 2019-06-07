@@ -6,7 +6,7 @@
     jcr:uuid="77a454a2-b829-4fdf-bc29-a04caf3b4323">
     <jcr:content
         cq:name="in-store-pick-up"
-        cq:parentPath="/content/dam/we-retail/en/faqs/shipping-and-returns"
+        cq:parentPath="/content/dam/my-retail/english/faqs/shipping-and-returns"
         jcr:lastModified="{Date}2019-01-21T11:09:25.933+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
@@ -19,17 +19,17 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/faq"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/faq"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"
                 answer="&lt;p>At this time we do not have any phsyical store locations, so all orders must be placed through our Web site.&lt;/p>&#xa;&lt;p>Please sign up for our newsletter to receive updates on store openings!&lt;/p>&#xa;"
                 answer_x0040_ContentType="text/html"
                 question="Do you have store pick-up?"
-                tags="[we-retail:shipping]"/>
+                tags="[my-retail:shipping]"/>
         </data>
         <metadata
-            cq:tags="[we-retail:commonly-asked-question]"
+            cq:tags="[my-retail:commonly-asked-question]"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>

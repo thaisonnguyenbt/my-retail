@@ -6,10 +6,10 @@
     jcr:uuid="892c5511-2da8-440c-9439-9e9b7af76c01">
     <jcr:content
         cq:name="Sleek.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/coats"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/coats"
         dam:assetID="892c5511-2da8-440c-9439-9e9b7af76c01"
         dam:lastInvalidateCache="{Date}2016-01-16T23:33:08.552-05:00"
-        dam:relativePath="we-retail/en/products/apparel/coats/Sleek.jpg"
+        dam:relativePath="my-retail/english/products/apparel/coats/Sleek.jpg"
         dam:s7damAnchorX="{Long}383"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/en/wo/coats/woskwislt"
+            cq:productReference="/var/commerce/products/my-retail/english/wo/coats/woskwislt"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:32.307+05:30"
             dam:Fileformat="JPEG"

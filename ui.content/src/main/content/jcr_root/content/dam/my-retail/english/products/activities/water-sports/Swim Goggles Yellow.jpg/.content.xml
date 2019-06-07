@@ -6,10 +6,10 @@
     jcr:uuid="e7ba04f3-ff24-4684-8888-38a1dbfa67ad">
     <jcr:content
         cq:name="Swim Goggles Yellow.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/activities/water-sports"
+        cq:parentPath="/content/dam/my-retail/english/products/activities/water-sports"
         dam:assetID="e7ba04f3-ff24-4684-8888-38a1dbfa67ad"
         dam:lastInvalidateCache="{Date}2016-01-16T23:34:40.765-05:00"
-        dam:relativePath="we-retail/en/products/activities/water-sports/Swim Goggles Yellow.jpg"
+        dam:relativePath="my-retail/english/products/activities/water-sports/Swim Goggles Yellow.jpg"
         dam:s7damAnchorX="{Long}810"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/eq/water-sports/eqswsuprs/eqswsuprs.3"
+            cq:productReference="/var/commerce/products/my-retail/eq/water-sports/eqswsuprs/eqswsuprs.3"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:18:01.452+05:30"
             dam:Fileformat="JPEG"

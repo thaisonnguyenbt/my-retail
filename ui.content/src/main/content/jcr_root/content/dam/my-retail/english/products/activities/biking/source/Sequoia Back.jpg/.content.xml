@@ -6,10 +6,10 @@
     jcr:uuid="5c160472-e8db-49ac-836f-9c19d8abd603">
     <jcr:content
         cq:name="Sequoia Back.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/activities/biking/source"
+        cq:parentPath="/content/dam/my-retail/english/products/activities/biking/source"
         dam:assetID="5c160472-e8db-49ac-836f-9c19d8abd603"
         dam:lastInvalidateCache="{Date}2016-01-16T23:34:17.345-05:00"
-        dam:relativePath="we-retail/en/products/activities/biking/source/Sequoia Back.jpg"
+        dam:relativePath="my-retail/english/products/activities/biking/source/Sequoia Back.jpg"
         dam:s7damAnchorX="{Long}810"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

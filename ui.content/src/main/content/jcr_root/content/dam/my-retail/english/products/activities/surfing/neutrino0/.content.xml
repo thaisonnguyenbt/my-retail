@@ -8,7 +8,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/eq/surfing/eqsusutho"
+            cq:productReference="/var/commerce/products/my-retail/eq/surfing/eqsusutho"
             dam:productID="eqsusutho"
             dc:description=""
             dc:format="Multipart/Related; type=application/x-ImageSet"
@@ -24,16 +24,16 @@
                 sling:resourceType="sling/collection">
                 <sling:members
                     jcr:primaryType="nt:unstructured"
-                    sling:resources="[/content/dam/we-retail/en/products/activities/surfing/source/Neutrino.jpg,/content/dam/we-retail/en/products/activities/surfing/source/Neutrino Side.jpg,/content/dam/we-retail/en/products/activities/surfing/source/Neutrino Bottom.jpg]">
+                    sling:resources="[/content/dam/my-retail/english/products/activities/surfing/source/Neutrino.jpg,/content/dam/my-retail/english/products/activities/surfing/source/Neutrino Side.jpg,/content/dam/my-retail/english/products/activities/surfing/source/Neutrino Bottom.jpg]">
                     <Neutrino_x0020_Side.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/surfing/source/Neutrino Side.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/surfing/source/Neutrino Side.jpg"/>
                     <Neutrino.jpg0
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/surfing/source/Neutrino.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/surfing/source/Neutrino.jpg"/>
                     <Neutrino_x0020_Bottom.jpg0
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/surfing/source/Neutrino Bottom.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/surfing/source/Neutrino Bottom.jpg"/>
                 </sling:members>
             </s7Set>
         </related>

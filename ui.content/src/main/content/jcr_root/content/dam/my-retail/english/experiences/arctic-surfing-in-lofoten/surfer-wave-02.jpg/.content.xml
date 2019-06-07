@@ -5,7 +5,7 @@
     jcr:uuid="b55dc097-e0cb-4219-9525-dda1fb64fd8c">
     <jcr:content
         dam:assetState="processed"
-        dam:relativePath="we-retail/en/experiences/arctic-surfing-in-lofoten/surfer-wave-02.jpg"
+        dam:relativePath="my-retail/english/experiences/arctic-surfing-in-lofoten/surfer-wave-02.jpg"
         jcr:lastModified="{Date}2018-02-08T17:45:59.256+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

@@ -6,7 +6,7 @@
     jcr:uuid="15abf4b8-7ff5-48f3-97cd-6a19101e9331">
     <jcr:content
         cq:name="skitouring"
-        cq:parentPath="/content/dam/we-retail/en/experiences/skitouring"
+        cq:parentPath="/content/dam/my-retail/english/experiences/skitouring"
         jcr:description=""
         jcr:lastModified="{Date}2018-02-08T14:44:49.701+01:00"
         jcr:lastModifiedBy="admin"
@@ -14,7 +14,7 @@
         jcr:title="Skitouring"
         contentFragment="{Boolean}true">
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/we-retail-experience"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/my-retail-experience"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"

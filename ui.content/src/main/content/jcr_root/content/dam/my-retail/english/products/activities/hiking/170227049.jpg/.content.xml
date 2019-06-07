@@ -6,10 +6,10 @@
     jcr:uuid="7bdc771e-3447-4771-a3dc-ca8340f0879d">
     <jcr:content
         cq:name="170227049.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/activities/hiking"
+        cq:parentPath="/content/dam/my-retail/english/products/activities/hiking"
         dam:assetID="aaid:23b0064228624c20be3a5e42dfd10fd0"
         dam:lastInvalidateCache="{Date}2016-01-16T23:35:29.934-05:00"
-        dam:relativePath="we-retail/en/products/activities/hiking/170227049.jpg"
+        dam:relativePath="my-retail/english/products/activities/hiking/170227049.jpg"
         dam:s7damAnchorX="{Long}1750"
         dam:s7damAnchorY="{Long}1750"
         dam:s7damHeight="{Long}3500"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/en/eq/hiking/hiking_poles"
+            cq:productReference="/var/commerce/products/my-retail/english/eq/hiking/hiking_poles"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:16:52.240+05:30"
             dam:Fileformat="JPEG"

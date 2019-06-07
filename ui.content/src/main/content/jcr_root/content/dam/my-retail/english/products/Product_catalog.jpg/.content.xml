@@ -6,9 +6,9 @@
     jcr:uuid="09fab5d3-dccf-437d-98aa-b9455bcc19a1">
     <jcr:content
         cq:name="Product_catalog.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products"
+        cq:parentPath="/content/dam/my-retail/english/products"
         dam:assetID="aaid:6d0c4d76683d436891a9b3964768a360"
-        dam:relativePath="we-retail/en/products/Product_catalog.jpg"
+        dam:relativePath="my-retail/english/products/Product_catalog.jpg"
         dam:s7damType="Image"
         jcr:lastModified="{Date}2016-09-12T17:17:36.216+05:30"
         jcr:lastModifiedBy="admin"

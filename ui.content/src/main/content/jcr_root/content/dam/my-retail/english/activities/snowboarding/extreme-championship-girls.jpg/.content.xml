@@ -6,8 +6,8 @@
     jcr:uuid="63e4222b-1999-4fb2-8d34-666c314b1a05">
     <jcr:content
         cq:name="extreme-championship-girls.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/snowboarding"
-        dam:relativePath="we-retail/en/activities/snowboarding/extreme-championship-girls.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/snowboarding"
+        dam:relativePath="my-retail/english/activities/snowboarding/extreme-championship-girls.jpg"
         jcr:lastModified="{Date}2016-09-12T17:17:07.834+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

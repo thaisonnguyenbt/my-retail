@@ -6,10 +6,10 @@
     jcr:uuid="b2860c7b-40c2-44da-9b45-03bc2dda4b63">
     <jcr:content
         cq:name="Seastar Red.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/footwear"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/footwear"
         dam:assetID="b2860c7b-40c2-44da-9b45-03bc2dda4b63"
         dam:lastInvalidateCache="{Date}2016-01-16T23:32:53.966-05:00"
-        dam:relativePath="we-retail/en/products/apparel/footwear/Seastar Red.jpg"
+        dam:relativePath="my-retail/english/products/apparel/footwear/Seastar Red.jpg"
         dam:s7damAnchorX="{Long}784"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/eq/water-sports/eqswsuses/eqswsuses.4"
+            cq:productReference="/var/commerce/products/my-retail/eq/water-sports/eqswsuses/eqswsuses.4"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:41.977+05:30"
             dam:Fileformat="JPEG"

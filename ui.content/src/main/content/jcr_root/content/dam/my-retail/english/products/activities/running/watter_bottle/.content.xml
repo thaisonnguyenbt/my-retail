@@ -8,7 +8,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/eq/running/eqrusubpe"
+            cq:productReference="/var/commerce/products/my-retail/eq/running/eqrusubpe"
             dam:productID="eqrusubpe"
             dc:description=""
             dc:format="Multipart/Related; type=application/x-ImageSet"
@@ -24,13 +24,13 @@
                 sling:resourceType="sling/collection">
                 <sling:members
                     jcr:primaryType="nt:unstructured"
-                    sling:resources="[/content/dam/we-retail/en/products/activities/running/gomobile-source/Water Bottle.jpg,/content/dam/we-retail/en/products/activities/running/gomobile-source/Water Bottle Side.jpg]">
+                    sling:resources="[/content/dam/my-retail/english/products/activities/running/gomobile-source/Water Bottle.jpg,/content/dam/my-retail/english/products/activities/running/gomobile-source/Water Bottle Side.jpg]">
                     <Water_x0020_Bottle.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/running/gomobile-source/Water Bottle.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/running/gomobile-source/Water Bottle.jpg"/>
                     <Water_x0020_Bottle_x0020_Side.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/running/gomobile-source/Water Bottle Side.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/running/gomobile-source/Water Bottle Side.jpg"/>
                 </sling:members>
             </s7Set>
         </related>

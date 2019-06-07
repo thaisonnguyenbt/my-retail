@@ -6,8 +6,8 @@
     jcr:uuid="3f6c6d2a-b4d9-440e-b691-5dafd7242f56">
     <jcr:content
         cq:name="enduro-trail-jump.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/biking"
-        dam:relativePath="we-retail/en/activities/biking/enduro-trail-jump.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/biking"
+        dam:relativePath="my-retail/english/activities/biking/enduro-trail-jump.jpg"
         jcr:lastModified="{Date}2016-09-12T17:16:09.375+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

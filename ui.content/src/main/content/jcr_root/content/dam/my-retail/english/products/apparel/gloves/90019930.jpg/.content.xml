@@ -6,10 +6,10 @@
     jcr:uuid="366251bd-806d-4997-bf06-5d6542a6a194">
     <jcr:content
         cq:name="90019930.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/gloves"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/gloves"
         dam:assetID="aaid:41336515ee8d4611be99541b96b52732"
         dam:lastInvalidateCache="{Date}2016-01-16T23:32:05.856-05:00"
-        dam:relativePath="we-retail/en/products/apparel/gloves/90019930.jpg"
+        dam:relativePath="my-retail/english/products/apparel/gloves/90019930.jpg"
         dam:s7damAnchorX="{Long}1579"
         dam:s7damAnchorY="{Long}1219"
         dam:s7damHeight="{Long}2438"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/wo/gloves/gloves"
+            cq:productReference="/var/commerce/products/my-retail/wo/gloves/gloves"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:48.880+05:30"
             dam:Fileformat="JPEG"

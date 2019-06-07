@@ -6,10 +6,10 @@
     jcr:uuid="50c9c2a3-012b-473d-989f-d4b2e3d4495c">
     <jcr:content
         cq:name="Gloves.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/gloves"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/gloves"
         dam:assetID="aaid:f3ae4faba9714e26a07548cc17341af2"
         dam:lastInvalidateCache="{Date}2016-01-16T23:32:18.785-05:00"
-        dam:relativePath="we-retail/en/products/apparel/gloves/Gloves.jpg"
+        dam:relativePath="my-retail/english/products/apparel/gloves/Gloves.jpg"
         dam:s7damAnchorX="{Long}960"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

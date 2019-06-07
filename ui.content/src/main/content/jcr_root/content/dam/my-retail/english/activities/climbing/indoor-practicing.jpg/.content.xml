@@ -6,8 +6,8 @@
     jcr:uuid="42d08495-e662-4e69-87ff-1e68c150599b">
     <jcr:content
         cq:name="indoor-practicing.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/climbing"
-        dam:relativePath="we-retail/en/activities/climbing/indoor-practicing.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/climbing"
+        dam:relativePath="my-retail/english/activities/climbing/indoor-practicing.jpg"
         jcr:lastModified="{Date}2016-09-12T17:16:58.727+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

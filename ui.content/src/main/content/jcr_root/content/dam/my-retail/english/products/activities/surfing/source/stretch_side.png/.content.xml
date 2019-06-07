@@ -6,10 +6,10 @@
     jcr:uuid="76188d0d-c83d-4b1a-adbb-b3cabce05d8c">
     <jcr:content
         cq:name="stretch_side.png"
-        cq:parentPath="/content/dam/we-retail/en/products/activities/surfing/source"
+        cq:parentPath="/content/dam/my-retail/english/products/activities/surfing/source"
         dam:assetID="aaid:e3e4473f623548668f90d464d643a3b6"
         dam:lastInvalidateCache="{Date}2016-01-16T23:34:21.302-05:00"
-        dam:relativePath="we-retail/en/products/activities/surfing/source/stretch_side.png"
+        dam:relativePath="my-retail/english/products/activities/surfing/source/stretch_side.png"
         dam:s7damAnchorX="{Long}355"
         dam:s7damAnchorY="{Long}960"
         dam:s7damHeight="{Long}1920"

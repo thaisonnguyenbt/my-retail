@@ -5,7 +5,7 @@
     jcr:uuid="c2d1dd7a-1389-475b-a5cb-5f6c478c4dc5">
     <jcr:content
         dam:assetState="processed"
-        dam:relativePath="we-retail/en/experiences/fly-fishing-the-amazon/fly-fishing-the-amazon-1.jpg"
+        dam:relativePath="my-retail/english/experiences/fly-fishing-the-amazon/fly-fishing-the-amazon-1.jpg"
         jcr:lastModified="{Date}2018-02-07T16:53:59.183+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

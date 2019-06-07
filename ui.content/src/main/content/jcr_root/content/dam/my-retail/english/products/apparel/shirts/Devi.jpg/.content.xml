@@ -6,10 +6,10 @@
     jcr:uuid="da2a0fa0-5669-46a5-b181-3a6779403e21">
     <jcr:content
         cq:name="Devi.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/shirts"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/shirts"
         dam:assetID="da2a0fa0-5669-46a5-b181-3a6779403e21"
         dam:lastInvalidateCache="{Date}2016-01-16T23:32:43.485-05:00"
-        dam:relativePath="we-retail/en/products/apparel/shirts/Devi.jpg"
+        dam:relativePath="my-retail/english/products/apparel/shirts/Devi.jpg"
         dam:s7damAnchorX="{Long}360"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/wo/coats/wootsudet"
+            cq:productReference="/var/commerce/products/my-retail/wo/coats/wootsudet"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:50.161+05:30"
             dam:Fileformat="JPEG"

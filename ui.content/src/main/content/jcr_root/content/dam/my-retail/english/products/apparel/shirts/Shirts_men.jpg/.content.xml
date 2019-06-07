@@ -6,9 +6,9 @@
     jcr:uuid="05267c9d-2f8c-4d22-8a4d-a75989dc0d87">
     <jcr:content
         cq:name="Shirts_men.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/shirts"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/shirts"
         dam:assetID="aaid:86cb05e6102e469b8ba60532196defc1"
-        dam:relativePath="we-retail/en/products/apparel/shirts/Shirts_men.jpg"
+        dam:relativePath="my-retail/english/products/apparel/shirts/Shirts_men.jpg"
         dam:s7damType="Image"
         jcr:lastModified="{Date}2016-09-12T17:17:28.806+05:30"
         jcr:lastModifiedBy="admin"

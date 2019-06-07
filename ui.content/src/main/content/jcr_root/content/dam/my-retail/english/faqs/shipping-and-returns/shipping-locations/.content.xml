@@ -6,7 +6,7 @@
     jcr:uuid="65533f09-6c0a-4bdf-a72e-2587b18f7c3a">
     <jcr:content
         cq:name="shipping-locations"
-        cq:parentPath="/content/dam/we-retail/en/faqs/shipping-and-returns"
+        cq:parentPath="/content/dam/my-retail/english/faqs/shipping-and-returns"
         jcr:description=""
         jcr:lastModified="{Date}2018-01-05T11:17:51.920-08:00"
         jcr:lastModifiedBy="admin"
@@ -20,14 +20,14 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/faq"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/faq"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"
                 answer="&lt;p>We currently ship to the United States, Europe and Australia.&amp;nbsp; For Australian orders please place your orders through our Australian Web site.&lt;/p>&#xa;&lt;p>We do not not ship to PO Box addresses.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>We are planning on expanding to other countries in the near future. Stay tuned!&lt;/p>&#xa;"
                 answer_x0040_ContentType="text/html"
                 question="Where do you ship?"
-                tags="[we-retail:shipping]"/>
+                tags="[my-retail:shipping]"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

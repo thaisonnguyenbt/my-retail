@@ -8,7 +8,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/en/eq/running/eqrusugor"
+            cq:productReference="/var/commerce/products/my-retail/english/eq/running/eqrusugor"
             dam:productID="eqrusugor"
             dc:description=""
             dc:format="Multipart/Related; type=application/x-ImageSet"
@@ -24,19 +24,19 @@
                 sling:resourceType="sling/collection">
                 <sling:members
                     jcr:primaryType="nt:unstructured"
-                    sling:resources="[/content/dam/we-retail/en/products/activities/running/gomobile-source/GoMobile.jpg,/content/dam/we-retail/en/products/activities/running/gomobile-source/GoMobile Wrist.jpg,/content/dam/we-retail/en/products/activities/running/gomobile-source/GoMobile In Action.jpg,/content/dam/we-retail/en/products/activities/running/gomobile-source/GoMobile Detail.jpg]">
+                    sling:resources="[/content/dam/my-retail/english/products/activities/running/gomobile-source/GoMobile.jpg,/content/dam/my-retail/english/products/activities/running/gomobile-source/GoMobile Wrist.jpg,/content/dam/my-retail/english/products/activities/running/gomobile-source/GoMobile In Action.jpg,/content/dam/my-retail/english/products/activities/running/gomobile-source/GoMobile Detail.jpg]">
                     <GoMobile_x0020_Wrist.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/running/gomobile-source/GoMobile Wrist.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/running/gomobile-source/GoMobile Wrist.jpg"/>
                     <GoMobile_x0020_In_x0020_Action.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/running/gomobile-source/GoMobile In Action.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/running/gomobile-source/GoMobile In Action.jpg"/>
                     <GoMobile_x0020_Detail.jpg0
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/running/gomobile-source/GoMobile Detail.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/running/gomobile-source/GoMobile Detail.jpg"/>
                     <GoMobile.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/running/gomobile-source/GoMobile.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/running/gomobile-source/GoMobile.jpg"/>
                 </sling:members>
             </s7Set>
         </related>

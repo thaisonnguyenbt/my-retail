@@ -6,10 +6,10 @@
     jcr:uuid="cb071de5-c5aa-4f6d-af87-ca94afa00548">
     <jcr:content
         cq:name="El Gordo Purple.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/coats"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/coats"
         dam:assetID="cb071de5-c5aa-4f6d-af87-ca94afa00548"
         dam:lastInvalidateCache="{Date}2016-01-16T23:33:02.280-05:00"
-        dam:relativePath="we-retail/en/products/apparel/coats/El Gordo Purple.jpg"
+        dam:relativePath="my-retail/english/products/apparel/coats/El Gordo Purple.jpg"
         dam:s7damAnchorX="{Long}487"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/me/coats/meskwielt/meskwielt.2"
+            cq:productReference="/var/commerce/products/my-retail/me/coats/meskwielt/meskwielt.2"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:21.506+05:30"
             dam:Fileformat="JPEG"

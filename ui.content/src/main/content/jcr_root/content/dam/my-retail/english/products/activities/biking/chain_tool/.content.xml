@@ -8,7 +8,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/en/eq/biking/eqbisucol"
+            cq:productReference="/var/commerce/products/my-retail/english/eq/biking/eqbisucol"
             dam:productID="eqbisucol"
             dc:description=""
             dc:format="Multipart/Related; type=application/x-ImageSet"
@@ -24,16 +24,16 @@
                 sling:resourceType="sling/collection">
                 <sling:members
                     jcr:primaryType="nt:unstructured"
-                    sling:resources="[/content/dam/we-retail/en/products/activities/biking/source/Chain Tool.jpg,/content/dam/we-retail/en/products/activities/biking/source/Chain Tool In Action 1.jpg,/content/dam/we-retail/en/products/activities/biking/source/Chain Tool In Action 2.jpg]">
+                    sling:resources="[/content/dam/my-retail/english/products/activities/biking/source/Chain Tool.jpg,/content/dam/my-retail/english/products/activities/biking/source/Chain Tool In Action 1.jpg,/content/dam/my-retail/english/products/activities/biking/source/Chain Tool In Action 2.jpg]">
                     <Chain_x0020_Tool_x0020_In_x0020_Action_x0020_2.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/biking/source/Chain Tool In Action 2.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/biking/source/Chain Tool In Action 2.jpg"/>
                     <Chain_x0020_Tool_x0020_In_x0020_Action_x0020_1.jpg0
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/biking/source/Chain Tool In Action 1.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/biking/source/Chain Tool In Action 1.jpg"/>
                     <Chain_x0020_Tool.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/biking/source/Chain Tool.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/biking/source/Chain Tool.jpg"/>
                 </sling:members>
             </s7Set>
         </related>

@@ -6,10 +6,10 @@
     jcr:uuid="5a0221f4-22bd-471a-b300-ad52db3dfae5">
     <jcr:content
         cq:name="hiking_2.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/hiking"
+        cq:parentPath="/content/dam/my-retail/english/activities/hiking"
         dam:assetID="aaid:a9101a2be4814b039a15849de3e0f27d"
         dam:lastInvalidateCache="{Date}2016-01-26T13:38:22.115-08:00"
-        dam:relativePath="we-retail/en/activities/hiking/hiking_2.jpg"
+        dam:relativePath="my-retail/english/activities/hiking/hiking_2.jpg"
         dam:s7damAnchorX="{Long}960"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

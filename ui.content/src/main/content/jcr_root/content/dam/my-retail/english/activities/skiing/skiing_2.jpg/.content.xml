@@ -6,10 +6,10 @@
     jcr:uuid="5440a9a9-875a-46f2-a831-89336cbbf4f8">
     <jcr:content
         cq:name="skiing_2.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/skiing"
+        cq:parentPath="/content/dam/my-retail/english/activities/skiing"
         dam:assetID="aaid:53e1ea97d30546998ef7d468759dfd8d"
         dam:lastInvalidateCache="{Date}2016-01-16T23:32:15.087-05:00"
-        dam:relativePath="we-retail/en/activities/skiing/skiing_2.jpg"
+        dam:relativePath="my-retail/english/activities/skiing/skiing_2.jpg"
         dam:s7damAnchorX="{Long}960"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

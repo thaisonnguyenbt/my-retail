@@ -6,10 +6,10 @@
     jcr:uuid="2b08b864-5abc-4506-aaaa-492399be57ae">
     <jcr:content
         cq:name="Sonja Green.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/coats"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/coats"
         dam:assetID="2b08b864-5abc-4506-aaaa-492399be57ae"
         dam:lastInvalidateCache="{Date}2016-01-16T23:33:14.094-05:00"
-        dam:relativePath="we-retail/en/products/apparel/coats/Sonja Green.jpg"
+        dam:relativePath="my-retail/english/products/apparel/coats/Sonja Green.jpg"
         dam:s7damAnchorX="{Long}409"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/wo/coats/wootwisot/wootwisot.1"
+            cq:productReference="/var/commerce/products/my-retail/wo/coats/wootwisot/wootwisot.1"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:48.114+05:30"
             dam:Fileformat="JPEG"

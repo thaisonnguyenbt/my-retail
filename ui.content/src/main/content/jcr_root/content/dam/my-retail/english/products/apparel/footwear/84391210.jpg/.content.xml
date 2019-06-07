@@ -6,10 +6,10 @@
     jcr:uuid="6746b14d-f45f-4ab9-9031-903cd783e1c1">
     <jcr:content
         cq:name="84391210.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/footwear"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/footwear"
         dam:assetID="aaid:feaac81c64d6472b94f6f2760ff45746"
         dam:lastInvalidateCache="{Date}2016-01-16T23:33:01.127-05:00"
-        dam:relativePath="we-retail/en/products/apparel/footwear/84391210.jpg"
+        dam:relativePath="my-retail/english/products/apparel/footwear/84391210.jpg"
         dam:s7damAnchorX="{Long}1203"
         dam:s7damAnchorY="{Long}850"
         dam:s7damHeight="{Long}1700"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/eq/running/spixa_runners"
+            cq:productReference="/var/commerce/products/my-retail/eq/running/spixa_runners"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:34.966+05:30"
             dam:Fileformat="JPEG"

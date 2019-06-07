@@ -6,10 +6,10 @@
     jcr:uuid="e5edd90e-b52e-4457-82d7-59bb67ef0db9">
     <jcr:content
         cq:name="Snowboard.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/activities/winter-sports"
+        cq:parentPath="/content/dam/my-retail/english/products/activities/winter-sports"
         dam:assetID="aaid:286f341053de41138f1318c0ca16af2d"
         dam:lastInvalidateCache="{Date}2016-01-26T11:20:28.041-08:00"
-        dam:relativePath="we-retail/en/products/activities/winter-sports/Snowboard.jpg"
+        dam:relativePath="my-retail/english/products/activities/winter-sports/Snowboard.jpg"
         dam:s7damAnchorX="{Long}512"
         dam:s7damAnchorY="{Long}700"
         dam:s7damHeight="{Long}1400"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/eq/winter-sports/eqwrsnbd"
+            cq:productReference="/var/commerce/products/my-retail/eq/winter-sports/eqwrsnbd"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:12.467+05:30"
             dam:Fileformat="JPEG"

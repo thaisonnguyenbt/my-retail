@@ -5,7 +5,7 @@
     jcr:uuid="ca3b09b3-1124-496e-b10d-5922affbfdfb">
     <jcr:content
         dam:assetState="processed"
-        dam:relativePath="we-retail/en/experiences/arctic-surfing-in-lofoten/fjord-waves.jpg"
+        dam:relativePath="my-retail/english/experiences/arctic-surfing-in-lofoten/fjord-waves.jpg"
         jcr:lastModified="{Date}2018-02-08T17:45:55.813+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

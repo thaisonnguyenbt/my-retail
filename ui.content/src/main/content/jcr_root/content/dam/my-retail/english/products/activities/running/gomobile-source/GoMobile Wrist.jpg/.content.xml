@@ -6,10 +6,10 @@
     jcr:uuid="351526e0-5dbe-4679-b78d-f17e87162bb7">
     <jcr:content
         cq:name="GoMobile Wrist.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/activities/running/gomobile-source"
+        cq:parentPath="/content/dam/my-retail/english/products/activities/running/gomobile-source"
         dam:assetID="351526e0-5dbe-4679-b78d-f17e87162bb7"
         dam:lastInvalidateCache="{Date}2016-01-16T23:34:43.359-05:00"
-        dam:relativePath="we-retail/en/products/activities/running/gomobile-source/GoMobile Wrist.jpg"
+        dam:relativePath="my-retail/english/products/activities/running/gomobile-source/GoMobile Wrist.jpg"
         dam:s7damAnchorX="{Long}360"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

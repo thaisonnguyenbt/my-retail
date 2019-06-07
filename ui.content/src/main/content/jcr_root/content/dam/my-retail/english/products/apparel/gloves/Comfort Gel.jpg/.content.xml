@@ -6,10 +6,10 @@
     jcr:uuid="4ad5d2b8-8e6e-42f0-a97b-8eae10c50041">
     <jcr:content
         cq:name="Comfort Gel.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/gloves"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/gloves"
         dam:assetID="4ad5d2b8-8e6e-42f0-a97b-8eae10c50041"
         dam:lastInvalidateCache="{Date}2016-01-16T23:32:01.802-05:00"
-        dam:relativePath="we-retail/en/products/apparel/gloves/Comfort Gel.jpg"
+        dam:relativePath="my-retail/english/products/apparel/gloves/Comfort Gel.jpg"
         dam:s7damAnchorX="{Long}810"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/eq/biking/eqbisucos"
+            cq:productReference="/var/commerce/products/my-retail/eq/biking/eqbisucos"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:31.804+05:30"
             dam:Fileformat="JPEG"

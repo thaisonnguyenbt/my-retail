@@ -6,10 +6,10 @@
     jcr:uuid="9c0da1b8-d5da-493d-85c7-377d2cd29863">
     <jcr:content
         cq:name="Expedition.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/shirts"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/shirts"
         dam:assetID="9c0da1b8-d5da-493d-85c7-377d2cd29863"
         dam:lastInvalidateCache="{Date}2016-01-16T23:32:37.103-05:00"
-        dam:relativePath="we-retail/en/products/apparel/shirts/Expedition.jpg"
+        dam:relativePath="my-retail/english/products/apparel/shirts/Expedition.jpg"
         dam:s7damAnchorX="{Long}360"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/me/shirts/mehiwiext"
+            cq:productReference="/var/commerce/products/my-retail/me/shirts/mehiwiext"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:31.118+05:30"
             dam:Fileformat="JPEG"

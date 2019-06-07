@@ -5,7 +5,7 @@
     jcr:uuid="c3303b48-f5bf-45b9-81ba-49b4b1e58791">
     <jcr:content
         dam:assetState="processed"
-        dam:relativePath="we-retail/en/experiences/arctic-surfing-in-lofoten/camp-fire.jpg"
+        dam:relativePath="my-retail/english/experiences/arctic-surfing-in-lofoten/camp-fire.jpg"
         jcr:lastModified="{Date}2018-02-08T17:45:54.462+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

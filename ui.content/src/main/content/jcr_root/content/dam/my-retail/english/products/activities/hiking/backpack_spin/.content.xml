@@ -8,7 +8,7 @@
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
         dam:lastInvalidateCache="{Date}2016-01-16T23:35:25.268-05:00"
-        dam:relativePath="we-retail/en/products/activities/hiking/backpack_spin"
+        dam:relativePath="my-retail/english/products/activities/hiking/backpack_spin"
         dam:s7damType="SpinSet"
         jcr:lastModified="{Date}2016-04-06T19:50:29.649+02:00"
         jcr:lastModifiedBy="admin"
@@ -16,7 +16,7 @@
         jcr:primaryType="dam:AssetContent"
         rowRelations="[spinset-row0]">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/en/eq/hiking/eqsmcz"
+            cq:productReference="/var/commerce/products/my-retail/english/eq/hiking/eqsmcz"
             dam:productID="eqsmcz"
             dc:description=""
             dc:format="Multipart/Related; type=application/x-SpinSet"
@@ -32,55 +32,55 @@
                 sling:resourceType="sling/collection">
                 <sling:members
                     jcr:primaryType="nt:unstructured"
-                    sling:resources="[/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 1.jpg,/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 2.jpg,/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 3.jpg,/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 4.jpg,/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 5.jpg,/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 6.jpg,/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 7.jpg,/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 8.jpg,/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 9.jpg,/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 10.jpg,/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 11.jpg,/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 12.jpg,/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 13.jpg,/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 14.jpg,/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 15.jpg,/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 16.jpg]">
+                    sling:resources="[/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 1.jpg,/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 2.jpg,/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 3.jpg,/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 4.jpg,/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 5.jpg,/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 6.jpg,/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 7.jpg,/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 8.jpg,/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 9.jpg,/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 10.jpg,/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 11.jpg,/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 12.jpg,/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 13.jpg,/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 14.jpg,/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 15.jpg,/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 16.jpg]">
                     <Frame_x0020_1.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 1.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 1.jpg"/>
                     <Frame_x0020_2.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 2.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 2.jpg"/>
                     <Frame_x0020_3.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 3.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 3.jpg"/>
                     <Frame_x0020_4.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 4.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 4.jpg"/>
                     <Frame_x0020_5.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 5.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 5.jpg"/>
                     <Frame_x0020_6.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 6.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 6.jpg"/>
                     <Frame_x0020_7.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 7.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 7.jpg"/>
                     <Frame_x0020_8.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 8.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 8.jpg"/>
                     <Frame_x0020_9.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 9.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 9.jpg"/>
                     <Frame_x0020_10.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 10.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 10.jpg"/>
                     <Frame_x0020_11.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 11.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 11.jpg"/>
                     <Frame_x0020_12.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 12.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 12.jpg"/>
                     <Frame_x0020_13.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 13.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 13.jpg"/>
                     <Frame_x0020_14.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 14.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 14.jpg"/>
                     <Frame_x0020_15.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 15.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 15.jpg"/>
                     <Frame_x0020_16.jpg
                         jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 16.jpg"/>
+                        sling:resource="/content/dam/my-retail/english/products/activities/hiking/backpack/Frame 16.jpg"/>
                 </sling:members>
             </spinset-row0>
         </related>

@@ -6,9 +6,9 @@
     jcr:uuid="33e9fb89-b237-40c6-b1a5-bf475f9ddb18">
     <jcr:content
         cq:name="Pants_women.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/pants"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/pants"
         dam:assetID="aaid:0023e5c295344c708c2a144421955670"
-        dam:relativePath="we-retail/en/products/apparel/pants/Pants_women.jpg"
+        dam:relativePath="my-retail/english/products/apparel/pants/Pants_women.jpg"
         dam:s7damType="Image"
         jcr:lastModified="{Date}2016-09-12T17:17:47.880+05:30"
         jcr:lastModifiedBy="admin"

@@ -6,7 +6,7 @@
     jcr:uuid="31044b52-2236-4975-ae84-962f505e5802">
     <jcr:content
         cq:name="history"
-        cq:parentPath="/content/dam/we-retail/en/faqs/company"
+        cq:parentPath="/content/dam/my-retail/english/faqs/company"
         cq:versionCreator="admin"
         jcr:description=""
         jcr:lastModified="{Date}2018-01-05T11:19:46.495-08:00"
@@ -22,14 +22,14 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/faq"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/faq"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"
                 answer="&lt;p>We.Retail was established in the summer of 2014 in our founder&amp;#39;s (Mr. W) garage, in Basel Switzerland. We.Retail headquarters has since moved to San Jose, CA.&lt;br>&#xa;&lt;/p>&#xa;"
                 answer_x0040_ContentType="text/html"
                 question="When was We.Retail established?"
-                tags="[we-retail:company]"/>
+                tags="[my-retail:company]"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

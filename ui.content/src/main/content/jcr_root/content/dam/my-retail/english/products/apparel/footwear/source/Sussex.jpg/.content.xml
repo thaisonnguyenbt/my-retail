@@ -6,10 +6,10 @@
     jcr:uuid="56c1b9a2-53f2-46dc-8cef-e2f1966678a8">
     <jcr:content
         cq:name="Sussex.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/footwear/source"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/footwear/source"
         dam:assetID="aaid:9b34cf56405c40e8b78da23c1c66c400"
         dam:lastInvalidateCache="{Date}2016-01-16T23:32:43.256-05:00"
-        dam:relativePath="we-retail/en/products/apparel/footwear/source/Sussex.jpg"
+        dam:relativePath="my-retail/english/products/apparel/footwear/source/Sussex.jpg"
         dam:s7damAnchorX="{Long}539"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/me/footwear/meotwisus"
+            cq:productReference="/var/commerce/products/my-retail/me/footwear/meotwisus"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:26.475+05:30"
             dam:Fileformat="JPEG"

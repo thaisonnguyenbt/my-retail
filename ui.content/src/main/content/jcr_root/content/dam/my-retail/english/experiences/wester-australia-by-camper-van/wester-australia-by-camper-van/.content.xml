@@ -6,7 +6,7 @@
     jcr:uuid="ed908573-69b8-4b63-bf5d-37aa3bd9cf9b">
     <jcr:content
         cq:name="wester-australia-by-camper-van"
-        cq:parentPath="/content/dam/we-retail/en/experiences/wester-australia-by-camper-van"
+        cq:parentPath="/content/dam/my-retail/english/experiences/wester-australia-by-camper-van"
         jcr:description=""
         jcr:lastModified="{Date}2018-02-08T14:49:06.012+01:00"
         jcr:lastModifiedBy="admin"
@@ -14,7 +14,7 @@
         jcr:title="Wester Australia by camper van"
         contentFragment="{Boolean}true">
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/we-retail-experience"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/my-retail-experience"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"

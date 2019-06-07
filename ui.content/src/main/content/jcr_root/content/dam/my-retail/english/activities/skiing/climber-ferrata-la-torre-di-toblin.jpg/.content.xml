@@ -6,8 +6,8 @@
     jcr:uuid="bb402b3e-ea43-4317-8a4e-16e91d6b7bae">
     <jcr:content
         cq:name="climber-ferrata-la-torre-di-toblin.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/skiing"
-        dam:relativePath="we-retail/en/activities/skiing/climber-ferrata-la-torre-di-toblin.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/skiing"
+        dam:relativePath="my-retail/english/activities/skiing/climber-ferrata-la-torre-di-toblin.jpg"
         jcr:lastModified="{Date}2016-09-12T17:16:17.337+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

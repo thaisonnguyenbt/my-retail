@@ -6,10 +6,10 @@
     jcr:uuid="cade479c-5e33-4a00-a7df-7c49bdb03589">
     <jcr:content
         cq:name="331050524.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/pants"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/pants"
         dam:assetID="aaid:d21989bbc4c54d7e98ee7db6741f3787"
         dam:lastInvalidateCache="{Date}2016-01-16T23:33:48.526-05:00"
-        dam:relativePath="we-retail/en/products/apparel/pants/331050524.jpg"
+        dam:relativePath="my-retail/english/products/apparel/pants/331050524.jpg"
         dam:s7damAnchorX="{Long}2121"
         dam:s7damAnchorY="{Long}2880"
         dam:s7damHeight="{Long}5760"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/en/wo/pants/hiking_pants"
+            cq:productReference="/var/commerce/products/my-retail/english/wo/pants/hiking_pants"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:33.009+05:30"
             dam:Fileformat="JPEG"

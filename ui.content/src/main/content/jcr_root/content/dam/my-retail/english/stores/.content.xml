@@ -4,7 +4,7 @@
     <jcr:content
         jcr:primaryType="nt:unstructured"
         jcr:title="Stores"/>
-    <we-retail-store-san-jose/>
-    <we-retail-store-new-york/>
-    <we-retail-store-san-francisco/>
+    <my-retail-store-san-jose/>
+    <my-retail-store-new-york/>
+    <my-retail-store-san-francisco/>
 </jcr:root>

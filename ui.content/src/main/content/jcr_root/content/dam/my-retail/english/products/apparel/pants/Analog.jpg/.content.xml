@@ -6,10 +6,10 @@
     jcr:uuid="0fdaa98b-a460-4782-b51e-8eec53ea0e51">
     <jcr:content
         cq:name="Analog.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/pants"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/pants"
         dam:assetID="0fdaa98b-a460-4782-b51e-8eec53ea0e51"
         dam:lastInvalidateCache="{Date}2016-01-16T23:32:58.703-05:00"
-        dam:relativePath="we-retail/en/products/apparel/pants/Analog.jpg"
+        dam:relativePath="my-retail/english/products/apparel/pants/Analog.jpg"
         dam:s7damAnchorX="{Long}360"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/me/coats/meotsuann"
+            cq:productReference="/var/commerce/products/my-retail/me/coats/meotsuann"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:53.493+05:30"
             dam:Fileformat="JPEG"

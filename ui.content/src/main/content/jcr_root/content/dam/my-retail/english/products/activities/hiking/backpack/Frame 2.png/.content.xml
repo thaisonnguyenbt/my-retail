@@ -6,10 +6,10 @@
     jcr:uuid="490337e7-1a0d-409c-affb-9171f53157d6">
     <jcr:content
         cq:name="Frame 2.png"
-        cq:parentPath="/content/dam/we-retail/en/products/activities/hiking/backpack"
+        cq:parentPath="/content/dam/my-retail/english/products/activities/hiking/backpack"
         dam:assetID="aaid:973b2ce45b024dd09d4974497186852a"
         dam:lastInvalidateCache="{Date}2016-01-17T12:32:25.634-05:00"
-        dam:relativePath="we-retail/en/products/activities/hiking/backpack/Frame 2.png"
+        dam:relativePath="my-retail/english/products/activities/hiking/backpack/Frame 2.png"
         dam:s7damAnchorX="{Long}939"
         dam:s7damAnchorY="{Long}1382"
         dam:s7damHeight="{Long}2764"

@@ -6,8 +6,8 @@
     jcr:uuid="207ca4ec-246e-404b-b465-e04638d9bcd4">
     <jcr:content
         cq:name="freeride-extreme.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/skiing"
-        dam:relativePath="we-retail/en/activities/skiing/freeride-extreme.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/skiing"
+        dam:relativePath="my-retail/english/activities/skiing/freeride-extreme.jpg"
         jcr:lastModified="{Date}2016-09-12T17:16:03.953+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

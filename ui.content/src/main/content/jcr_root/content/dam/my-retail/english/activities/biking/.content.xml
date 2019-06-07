@@ -4,7 +4,7 @@
     jcr:mimeType="application/octet-stream"
     jcr:primaryType="sling:Folder">
     <jcr:content
-        dam:relativePath="we-retail/en/activities/biking"
+        dam:relativePath="my-retail/english/activities/biking"
         jcr:primaryType="nt:unstructured"
         jcr:title="Biking">
         <folderThumbnail/>

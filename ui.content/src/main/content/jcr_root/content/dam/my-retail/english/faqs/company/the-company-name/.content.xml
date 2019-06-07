@@ -6,7 +6,7 @@
     jcr:uuid="38fadf44-e651-4546-a00b-a335d0ba72db">
     <jcr:content
         cq:name="the-company-name"
-        cq:parentPath="/content/dam/we-retail/en/faqs/company"
+        cq:parentPath="/content/dam/my-retail/english/faqs/company"
         jcr:lastModified="{Date}2019-01-21T11:11:00.904+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
@@ -19,17 +19,17 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/faq"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/faq"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"
                 answer="&lt;p>We&amp;#39;re not sure, but it sounds good!&lt;br>&#xa;&lt;/p>&#xa;"
                 answer_x0040_ContentType="text/html"
                 question="What's with the name &quot;We.Retail&quot;?"
-                tags="[we-retail:company]"/>
+                tags="[my-retail:company]"/>
         </data>
         <metadata
-            cq:tags="[we-retail:commonly-asked-question]"
+            cq:tags="[my-retail:commonly-asked-question]"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>

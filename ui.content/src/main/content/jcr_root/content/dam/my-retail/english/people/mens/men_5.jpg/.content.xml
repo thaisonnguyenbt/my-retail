@@ -6,9 +6,9 @@
     jcr:uuid="165f55e0-9304-4e7d-9f16-b139b638f6f4">
     <jcr:content
         cq:name="men_5.jpg"
-        cq:parentPath="/content/dam/we-retail/en/people/mens"
+        cq:parentPath="/content/dam/my-retail/english/people/mens"
         dam:assetID="aaid:8ec0af2d40d64fd9847b568ffa46e327"
-        dam:relativePath="we-retail/en/people/mens/men_5.jpg"
+        dam:relativePath="my-retail/english/people/mens/men_5.jpg"
         dam:s7damType="Image"
         jcr:lastModified="{Date}2016-09-12T17:17:07.366+05:30"
         jcr:lastModifiedBy="admin"

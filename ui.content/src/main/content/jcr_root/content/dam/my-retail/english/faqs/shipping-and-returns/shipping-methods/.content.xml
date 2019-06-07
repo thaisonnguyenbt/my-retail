@@ -6,7 +6,7 @@
     jcr:uuid="001f04d4-36ce-4cbd-8a2b-356f2c8f1560">
     <jcr:content
         cq:name="shipping-methods"
-        cq:parentPath="/content/dam/we-retail/en/faqs/shipping-and-returns"
+        cq:parentPath="/content/dam/my-retail/english/faqs/shipping-and-returns"
         jcr:description=""
         jcr:lastModified="{Date}2018-01-05T11:19:10.333-08:00"
         jcr:lastModifiedBy="admin"
@@ -20,14 +20,14 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/faq"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/faq"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"
                 answer="&lt;p>All orders are shipped, free of charge, using We.PS 3 day express delivery.&lt;br>&#xa;&lt;/p>&#xa;"
                 answer_x0040_ContentType="text/html"
                 question="How do you ship?"
-                tags="[we-retail:shipping]"/>
+                tags="[my-retail:shipping]"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

@@ -6,8 +6,8 @@
     jcr:uuid="b8b08a30-6ec5-495f-a078-356aab2482e6">
     <jcr:content
         cq:name="climber-gear-outdoor.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/climbing"
-        dam:relativePath="we-retail/en/activities/climbing/climber-gear-outdoor.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/climbing"
+        dam:relativePath="my-retail/english/activities/climbing/climber-gear-outdoor.jpg"
         jcr:lastModified="{Date}2016-09-12T17:16:24.165+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

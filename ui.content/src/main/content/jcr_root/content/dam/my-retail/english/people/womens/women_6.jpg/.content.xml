@@ -6,9 +6,9 @@
     jcr:uuid="643fa9e4-ed6e-4ae1-ae4e-66a890e5b233">
     <jcr:content
         cq:name="women_6.jpg"
-        cq:parentPath="/content/dam/we-retail/en/people/womens"
+        cq:parentPath="/content/dam/my-retail/english/people/womens"
         dam:assetID="aaid:f1774c863d4d454c9c8baaedc9cf78c8"
-        dam:relativePath="we-retail/en/people/womens/women_6.jpg"
+        dam:relativePath="my-retail/english/people/womens/women_6.jpg"
         dam:s7damType="Image"
         jcr:lastModified="{Date}2016-09-12T17:16:50.912+05:30"
         jcr:lastModifiedBy="admin"
@@ -57,7 +57,7 @@
             xmpMM:InstanceID="xmp.iid:0aa897a6-8c89-4916-9705-28245a59c0fa"
             xmpMM:OriginalDocumentID="B253352085D3E0C5F5902F69CF1D134C"
             areAllMembersProducts="{Boolean}true"
-            imageMap="\[poly(1594,909,1604,909,1604,899,1594,899,1594,909)&quot;quickview:sku=eqrusufle&amp;reservedVal_productPath=/var/commerce/products/we-retail/en/eq/running/eqrusufle&amp;reservedVal_productThumbnail=http://localhost:4502/content/dam/we-retail/en/products/apparel/footwear/source/Fleet%20Shoe%20Bottom.jpg&quot;|&quot;&quot;|&quot;Hotspot 1&quot;][poly(948,898,958,898,958,888,948,888,948,898)&quot;quickview:sku=116138647&amp;reservedVal_productPath=/var/commerce/products/we-retail/en/wo/pants/faba_running_pants&amp;reservedVal_productThumbnail=http://localhost:4502/var/commerce/products/we-retail/en/wo/pants/faba_running_pants/image.thumbnail.319.png/1456183932115.png&quot;|&quot;&quot;|&quot;Hotspot 2&quot;]"
+            imageMap="\[poly(1594,909,1604,909,1604,899,1594,899,1594,909)&quot;quickview:sku=eqrusufle&amp;reservedVal_productPath=/var/commerce/products/my-retail/english/eq/running/eqrusufle&amp;reservedVal_productThumbnail=http://localhost:4502/content/dam/my-retail/english/products/apparel/footwear/source/Fleet%20Shoe%20Bottom.jpg&quot;|&quot;&quot;|&quot;Hotspot 1&quot;][poly(948,898,958,898,958,888,948,888,948,898)&quot;quickview:sku=116138647&amp;reservedVal_productPath=/var/commerce/products/my-retail/english/wo/pants/faba_running_pants&amp;reservedVal_productThumbnail=http://localhost:4502/var/commerce/products/my-retail/english/wo/pants/faba_running_pants/image.thumbnail.319.png/1456183932115.png&quot;|&quot;&quot;|&quot;Hotspot 2&quot;]"
             writebackEnable="{Boolean}true">
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"

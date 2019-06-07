@@ -6,7 +6,7 @@
     jcr:uuid="7e54b8da-7036-4f01-9bcd-960743050383">
     <jcr:content
         cq:name="product-purchase-locations"
-        cq:parentPath="/content/dam/we-retail/en/faqs/orders"
+        cq:parentPath="/content/dam/my-retail/english/faqs/orders"
         jcr:description=""
         jcr:lastModified="{Date}2018-01-05T11:13:56.636-08:00"
         jcr:lastModifiedBy="admin"
@@ -20,14 +20,14 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/faq"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/faq"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"
                 answer="&lt;p>No where!&lt;/p>&#xa;&lt;p>At this time we do not have any phsyical store locations, so all orders must be placed through our Web site. Please sign up for our newsletter to receive updates on store openings!&lt;/p>&#xa;"
                 answer_x0040_ContentType="text/html"
                 question="Where else can I find your products?"
-                tags="[we-retail:order-processing]"/>
+                tags="[my-retail:order-processing]"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

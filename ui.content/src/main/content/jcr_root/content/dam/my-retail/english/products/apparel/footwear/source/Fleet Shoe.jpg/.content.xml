@@ -6,10 +6,10 @@
     jcr:uuid="4fdcb9cd-7307-4238-9c46-db4351f51e54">
     <jcr:content
         cq:name="Fleet Shoe.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/footwear/source"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/footwear/source"
         dam:assetID="aaid:fe3cfecbe7094b7795886188b3c41c59"
         dam:lastInvalidateCache="{Date}2016-01-16T23:32:51.235-05:00"
-        dam:relativePath="we-retail/en/products/apparel/footwear/source/Fleet Shoe.jpg"
+        dam:relativePath="my-retail/english/products/apparel/footwear/source/Fleet Shoe.jpg"
         dam:s7damAnchorX="{Long}810"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

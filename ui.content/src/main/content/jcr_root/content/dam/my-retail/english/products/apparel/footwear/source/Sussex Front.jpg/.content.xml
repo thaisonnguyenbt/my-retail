@@ -6,10 +6,10 @@
     jcr:uuid="fe65a177-ebdd-4081-98c3-184ff0e6c63e">
     <jcr:content
         cq:name="Sussex Front.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/footwear/source"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/footwear/source"
         dam:assetID="aaid:8a9626fcec504b2cb09cf63a1748d4c7"
         dam:lastInvalidateCache="{Date}2016-01-16T23:32:34.655-05:00"
-        dam:relativePath="we-retail/en/products/apparel/footwear/source/Sussex Front.jpg"
+        dam:relativePath="my-retail/english/products/apparel/footwear/source/Sussex Front.jpg"
         dam:s7damAnchorX="{Long}385"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

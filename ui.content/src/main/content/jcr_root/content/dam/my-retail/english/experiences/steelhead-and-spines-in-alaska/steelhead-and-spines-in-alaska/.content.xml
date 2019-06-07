@@ -6,7 +6,7 @@
     jcr:uuid="c9035d4d-da74-40ea-8b0b-ad5cfbd9cecc">
     <jcr:content
         cq:name="steelhead-and-spines-in-alaska"
-        cq:parentPath="/content/dam/we-retail/en/experiences/steelhead-and-spines-in-alaska"
+        cq:parentPath="/content/dam/my-retail/english/experiences/steelhead-and-spines-in-alaska"
         jcr:description=""
         jcr:lastModified="{Date}2018-02-08T14:47:01.039+01:00"
         jcr:lastModifiedBy="admin"
@@ -14,7 +14,7 @@
         jcr:title="Steelhead and Spines in Alaska"
         contentFragment="{Boolean}true">
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/we-retail-experience"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/my-retail-experience"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"

@@ -6,7 +6,7 @@
     jcr:uuid="09f5e26a-600f-41b4-afc0-c1d8aa58db62">
     <jcr:content
         cq:name="returns"
-        cq:parentPath="/content/dam/we-retail/en/faqs/shipping-and-returns"
+        cq:parentPath="/content/dam/my-retail/english/faqs/shipping-and-returns"
         jcr:lastModified="{Date}2019-01-21T11:10:13.894+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
@@ -19,17 +19,17 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/faq"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/faq"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"
                 answer="&lt;p>Items can be returned within 30 calendar days of purchase.&lt;/p>&#xa;&lt;p>To initiate a return, log in to your account on the Web site and select &lt;b>My Account &amp;gt; Past Orders&lt;/b>.&lt;/p>&#xa;"
                 answer_x0040_ContentType="text/html"
                 question="How do I make a return?"
-                tags="[we-retail:shipping]"/>
+                tags="[my-retail:shipping]"/>
         </data>
         <metadata
-            cq:tags="[we-retail:commonly-asked-question]"
+            cq:tags="[my-retail:commonly-asked-question]"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>

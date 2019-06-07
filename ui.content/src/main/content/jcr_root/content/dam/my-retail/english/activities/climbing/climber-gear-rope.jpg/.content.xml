@@ -6,8 +6,8 @@
     jcr:uuid="1c61ecb8-32ef-4bdc-a1df-24add18c6eda">
     <jcr:content
         cq:name="climber-gear-rope.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/climbing"
-        dam:relativePath="we-retail/en/activities/climbing/climber-gear-rope.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/climbing"
+        dam:relativePath="my-retail/english/activities/climbing/climber-gear-rope.jpg"
         jcr:lastModified="{Date}2016-09-12T17:17:08.975+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

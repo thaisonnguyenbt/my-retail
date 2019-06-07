@@ -6,10 +6,10 @@
     jcr:uuid="cf18501b-7853-4793-ab73-8832a287813c">
     <jcr:content
         cq:name="Cabana Beach.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/activities/water-sports/source"
+        cq:parentPath="/content/dam/my-retail/english/products/activities/water-sports/source"
         dam:assetID="aaid:67c462278e7b468f84b40f179fdc22f2"
         dam:lastInvalidateCache="{Date}2016-01-16T23:34:35.241-05:00"
-        dam:relativePath="we-retail/en/products/activities/water-sports/source/Cabana Beach.jpg"
+        dam:relativePath="my-retail/english/products/activities/water-sports/source/Cabana Beach.jpg"
         dam:s7damAnchorX="{Long}836"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

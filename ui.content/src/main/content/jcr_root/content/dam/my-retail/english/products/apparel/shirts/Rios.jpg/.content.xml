@@ -6,10 +6,10 @@
     jcr:uuid="4b813755-adb5-4291-927e-84ff95b5d7fb">
     <jcr:content
         cq:name="Rios.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/shirts"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/shirts"
         dam:assetID="aaid:40c400e4bddf48f0a89eb425dd24cb59"
         dam:lastInvalidateCache="{Date}2016-01-16T23:32:49.346-05:00"
-        dam:relativePath="we-retail/en/products/apparel/shirts/Rios.jpg"
+        dam:relativePath="my-retail/english/products/apparel/shirts/Rios.jpg"
         dam:s7damAnchorX="{Long}645"
         dam:s7damAnchorY="{Long}522"
         dam:s7damHeight="{Long}1044"

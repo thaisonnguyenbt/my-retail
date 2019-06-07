@@ -6,10 +6,10 @@
     jcr:uuid="f3cc870e-d025-4c7e-8794-765532d3caf0">
     <jcr:content
         cq:name="Buffalo.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/shorts"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/shorts"
         dam:assetID="f3cc870e-d025-4c7e-8794-765532d3caf0"
         dam:lastInvalidateCache="{Date}2016-01-16T23:33:34.661-05:00"
-        dam:relativePath="we-retail/en/products/apparel/shorts/Buffalo.jpg"
+        dam:relativePath="my-retail/english/products/apparel/shorts/Buffalo.jpg"
         dam:s7damAnchorX="{Long}575"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/me/shorts/mehisubus"
+            cq:productReference="/var/commerce/products/my-retail/me/shorts/mehisubus"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:17.423+05:30"
             dam:Fileformat="JPEG"

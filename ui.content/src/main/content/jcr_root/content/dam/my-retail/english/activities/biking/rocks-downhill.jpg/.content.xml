@@ -6,8 +6,8 @@
     jcr:uuid="730d701c-0c01-4201-95e5-8afc875d0d57">
     <jcr:content
         cq:name="rocks-downhill.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/biking"
-        dam:relativePath="we-retail/en/activities/biking/rocks-downhill.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/biking"
+        dam:relativePath="my-retail/english/activities/biking/rocks-downhill.jpg"
         jcr:lastModified="{Date}2016-09-12T17:16:46.262+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

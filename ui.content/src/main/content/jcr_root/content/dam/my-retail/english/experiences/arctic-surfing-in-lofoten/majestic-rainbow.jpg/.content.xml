@@ -5,7 +5,7 @@
     jcr:uuid="72feab95-6040-4af8-a199-a11a23e22a56">
     <jcr:content
         dam:assetState="processed"
-        dam:relativePath="we-retail/en/experiences/arctic-surfing-in-lofoten/majestic-rainbow.jpg"
+        dam:relativePath="my-retail/english/experiences/arctic-surfing-in-lofoten/majestic-rainbow.jpg"
         jcr:lastModified="{Date}2018-02-08T17:45:54.586+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

@@ -6,8 +6,8 @@
     jcr:uuid="66cfe90c-396c-49a4-91e2-fa1426af6370">
     <jcr:content
         cq:name="marathon-shoes.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/running"
-        dam:relativePath="we-retail/en/activities/running/marathon-shoes.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/running"
+        dam:relativePath="my-retail/english/activities/running/marathon-shoes.jpg"
         jcr:lastModified="{Date}2016-09-12T17:17:02.602+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

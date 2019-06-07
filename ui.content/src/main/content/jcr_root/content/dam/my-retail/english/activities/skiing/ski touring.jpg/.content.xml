@@ -6,8 +6,8 @@
     jcr:uuid="3a2643d7-7e75-4eec-85c0-1d4ce35f613a">
     <jcr:content
         cq:name="ski touring.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/skiing"
-        dam:relativePath="we-retail/en/activities/skiing/ski touring.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/skiing"
+        dam:relativePath="my-retail/english/activities/skiing/ski touring.jpg"
         jcr:lastModified="{Date}2016-09-12T17:16:44.247+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

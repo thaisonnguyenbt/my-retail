@@ -7,7 +7,7 @@
     <jcr:content
         cq:lastModified="{Date}2014-05-16T10:40:54.957-07:00"
         cq:lastModifiedBy="admin"
-        dam:relativePath="we-retail/en/products/activities/hiking/backpack"
+        dam:relativePath="my-retail/english/products/activities/hiking/backpack"
         jcr:primaryType="nt:unstructured"
         jcr:title="Source">
         <folderThumbnail/>

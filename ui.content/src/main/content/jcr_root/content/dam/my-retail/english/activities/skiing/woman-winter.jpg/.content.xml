@@ -6,8 +6,8 @@
     jcr:uuid="8176e12f-a0a9-4f94-8c3f-2cc7f61a45a8">
     <jcr:content
         cq:name="woman-winter.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/skiing"
-        dam:relativePath="we-retail/en/activities/skiing/woman-winter.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/skiing"
+        dam:relativePath="my-retail/english/activities/skiing/woman-winter.jpg"
         jcr:lastModified="{Date}2016-09-12T17:16:43.997+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

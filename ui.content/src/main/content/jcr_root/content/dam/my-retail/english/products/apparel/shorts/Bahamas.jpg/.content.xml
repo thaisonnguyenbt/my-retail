@@ -6,10 +6,10 @@
     jcr:uuid="8e16edd2-e04d-44ba-9d5b-9aefbde44d2b">
     <jcr:content
         cq:name="Bahamas.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/shorts"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/shorts"
         dam:assetID="8e16edd2-e04d-44ba-9d5b-9aefbde44d2b"
         dam:lastInvalidateCache="{Date}2016-01-16T23:33:24.964-05:00"
-        dam:relativePath="we-retail/en/products/apparel/shorts/Bahamas.jpg"
+        dam:relativePath="my-retail/english/products/apparel/shorts/Bahamas.jpg"
         dam:s7damAnchorX="{Long}777"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"
@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/we-retail/wo/shorts/woswsubas"
+            cq:productReference="/var/commerce/products/my-retail/wo/shorts/woswsubas"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:15.270+05:30"
             dam:Fileformat="JPEG"

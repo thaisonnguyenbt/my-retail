@@ -6,8 +6,8 @@
     jcr:uuid="832c7453-bf12-405d-ac53-27b46eea24cf">
     <jcr:content
         cq:name="kalymnos-island-female.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/climbing"
-        dam:relativePath="we-retail/en/activities/climbing/kalymnos-island-female.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/climbing"
+        dam:relativePath="my-retail/english/activities/climbing/kalymnos-island-female.jpg"
         jcr:lastModified="{Date}2016-09-12T17:16:03.328+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

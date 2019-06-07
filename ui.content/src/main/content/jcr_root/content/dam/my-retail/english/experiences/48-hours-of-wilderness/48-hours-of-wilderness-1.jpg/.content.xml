@@ -5,7 +5,7 @@
     jcr:uuid="a2698bbe-d01b-4500-8f77-cf992d7b6750">
     <jcr:content
         dam:assetState="processed"
-        dam:relativePath="we-retail/en/experiences/48-hours-of-wilderness/48-hours-of-wilderness-1.jpg"
+        dam:relativePath="my-retail/english/experiences/48-hours-of-wilderness/48-hours-of-wilderness-1.jpg"
         jcr:lastModified="{Date}2018-02-07T16:58:06.966+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

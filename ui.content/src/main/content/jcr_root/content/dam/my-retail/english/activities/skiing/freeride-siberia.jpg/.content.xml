@@ -6,8 +6,8 @@
     jcr:uuid="1c728888-9412-4005-807c-4393488f827c">
     <jcr:content
         cq:name="freeride-siberia.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/skiing"
-        dam:relativePath="we-retail/en/activities/skiing/freeride-siberia.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/skiing"
+        dam:relativePath="my-retail/english/activities/skiing/freeride-siberia.jpg"
         jcr:lastModified="{Date}2016-09-12T17:17:08.178+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

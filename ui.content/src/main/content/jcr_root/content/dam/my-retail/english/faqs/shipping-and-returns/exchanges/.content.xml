@@ -6,7 +6,7 @@
     jcr:uuid="db2776e7-9d4b-45d2-9455-bd93a63783ed">
     <jcr:content
         cq:name="exchanges"
-        cq:parentPath="/content/dam/we-retail/en/faqs/shipping-and-returns"
+        cq:parentPath="/content/dam/my-retail/english/faqs/shipping-and-returns"
         jcr:lastModified="{Date}2019-01-21T11:09:51.056+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
@@ -19,17 +19,17 @@
             <sling:members jcr:primaryType="nt:unstructured"/>
         </associated>
         <data
-            cq:model="/conf/we-retail/settings/dam/cfm/models/faq"
+            cq:model="/conf/my-retail/settings/dam/cfm/models/faq"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"
                 answer="&lt;p>To exchange and item, please return the item and re-order the item.&lt;/p>&#xa;&lt;p>When issuing the item return please make sure to list the reason for the return (damaged item, not as described, etc.) so we can make sure to fix the issue in the future!&lt;/p>&#xa;"
                 answer_x0040_ContentType="text/html"
                 question="How do I exchange an purchased item?"
-                tags="[we-retail:shipping]"/>
+                tags="[my-retail:shipping]"/>
         </data>
         <metadata
-            cq:tags="[we-retail:commonly-asked-question]"
+            cq:tags="[my-retail:commonly-asked-question]"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>

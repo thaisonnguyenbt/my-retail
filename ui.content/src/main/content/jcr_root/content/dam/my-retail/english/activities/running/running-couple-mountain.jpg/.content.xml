@@ -6,8 +6,8 @@
     jcr:uuid="8a36affa-7943-407f-9e17-306250a17f4a">
     <jcr:content
         cq:name="running-couple-mountain.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/running"
-        dam:relativePath="we-retail/en/activities/running/running-couple-mountain.jpg"
+        cq:parentPath="/content/dam/my-retail/english/activities/running"
+        dam:relativePath="my-retail/english/activities/running/running-couple-mountain.jpg"
         jcr:lastModified="{Date}2016-09-12T17:16:39.168+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

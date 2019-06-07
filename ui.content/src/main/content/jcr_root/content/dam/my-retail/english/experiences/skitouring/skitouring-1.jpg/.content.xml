@@ -5,7 +5,7 @@
     jcr:uuid="d884b858-6c04-4137-b813-d2d2ef67b441">
     <jcr:content
         dam:assetState="processed"
-        dam:relativePath="we-retail/en/experiences/skitouring/skitouring-1.jpg"
+        dam:relativePath="my-retail/english/experiences/skitouring/skitouring-1.jpg"
         jcr:lastModified="{Date}2018-02-07T17:20:45.124+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

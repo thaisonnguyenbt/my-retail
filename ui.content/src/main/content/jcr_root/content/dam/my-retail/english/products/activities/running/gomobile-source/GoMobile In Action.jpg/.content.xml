@@ -6,10 +6,10 @@
     jcr:uuid="1514619c-648e-4c5e-b353-1a0501c16bc4">
     <jcr:content
         cq:name="GoMobile In Action.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/activities/running/gomobile-source"
+        cq:parentPath="/content/dam/my-retail/english/products/activities/running/gomobile-source"
         dam:assetID="1514619c-648e-4c5e-b353-1a0501c16bc4"
         dam:lastInvalidateCache="{Date}2016-01-16T23:34:32.586-05:00"
-        dam:relativePath="we-retail/en/products/activities/running/gomobile-source/GoMobile In Action.jpg"
+        dam:relativePath="my-retail/english/products/activities/running/gomobile-source/GoMobile In Action.jpg"
         dam:s7damAnchorX="{Long}809"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

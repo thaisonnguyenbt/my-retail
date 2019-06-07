@@ -6,10 +6,10 @@
     jcr:uuid="46534818-35f5-4925-b578-1e5e8fb83930">
     <jcr:content
         cq:name="surfing_5.jpg"
-        cq:parentPath="/content/dam/we-retail/en/activities/surfing"
+        cq:parentPath="/content/dam/my-retail/english/activities/surfing"
         dam:assetID="aaid:e6ecc905854b49cf89a7b7ee1d7bbe03"
         dam:lastInvalidateCache="{Date}2016-01-16T23:31:19.010-05:00"
-        dam:relativePath="we-retail/en/activities/surfing/surfing_5.jpg"
+        dam:relativePath="my-retail/english/activities/surfing/surfing_5.jpg"
         dam:s7damAnchorX="{Long}960"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"
@@ -61,7 +61,7 @@
             xmpMM:DocumentID="adobe:docid:photoshop:502384fa-fb80-1178-9b17-8a9c853140bd"
             xmpMM:InstanceID="xmp.iid:60ac5de9-bfff-4e3a-9d65-60079ddb3a8d"
             xmpMM:OriginalDocumentID="B4F960C904A80A365F4DF7AA02B1E5C3"
-            imageMap="\[poly(1102,778,1112,778,1112,768,1102,768,1102,778)&quot;quickview:sku=/var/commerce/products/we-retail/en/eq/surfing/eqsusuthd/eqsusuthd&amp;reservedVal_productPath=/var/commerce/products/we-retail/en/eq/surfing/eqsusuthd&amp;reservedVal_productThumbnail=http://localhost:4502/content/dam/we-retail/en/products/activities/surfing/source/stretch_top.png&quot;|&quot;&quot;|&quot;Surfboard&quot;]"
+            imageMap="\[poly(1102,778,1112,778,1112,768,1102,768,1102,778)&quot;quickview:sku=/var/commerce/products/my-retail/english/eq/surfing/eqsusuthd/eqsusuthd&amp;reservedVal_productPath=/var/commerce/products/my-retail/english/eq/surfing/eqsusuthd&amp;reservedVal_productThumbnail=http://localhost:4502/content/dam/my-retail/english/products/activities/surfing/source/stretch_top.png&quot;|&quot;&quot;|&quot;Surfboard&quot;]"
             writebackEnable="{Boolean}true">
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"

@@ -6,10 +6,10 @@
     jcr:uuid="253e4107-1ca2-494b-aaf9-c4545c378cde">
     <jcr:content
         cq:name="Zurich.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/apparel/scarfs/source"
+        cq:parentPath="/content/dam/my-retail/english/products/apparel/scarfs/source"
         dam:assetID="aaid:df8f2604b4be4b0ebdf121739871edeb"
         dam:lastInvalidateCache="{Date}2016-01-16T23:31:53.883-05:00"
-        dam:relativePath="we-retail/en/products/apparel/scarfs/source/Zurich.jpg"
+        dam:relativePath="my-retail/english/products/apparel/scarfs/source/Zurich.jpg"
         dam:s7damAnchorX="{Long}360"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"

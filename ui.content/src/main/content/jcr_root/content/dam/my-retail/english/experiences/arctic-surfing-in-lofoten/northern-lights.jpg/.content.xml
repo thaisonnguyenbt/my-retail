@@ -5,7 +5,7 @@
     jcr:uuid="24be0df2-92ae-4cd5-91f2-ca5a7fbf3dff">
     <jcr:content
         dam:assetState="processed"
-        dam:relativePath="we-retail/en/experiences/arctic-surfing-in-lofoten/northern-lights.jpg"
+        dam:relativePath="my-retail/english/experiences/arctic-surfing-in-lofoten/northern-lights.jpg"
         jcr:lastModified="{Date}2018-02-08T17:45:59.672+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">

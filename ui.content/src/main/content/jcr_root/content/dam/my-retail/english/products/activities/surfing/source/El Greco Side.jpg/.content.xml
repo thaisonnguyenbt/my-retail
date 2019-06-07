@@ -6,10 +6,10 @@
     jcr:uuid="cd064e74-7fb8-4110-977c-4917bf5ad43f">
     <jcr:content
         cq:name="El Greco Side.jpg"
-        cq:parentPath="/content/dam/we-retail/en/products/activities/surfing/source"
+        cq:parentPath="/content/dam/my-retail/english/products/activities/surfing/source"
         dam:assetID="aaid:58b19fdeb6c34bafaba63c6d5d1240b4"
         dam:lastInvalidateCache="{Date}2016-01-16T23:34:16.610-05:00"
-        dam:relativePath="we-retail/en/products/activities/surfing/source/El Greco Side.jpg"
+        dam:relativePath="my-retail/english/products/activities/surfing/source/El Greco Side.jpg"
         dam:s7damAnchorX="{Long}874"
         dam:s7damAnchorY="{Long}540"
         dam:s7damHeight="{Long}1080"
