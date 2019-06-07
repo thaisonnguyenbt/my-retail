@@ -3,4 +3,6 @@
     <filter root="/conf/my-retail" mode="merge"/>
     <filter root="/content/my-retail" mode="merge"/>
     <filter root="/content/dam/my-retail" mode="merge"/>
+    
+	<filter root="/content/projects" mode="merge"/>
 </workspaceFilter>
