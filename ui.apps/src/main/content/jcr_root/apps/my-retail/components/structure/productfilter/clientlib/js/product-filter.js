@@ -16,7 +16,7 @@
 (function ($) {
     'use strict';
 
-    window.we = window.we || {};
+    window.my = window.my || {};
 
     Vue.component('my-product-filter', {
         props: ['type']
@@ -30,18 +30,18 @@
         }
     };
 
-    we.filterStore = we.filterStore || new FiltersStore();
+    my.filterStore = my.filterStore || new FiltersStore();
 
 
     // Vue.config.debug = true;
 
     $(".my-product-filter").each(function (index, el) {
         new Vue({
-            parent: we.app,
+            parent: my.app,
             name: 'product-filter',
             el: el,
             data: {
-                filters: we.filterStore.data
+                filters: my.filterStore.data
             },
             ready: function () {
                 var vm = this;
@@ -49,8 +49,8 @@
                 vm.$parent.activeFilters = {};
 
                 if (index === 0) {
-                    we.app.$on('show-product-item', function (filters) {
-                        we.app.$broadcast('show-product-item', filters);
+                    my.app.$on('show-product-item', function (filters) {
+                        my.app.$broadcast('show-product-item', filters);
                     });
                 }
             },
@@ -72,7 +72,7 @@
                     $("input[value='" + val + "']").siblings('div').toggleClass('tick');
                 },
                 toggle: function() {
-                    we.app.$broadcast('toggle-filters');
+                    my.app.$broadcast('toggle-filters');
                 }
             },
             events: {

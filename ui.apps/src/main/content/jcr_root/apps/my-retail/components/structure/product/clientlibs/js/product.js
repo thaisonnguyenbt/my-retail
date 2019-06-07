@@ -35,7 +35,7 @@
         });
     }
 
-    Vue.component('we-product-variant', {
+    Vue.component('my-product-variant', {
         props: [
             'isBase',
             'path',
@@ -72,10 +72,10 @@
         }
     });
 
-    if (document.querySelector('.we-Product')) {
+    if (document.querySelector('.my-Product')) {
         new Vue({
-            name: 'we-Product',
-            el: '.we-Product',
+            name: 'my-Product',
+            el: '.my-Product',
             data: {
                 variants: [],
                 product: null,
