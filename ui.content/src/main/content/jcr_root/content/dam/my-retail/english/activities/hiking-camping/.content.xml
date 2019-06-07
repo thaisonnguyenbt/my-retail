@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <My-Retail-Alpinists-Himalayas.jpg/>
+    <My-Retail-Alpinists-Rochefort-Ridge.jpg/>
+    <My-Retail-Camp-Summer-Night.jpg/>
+    <My-Retail-Hiker-Anapurna.jpg/>
+    <My-Retail-Hiker-Himalayas.jpg/>
+    <My-Retail-Hiking-Campaign-Male.jpg/>
+    <My-Retail-Hiking-Campaign.jpg/>
+    <My-Retail-Trekker-Ama-Dablam.jpg/>
+    <My-Retail-Trekker-Khumbu-Valley.jpg/>
+    <jcr:content jcr:primaryType="nt:unstructured">
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>
