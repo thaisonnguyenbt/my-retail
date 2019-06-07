@@ -90,6 +90,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <group>my-retail</group>
+                    <allowIndexDefinitions>true</allowIndexDefinitions>
                     <embeddeds>
                         <embedded>
                             <groupId>com.adobe.cq.sample</groupId>
@@ -98,6 +99,11 @@
                         </embedded>
                     </embeddeds>
                     <subPackages>
+                    	<subPackage>
+                            <groupId>com.adobe.acs</groupId>
+                            <artifactId>acs-aem-commons-content</artifactId>
+                            <filter>true</filter>
+                        </subPackage>
                         <subPackage>
                             <groupId>com.adobe.cq</groupId>
                             <artifactId>core.wcm.components.all</artifactId>
@@ -154,6 +160,12 @@
             <artifactId>core.wcm.components.examples</artifactId>
             <type>zip</type>
         </dependency>
+        <dependency>
+			<groupId>com.adobe.acs</groupId>
+			<artifactId>acs-aem-commons-content</artifactId>
+			<type>zip</type>
+			<classifier>min</classifier> 
+		</dependency>
         <dependency>
             <groupId>javax.jcr</groupId>
             <artifactId>jcr</artifactId>

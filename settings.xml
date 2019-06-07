@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+  <pluginGroups>
+  </pluginGroups>
+
+<!--
+  <proxies>
+	<proxy>
+      <id>ncsproxy</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <username>P1310648</username>
+      <password>P@$$w0rd</password>
+      <host>proxy.ncs.com.sg</host>
+      <port>8080</port>
+      <nonProxyHosts></nonProxyHosts>
+    </proxy>
+  </proxies>
+-->
+  <servers>
+  </servers>
+
+  <mirrors>
+  </mirrors>
+
+  <profiles>
+	<profile>
+		<id>cqblueprints</id>
+		<activation>
+			<activeByDefault>true</activeByDefault>
+		</activation>
+		<repositories>
+			<repository>
+			   <id>Maven2</id>
+			   <url>https://repo.maven.apache.org/maven2</url>
+			   <releases>
+					<enabled>true</enabled>
+				</releases>
+				<snapshots>
+					<enabled>false</enabled>
+				</snapshots>
+			</repository>
+			<repository>
+				<id>adobe</id>
+				<name>Adobe Repository</name>
+				<url>http://repo.adobe.com/nexus/content/groups/public/</url>
+				<releases>
+					<enabled>true</enabled>
+				</releases>
+				<snapshots>
+					<enabled>false</enabled>
+				</snapshots>
+			</repository>
+			<repository>
+				<id>cqblueprints.releases</id>
+				<name>CQ Blueprints Release Repository</name>
+				<url>http://dev.cqblueprints.com/nexus/content/repositories/releases/</url>
+				<releases>
+					<enabled>true</enabled>
+				</releases>
+				<snapshots>
+					<enabled>false</enabled>
+				</snapshots>
+			</repository>
+			<repository>
+				<id>eclipse</id>
+				<url>http://download.eclipse.org/gemini/mvn/</url>
+			</repository>
+			<repository>
+			   <id>EclipseLink</id>
+			   <url>http://download.eclipse.org/rt/eclipselink/maven.repo</url>
+			</repository>
+		</repositories>
+		<pluginRepositories>
+			<pluginRepository>
+				<id>central</id>
+				<name>Central</name>
+				<url>https://repo.maven.apache.org/maven2</url>
+				<releases>
+					<enabled>true</enabled>
+				</releases>
+				<snapshots>
+					<enabled>false</enabled>
+				</snapshots>
+			</pluginRepository>
+			<pluginRepository>
+				<id>adobe-plugins</id>
+				<name>Adobe Plugin Repository</name>
+				<url>http://repo.adobe.com/nexus/content/groups/public/</url>
+				<releases>
+					<enabled>true</enabled>
+				</releases>
+				<snapshots>
+					<enabled>false</enabled>
+				</snapshots>
+			</pluginRepository>
+			<pluginRepository>
+				<id>cqblueprints.plugins.releases</id>
+				<name>CQ Blueprints Plugin Release Repository</name>
+				<url>http://dev.cqblueprints.com/nexus/content/repositories/releases/</url>
+				<releases>
+					<enabled>true</enabled>
+				</releases>
+				<snapshots>
+					<enabled>false</enabled>
+				</snapshots>
+			</pluginRepository>
+		</pluginRepositories>
+	</profile>
+  </profiles>
+</settings>
