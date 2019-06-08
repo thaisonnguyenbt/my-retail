@@ -653,6 +653,18 @@
                 <version>1.0</version>
                 <scope>provided</scope>
             </dependency>
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.scr</artifactId>
+                <version>1.6.0</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.scr.annotations</artifactId>
+                <version>1.9.6</version>
+                <scope>provided</scope>
+            </dependency>
             
 
             <!-- Testing -->

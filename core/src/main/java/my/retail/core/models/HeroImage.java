@@ -47,7 +47,7 @@ public class HeroImage {
         if (classList != null) {
             return classList;
         }
-        classList = "we-HeroImage";
+        classList = "my-HeroImage";
         if ("true".equals(properties.get(PN_FULL_WIDTH, ""))) {
             classList += " width-full";
         }

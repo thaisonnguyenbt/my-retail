@@ -33,7 +33,7 @@ import com.adobe.cq.wcm.core.components.models.ListItem;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 
-@Model(adaptables = SlingHttpServletRequest.class, adapters = List.class, resourceType = "weretail/components/content/productgrid")
+@Model(adaptables = SlingHttpServletRequest.class, adapters = List.class, resourceType = "my-retail/components/content/productgrid")
 public class ProductGrid implements List {
 
     @Self @Via(type = ResourceSuperType.class)

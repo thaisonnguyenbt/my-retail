@@ -17,7 +17,7 @@ package my.retail.core;
 
 public class MyRetailConstants {
 
-    public static final String WE_RETAIL_COMMERCEPROVIDER = "my-retail";
+    public static final String MY_RETAIL_COMMERCEPROVIDER = "my-retail";
 
     public static final String ADD_CARTENTRY_SELECTOR = "myretail.addcartentry";
     public static final String DELETE_CARTENTRY_SELECTOR = "myretail.deletecartentry";

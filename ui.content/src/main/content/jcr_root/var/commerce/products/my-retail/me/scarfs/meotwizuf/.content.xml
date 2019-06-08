@@ -29,7 +29,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         sling:resourceType="commerce/components/product/image"
-        fileReference="/content/dam/my-retail/en/products/apparel/scarfs/source/Zurich.jpg"
+        fileReference="/content/dam/my-retail/english/products/apparel/scarfs/source/Zurich.jpg"
         height="300"
         jpegQuality="85"
         unsharpMaskAmount="0"

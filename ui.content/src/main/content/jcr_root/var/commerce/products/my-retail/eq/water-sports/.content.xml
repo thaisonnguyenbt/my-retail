@@ -28,7 +28,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/my-retail/en/products/activities/water-sports/Aqua Force.jpg"/>
+            fileReference="/content/dam/my-retail/english/products/activities/water-sports/Aqua Force.jpg"/>
         <size-one-size
             cq:commerceType="variant"
             jcr:lastModified="{Date}2015-09-08T17:10:12.305-07:00"
@@ -66,7 +66,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/my-retail/en/products/activities/water-sports/source/Cabana.jpg"
+            fileReference="/content/dam/my-retail/english/products/activities/water-sports/source/Cabana.jpg"
             height="300"
             jpegQuality="85"
             unsharpMaskAmount="0"
@@ -98,7 +98,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/my-retail/en/products/activities/water-sports/Manta Ray.jpg"/>
+            fileReference="/content/dam/my-retail/english/products/activities/water-sports/Manta Ray.jpg"/>
         <size-one-size
             cq:commerceType="variant"
             jcr:lastModified="{Date}2015-09-08T17:10:12.308-07:00"
@@ -130,7 +130,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/my-retail/en/products/activities/water-sports/Swim Goggles Blue.jpg"/>
+            fileReference="/content/dam/my-retail/english/products/activities/water-sports/Swim Goggles Blue.jpg"/>
         <eqswsuprs.1
             cq:commerceType="variant"
             jcr:lastModified="{Date}2016-01-11T16:38:39.361-08:00"
@@ -145,7 +145,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="commerce/components/product/image"
-                fileReference="/content/dam/my-retail/en/products/activities/water-sports/Swim Goggles Blue.jpg"/>
+                fileReference="/content/dam/my-retail/english/products/activities/water-sports/Swim Goggles Blue.jpg"/>
             <size-one-size
                 cq:commerceType="variant"
                 jcr:lastModified="{Date}2015-09-08T17:10:12.312-07:00"
@@ -167,7 +167,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="commerce/components/product/image"
-                fileReference="/content/dam/my-retail/en/products/activities/water-sports/Swim Goggles Green.jpg"/>
+                fileReference="/content/dam/my-retail/english/products/activities/water-sports/Swim Goggles Green.jpg"/>
             <size-one-size
                 cq:commerceType="variant"
                 jcr:lastModified="{Date}2015-09-08T17:10:12.312-07:00"
@@ -189,7 +189,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="commerce/components/product/image"
-                fileReference="/content/dam/my-retail/en/products/activities/water-sports/Swim Goggles Yellow.jpg"/>
+                fileReference="/content/dam/my-retail/english/products/activities/water-sports/Swim Goggles Yellow.jpg"/>
             <size-one-size
                 cq:commerceType="variant"
                 jcr:lastModified="{Date}2015-09-08T17:10:12.313-07:00"
@@ -222,7 +222,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/my-retail/en/products/activities/water-sports/Pufferfish Blue.jpg"/>
+            fileReference="/content/dam/my-retail/english/products/activities/water-sports/Pufferfish Blue.jpg"/>
         <eqswsupus.1
             cq:commerceType="variant"
             jcr:lastModified="{Date}2016-01-11T16:36:54.156-08:00"
@@ -237,7 +237,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="commerce/components/product/image"
-                fileReference="/content/dam/my-retail/en/products/activities/water-sports/Pufferfish Blue.jpg"/>
+                fileReference="/content/dam/my-retail/english/products/activities/water-sports/Pufferfish Blue.jpg"/>
             <size-s
                 cq:commerceType="variant"
                 jcr:lastModified="{Date}2015-09-08T17:10:12.317-07:00"
@@ -271,7 +271,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="commerce/components/product/image"
-                fileReference="/content/dam/my-retail/en/products/activities/water-sports/Pufferfish Green.jpg"/>
+                fileReference="/content/dam/my-retail/english/products/activities/water-sports/Pufferfish Green.jpg"/>
             <size-s
                 cq:commerceType="variant"
                 jcr:lastModified="{Date}2015-09-08T17:10:12.321-07:00"
@@ -305,7 +305,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="commerce/components/product/image"
-                fileReference="/content/dam/my-retail/en/products/activities/water-sports/Pufferfish Purple.jpg"/>
+                fileReference="/content/dam/my-retail/english/products/activities/water-sports/Pufferfish Purple.jpg"/>
             <size-s
                 cq:commerceType="variant"
                 jcr:lastModified="{Date}2015-09-08T17:10:12.324-07:00"
@@ -350,7 +350,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/my-retail/en/products/apparel/footwear/Seastar Blue.jpg"/>
+            fileReference="/content/dam/my-retail/english/products/apparel/footwear/Seastar Blue.jpg"/>
         <eqswsuses.1
             cq:commerceType="variant"
             jcr:lastModified="{Date}2016-01-11T16:39:16.678-08:00"
@@ -365,7 +365,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="commerce/components/product/image"
-                fileReference="/content/dam/my-retail/en/products/apparel/footwear/Seastar Blue.jpg"/>
+                fileReference="/content/dam/my-retail/english/products/apparel/footwear/Seastar Blue.jpg"/>
             <size-8
                 cq:commerceType="variant"
                 jcr:lastModified="{Date}2015-09-08T17:10:12.328-07:00"
@@ -417,7 +417,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="commerce/components/product/image"
-                fileReference="/content/dam/my-retail/en/products/apparel/footwear/Seastar Green.jpg"/>
+                fileReference="/content/dam/my-retail/english/products/apparel/footwear/Seastar Green.jpg"/>
             <size-8
                 cq:commerceType="variant"
                 jcr:lastModified="{Date}2015-09-08T17:10:12.330-07:00"
@@ -469,7 +469,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="commerce/components/product/image"
-                fileReference="/content/dam/my-retail/en/products/apparel/footwear/Seastar Purple.jpg"/>
+                fileReference="/content/dam/my-retail/english/products/apparel/footwear/Seastar Purple.jpg"/>
             <size-8
                 cq:commerceType="variant"
                 jcr:lastModified="{Date}2015-09-08T17:10:12.333-07:00"
@@ -521,7 +521,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="commerce/components/product/image"
-                fileReference="/content/dam/my-retail/en/products/apparel/footwear/Seastar Red.jpg"/>
+                fileReference="/content/dam/my-retail/english/products/apparel/footwear/Seastar Red.jpg"/>
             <size-8
                 cq:commerceType="variant"
                 jcr:lastModified="{Date}2015-09-08T17:10:12.336-07:00"

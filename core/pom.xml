@@ -151,6 +151,10 @@
             <artifactId>geronimo-json_1.1_spec</artifactId>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.apache.felix.scr.annotations</artifactId>
+        </dependency>
         
     </dependencies>
 </project>
