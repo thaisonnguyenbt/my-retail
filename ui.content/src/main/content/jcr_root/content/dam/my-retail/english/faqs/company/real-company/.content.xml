@@ -24,7 +24,7 @@
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"
-                answer="&lt;p>No, We.Retail is not a real company. We.Retail is a fake company we use to build reference materials for Adobe Experience Manager.&lt;br>&#xa;&lt;/p>&#xa;"
+                answer="&lt;p>No, My.Retail is not a real company. My.Retail is a fake company we use to build reference materials for Adobe Experience Manager.&lt;br>&#xa;&lt;/p>&#xa;"
                 answer_x0040_ContentType="text/html"
                 question="Are you a real company?"
                 tags="[my-retail:company]"/>

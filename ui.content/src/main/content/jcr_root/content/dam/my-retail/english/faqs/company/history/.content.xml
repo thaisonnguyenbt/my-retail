@@ -26,9 +26,9 @@
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:primaryType="nt:unstructured"
-                answer="&lt;p>We.Retail was established in the summer of 2014 in our founder&amp;#39;s (Mr. W) garage, in Basel Switzerland. We.Retail headquarters has since moved to San Jose, CA.&lt;br>&#xa;&lt;/p>&#xa;"
+                answer="&lt;p>My.Retail was established in the summer of 2014 in our founder&amp;#39;s (Mr. W) garage, in Basel Switzerland. My.Retail headquarters has since moved to San Jose, CA.&lt;br>&#xa;&lt;/p>&#xa;"
                 answer_x0040_ContentType="text/html"
-                question="When was We.Retail established?"
+                question="When was My.Retail established?"
                 tags="[my-retail:company]"/>
         </data>
         <metadata

@@ -25,7 +25,7 @@
                 jcr:primaryType="nt:unstructured"
                 answer="&lt;p>We&amp;#39;re not sure, but it sounds good!&lt;br>&#xa;&lt;/p>&#xa;"
                 answer_x0040_ContentType="text/html"
-                question="What's with the name &quot;We.Retail&quot;?"
+                question="What's with the name &quot;My.Retail&quot;?"
                 tags="[my-retail:company]"/>
         </data>
         <metadata

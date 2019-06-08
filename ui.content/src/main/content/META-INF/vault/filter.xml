@@ -8,4 +8,16 @@
     <filter root="/content/cq:tags/my-retail" mode="merge"/>
     <filter root="/content/catalogs/my-retail" mode="merge"/>
     
+    
+    <filter root="/etc/community/my-retail"/>
+    <filter root="/home/users/my-retail"/>
+    <filter root="/home/groups/c/content-authors" mode="merge"/>
+    <filter root="/home/groups/d/dam-users" mode="merge"/>
+    <filter root="/home/groups/default/order-administrators" mode="merge"/>
+    <filter root="/home/groups/t/tag-administrators" mode="merge"/>
+    <filter root="/home/groups/t/target-activity-authors" mode="merge"/>
+    <filter root="/home/groups/e/experience-fragments-editors" mode="merge"/>
+    
+    <filter root="/var/commerce/products/my-retail"/>
+    <filter root="/conf/we-retail/settings/dam/cfm/models"/>
 </workspaceFilter>

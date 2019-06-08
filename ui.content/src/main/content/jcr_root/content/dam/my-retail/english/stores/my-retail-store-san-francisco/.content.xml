@@ -7,11 +7,11 @@
     <jcr:content
         cq:name="my-retail-store-san-francisco"
         cq:parentPath="/content/dam/my-retail/english/stores"
-        jcr:description="we.Retail Store San Francisco"
+        jcr:description="My.Retail Store San Francisco"
         jcr:lastModified="{Date}2018-01-05T11:20:42.010-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
-        jcr:title="we.Retail Store San Francisco"
+        jcr:title="My.Retail Store San Francisco"
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2018-01-05T11:20:42.011-08:00">
         <associated

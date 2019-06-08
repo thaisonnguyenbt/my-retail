@@ -4,8 +4,7 @@
     <jcr:content
         cq:commerceType="my-retail"
         jcr:primaryType="cq:PageContent"
-        jcr:title="my-retail Scaffolding Library"/>
-    <clientlibs-classic/>
+        jcr:title="My.Retail Scaffolding Library"/>
     <clientlibs-touch/>
     <order/>
     <product/>
