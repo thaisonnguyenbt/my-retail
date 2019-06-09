@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-06-09T22:41:24.064+08:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/my-retail/settings/wcm/templates/myretail-hero-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="English"
+        sling:resourceType="my-retail/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2019-06-02T18:48:35.556+08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-06-02T19:00:16.468+08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title
+                    jcr:created="{Date}2019-06-09T22:36:05.682+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-09T22:36:15.035+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="DISCOVER THE FINEST GEAR"
+                    sling:resourceType="my-retail/components/content/title"/>
+            </responsivegrid>
+            <heroimage
+                jcr:created="{Date}2019-06-02T02:24:29.963+08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-06-09T22:26:56.863+08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="my-retail/components/content/heroimage"
+                buttonLabel="Shop Now"
+                fileReference="/content/dam/my-retail/english/activities/hiking-camping/My-Retail-Trekker-Khumbu-Valley.jpg"
+                heading="All-new winter collection"
+                title="BUILT FOR THE COLDEST WINTER ON EARTH"
+                useFullWidth="true"/>
+        </root>
+    </jcr:content>
+</jcr:root>
