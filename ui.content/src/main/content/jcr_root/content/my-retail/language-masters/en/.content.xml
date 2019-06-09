@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-06-09T22:58:29.958+08:00"
+        cq:lastModified="{Date}2019-06-09T23:00:11.954+08:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/my-retail/settings/wcm/templates/myretail-hero-page"
         jcr:primaryType="cq:PageContent"
@@ -139,6 +139,15 @@
                             width="4"/>
                     </cq:responsive>
                 </sitefeature_967112737>
+                <title_429772023
+                    jcr:created="{Date}2019-06-09T23:00:00.057+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-09T23:00:11.951+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="FEATURED PRODUCTS"
+                    sling:resourceType="my-retail/components/content/title"
+                    type="h2"/>
             </responsivegrid>
             <heroimage
                 jcr:created="{Date}2019-06-02T02:24:29.963+08:00"
