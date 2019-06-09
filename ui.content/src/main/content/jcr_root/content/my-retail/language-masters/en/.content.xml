@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-06-09T22:52:45.293+08:00"
+        cq:lastModified="{Date}2019-06-09T22:58:29.958+08:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/my-retail/settings/wcm/templates/myretail-hero-page"
         jcr:primaryType="cq:PageContent"
@@ -76,6 +76,69 @@
                         textIsRich="true"
                         titleFromPage="false"/>
                 </carousel>
+                <sitefeature
+                    jcr:created="{Date}2019-06-09T22:55:15.983+08:00"
+                    jcr:createdBy="admin"
+                    jcr:description="&lt;p>And free return&lt;/p>&#xd;&#xa;"
+                    jcr:lastModified="{Date}2019-06-09T22:56:28.219+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Free delivery"
+                    sling:resourceType="my-retail/components/content/sitefeature"
+                    actionsEnabled="false"
+                    descriptionFromPage="false"
+                    fileReference="/content/dam/my-retail/english/features/cart.png"
+                    textIsRich="true"
+                    titleFromPage="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </sitefeature>
+                <sitefeature_627303890
+                    jcr:created="{Date}2019-06-09T22:56:53.184+08:00"
+                    jcr:createdBy="admin"
+                    jcr:description="&lt;p>Worldwide shipping&lt;/p>&#xd;&#xa;"
+                    jcr:lastModified="{Date}2019-06-09T22:57:28.478+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Order tracking"
+                    sling:resourceType="my-retail/components/content/sitefeature"
+                    actionsEnabled="false"
+                    descriptionFromPage="false"
+                    fileReference="/content/dam/my-retail/english/features/tracking.png"
+                    textIsRich="true"
+                    titleFromPage="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </sitefeature_627303890>
+                <sitefeature_967112737
+                    jcr:created="{Date}2019-06-09T22:57:33.849+08:00"
+                    jcr:createdBy="admin"
+                    jcr:description="&lt;p>With our outdoor specialist&lt;/p>&#xd;&#xa;"
+                    jcr:lastModified="{Date}2019-06-09T22:58:06.766+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Online support"
+                    sling:resourceType="my-retail/components/content/sitefeature"
+                    actionsEnabled="false"
+                    descriptionFromPage="false"
+                    fileReference="/content/dam/my-retail/english/features/support.png"
+                    textIsRich="true"
+                    titleFromPage="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </sitefeature_967112737>
             </responsivegrid>
             <heroimage
                 jcr:created="{Date}2019-06-02T02:24:29.963+08:00"
