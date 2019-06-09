@@ -28,6 +28,8 @@ import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.adobe.cq.commerce.api.CommerceConstants;
 import com.adobe.cq.commerce.api.CommerceException;
@@ -44,10 +46,14 @@ import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.tagging.Tag;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.WCMException;
+import com.google.gson.Gson;
 
 public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService implements CommerceService  {
 
     private static final String REQUEST_ATTRIBUTE_NAME = MyRetailCommerceServiceImpl.class.getName();
+
+    private static Logger LOG = LoggerFactory.getLogger(MyRetailCommerceServiceImpl.class);
+    private static Gson gson = new Gson();
 
     private Resource resource;
 
@@ -58,6 +64,8 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
 
     @Override
     public CommerceSession login(SlingHttpServletRequest request, SlingHttpServletResponse response) throws CommerceException {
+
+        LOG.debug("MyRetailCommerceServiceImpl login: ");
         // This avoids that the session is instantiated multiple times by multiple components for the same request
         Object session = request.getAttribute(REQUEST_ATTRIBUTE_NAME);
         if (session != null) {
@@ -71,6 +79,8 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
 
     @Override
     public boolean isAvailable(String serviceType) {
+
+        LOG.debug("MyRetailCommerceServiceImpl isAvailable: ");
         if (CommerceConstants.SERVICE_COMMERCE.equals(serviceType)) {
             return true;
         } else {
@@ -80,6 +90,8 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
 
     @Override
     public Product getProduct(final String path) throws CommerceException {
+
+        LOG.debug("MyRetailCommerceServiceImpl getProduct: {}", path);
         Resource resource = resolver.getResource(path);
         if (resource != null && MyRetailProductImpl.isAProductOrVariant(resource)) {
             return new MyRetailProductImpl(resource);
@@ -89,6 +101,8 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
 
     @Override
     public Voucher getVoucher(final String path) throws CommerceException {
+
+        LOG.debug("MyRetailCommerceServiceImpl getVoucher: {}", path);
         Resource resource = resolver.getResource(path);
         if (resource != null) {
             // JCR-based vouchers are cq:Pages
@@ -112,6 +126,8 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
 
     @Override
     public void productRolloutHook(Product productData, Page productPage, Product product) throws CommerceException {
+
+        LOG.debug("MyRetailCommerceServiceImpl productRolloutHook: {} , {} , {}", gson.toJson(productData), gson.toJson(productPage), gson.toJson(product));
         try {
             boolean changed = false;
 
@@ -181,17 +197,21 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
     @Override
     public List<ShippingMethod> getAvailableShippingMethods() throws CommerceException {
 
+        LOG.debug("MyRetailCommerceServiceImpl getAvailableShippingMethods: ");
         return enumerateMethods("/var/commerce/shipping-methods/my-retail", ShippingMethod.class);
     }
 
     @Override
     public List<PaymentMethod> getAvailablePaymentMethods() throws CommerceException {
 
+        LOG.debug("MyRetailCommerceServiceImpl getAvailablePaymentMethods: ");
         return enumerateMethods("/var/commerce/payment-methods/my-retail", PaymentMethod.class);
     }
 
     @Override
     public List<String> getCountries() throws CommerceException {
+
+        LOG.debug("MyRetailCommerceServiceImpl getCountries: ");
         List<String> countries = new ArrayList<String>();
 
         // A true implementation would likely need to check with its payment processing and/or
@@ -204,6 +224,8 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
 
     @Override
     public List<String> getCreditCardTypes() throws CommerceException {
+
+        LOG.debug("MyRetailCommerceServiceImpl getCreditCardTypes: ");
         List<String> ccTypes = new ArrayList<String>();
 
         // A true implementation would likely need to check with its payment processing
@@ -216,6 +238,8 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
 
     @Override
     public List<String> getOrderPredicates() throws CommerceException {
+
+        LOG.debug("MyRetailCommerceServiceImpl getOrderPredicates: ");
         List<String> predicates = new ArrayList<String>();
         predicates.add(CommerceConstants.OPEN_ORDERS_PREDICATE);
         return predicates;
