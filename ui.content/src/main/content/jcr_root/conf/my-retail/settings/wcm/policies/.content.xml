@@ -45,6 +45,33 @@
                         </cq:styleGroups>
                     </policy_1559545876047>
                 </teaser>
+                <breadcrumb jcr:primaryType="nt:unstructured">
+                    <my-retail-product-page
+                        jcr:lastModified="{Date}2019-06-10T13:36:34.836+08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="My.Retail Product Page Breadcrumb"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        hideCurrent="true"
+                        showHidden="false"
+                        startLevel="5">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </my-retail-product-page>
+                </breadcrumb>
+                <title jcr:primaryType="nt:unstructured">
+                    <my-retail-section-page
+                        jcr:description="My.Retail Title policy - Section Page"
+                        jcr:lastModified="{Date}2019-06-10T13:38:39.749+08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="My.Retail Title policy - Section Page"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        allowedTypes="h2"
+                        linkDisabled="false"
+                        type="h2">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </my-retail-section-page>
+                </title>
             </content>
         </components>
     </my-retail>
@@ -54,7 +81,7 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
-                        jcr:lastModified="{Date}2019-06-03T23:18:27.960+08:00"
+                        jcr:lastModified="{Date}2019-06-10T14:03:56.304+08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="My.Retail Default"

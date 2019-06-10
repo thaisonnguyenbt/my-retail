@@ -2,10 +2,10 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2019-06-03T23:07:36.705+08:00"
+        cq:lastModified="{Date}2019-06-10T14:03:56.307+08:00"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/my-retail/settings/wcm/template-types/empty-page"
-        jcr:description="My.Retail Section Page"
+        jcr:description="My.Retail Section Page Template"
         jcr:primaryType="cq:PageContent"
         jcr:title="My.Retail Section Page"
         status="enabled"/>
