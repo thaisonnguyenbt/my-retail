@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/conf/my-retail/settings/wcm/templates/product-page"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="my-retail/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <product
+                cq:commerceType="product"
+                jcr:created="{Date}2019-06-10T16:10:22.855+08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-06-10T16:11:20.154+08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="my-retail/components/structure/product"/>
+            <responsivegrid
+                jcr:created="{Date}2019-06-10T16:10:48.646+08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-06-10T16:11:35.644+08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
+    </jcr:content>
+</jcr:root>
