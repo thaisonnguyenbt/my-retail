@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:catalogBlueprint="/content/catalogs/my-retail/en/website-catalog/women"
+        cq:catalogBlueprint="/content/catalogs/my-retail/en/website-catalog/women/coats"
         cq:commerceProvider="my-retail"
         cq:commerceType="section"
         cq:lastModified="{Date}2019-06-10T15:15:05.256+08:00"
@@ -14,9 +14,9 @@
         jcr:language="en"
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Women"
+        jcr:title="Coats"
         sling:resourceType="my-retail/components/structure/page"
-        coverImage="/content/dam/my-retail/english/people/womens/women_6.jpg">
+        coverImage="/content/dam/my-retail/english/products/apparel/coats/Coats_women.jpg">
         <root
             cq:lastRolledout="{Date}2019-06-10T15:15:05.258+08:00"
             cq:lastRolledoutBy="admin"
@@ -165,5 +165,4 @@
             cq:rolloutConfigs="[/libs/msm/catalog/rolloutconfigs/catalogpagecontent,/libs/msm/catalog/rolloutconfigs/catalogrollouthooks]"
             jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>
-    <coats/>
 </jcr:root>
