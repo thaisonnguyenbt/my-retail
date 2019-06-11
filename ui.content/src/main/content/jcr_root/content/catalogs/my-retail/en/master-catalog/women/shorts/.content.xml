@@ -11,7 +11,7 @@
             proxyProductPages="false"/>
         <target
             jcr:primaryType="nt:unstructured"
-            coverImage="/content/dam/my-retail/englishglish/products/apparel/shorts/Shorts_women.jpg"
+            coverImage="/content/dam/my-retail/english/products/apparel/shorts/Shorts_women.jpg"
             jcr_title="Shorts"/>
         <filter
             jcr:primaryType="nt:unstructured"
