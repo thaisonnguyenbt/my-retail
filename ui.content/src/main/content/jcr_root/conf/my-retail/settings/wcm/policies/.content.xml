@@ -47,7 +47,7 @@
                 </teaser>
                 <breadcrumb jcr:primaryType="nt:unstructured">
                     <my-retail-product-page
-                        jcr:lastModified="{Date}2019-06-10T13:36:34.836+08:00"
+                        jcr:lastModified="{Date}2019-06-10T16:45:54.473+08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="My.Retail Product Page Breadcrumb"
@@ -72,7 +72,22 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </my-retail-section-page>
                 </title>
+                <heroimage jcr:primaryType="nt:unstructured"/>
             </content>
+            <structure jcr:primaryType="nt:unstructured">
+                <page jcr:primaryType="nt:unstructured">
+                    <my-retail-product-page
+                        jcr:description="Policy for product pages"
+                        jcr:lastModified="{Date}2019-06-11T17:54:25.121+08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="My.Retail Products Page"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="my-retail.product-page">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </my-retail-product-page>
+                </page>
+            </structure>
         </components>
     </my-retail>
     <wcm jcr:primaryType="nt:unstructured">
