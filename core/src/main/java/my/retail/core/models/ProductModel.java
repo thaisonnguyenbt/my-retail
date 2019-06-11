@@ -38,6 +38,7 @@ import com.adobe.granite.security.user.UserManagementService;
 import com.day.cq.wcm.api.Page;
 
 import my.retail.core.models.handler.CommerceHandler;
+import my.retail.core.util.MyRetailGson;
 
 @Model(adaptables = SlingHttpServletRequest.class)
 public class ProductModel {
@@ -84,6 +85,10 @@ public class ProductModel {
                 }
 
                 if (product != null) {
+
+                    if (product.getVariants() != null) {
+                        product.getVariants().forEachRemaining(variant -> LOGGER.debug("ProductModel: {}", MyRetailGson.getInstance().toString(variant.getPath())));
+                    }
                     productItem = new ProductItem(product, commerceSession, request, currentPage);
                 }
             }
