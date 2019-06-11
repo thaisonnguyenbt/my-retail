@@ -2,9 +2,9 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2016-04-06T21:07:12.170+02:00"
+        cq:lastModified="{Date}2019-06-11T23:41:52.189+08:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2016-04-06T21:07:12.171+02:00"
+        cq:lastRolledout="{Date}2019-06-11T23:41:52.191+08:00"
         cq:lastRolledoutBy="admin"
         cq:template="/libs/commerce/templates/section"
         jcr:mixinTypes="[cq:LiveRelationship]"
@@ -14,13 +14,13 @@
         navTitle="Snow Sports"
         pageTitle="Snow Sports">
         <templates
-            cq:lastRolledout="{Date}2016-04-06T21:07:12.166+02:00"
+            cq:lastRolledout="{Date}2019-06-11T23:41:52.185+08:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             proxyProductPages="false"/>
         <target
-            cq:lastRolledout="{Date}2016-04-06T21:07:12.169+02:00"
+            cq:lastRolledout="{Date}2019-06-11T23:41:52.188+08:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
@@ -28,7 +28,7 @@
             jcr_title="Snow Sports"
             navTitle="Snow Sports"/>
         <filter
-            cq:lastRolledout="{Date}2016-04-06T21:07:12.171+02:00"
+            cq:lastRolledout="{Date}2019-06-11T23:41:52.190+08:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
