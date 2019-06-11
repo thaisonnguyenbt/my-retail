@@ -19,5 +19,5 @@
     <filter root="/home/groups/e/experience-fragments-editors" mode="merge"/>
     
     <filter root="/var/commerce/products/my-retail"/>
-    <filter root="/conf/we-retail/settings/dam/cfm/models"/>
+    <filter root="/conf/my-retail/settings/dam/cfm/models"/>
 </workspaceFilter>

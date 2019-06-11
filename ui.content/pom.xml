@@ -32,8 +32,8 @@
     <!-- ====================================================================== -->
     <artifactId>my.retail.ui.content</artifactId>
     <packaging>content-package</packaging>
-    <name>my.retail - UI content</name>
-    <description>UI content package for my.retail</description>
+    <name>My.Retail - UI content</name>
+    <description>UI content package for My.Retail</description>
 
     <!-- <scm>
         <connection></connection>

@@ -165,4 +165,5 @@
             cq:rolloutConfigs="[/libs/msm/catalog/rolloutconfigs/catalogpagecontent,/libs/msm/catalog/rolloutconfigs/catalogrollouthooks]"
             jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>
+    <sleek-insulated-coat/>
 </jcr:root>
