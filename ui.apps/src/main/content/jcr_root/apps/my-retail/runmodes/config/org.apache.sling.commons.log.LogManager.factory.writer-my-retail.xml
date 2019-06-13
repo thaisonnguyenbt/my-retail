@@ -3,4 +3,4 @@
     jcr:primaryType="sling:OsgiConfig"
     org.apache.sling.commons.log.file="logs/project-my-retail.log"
     org.apache.sling.commons.log.file.number="5"
-    org.apache.sling.commons.log.file.size="10 MB" />
+    org.apache.sling.commons.log.file.size="10MB" />
