@@ -46,14 +46,12 @@ import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.tagging.Tag;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.WCMException;
-import com.google.gson.Gson;
 
 public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService implements CommerceService  {
 
     private static final String REQUEST_ATTRIBUTE_NAME = MyRetailCommerceServiceImpl.class.getName();
 
     private static Logger LOG = LoggerFactory.getLogger(MyRetailCommerceServiceImpl.class);
-    private static Gson gson = new Gson();
 
     private Resource resource;
 
@@ -65,7 +63,6 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
     @Override
     public CommerceSession login(SlingHttpServletRequest request, SlingHttpServletResponse response) throws CommerceException {
 
-        LOG.debug("MyRetailCommerceServiceImpl login: ");
         // This avoids that the session is instantiated multiple times by multiple components for the same request
         Object session = request.getAttribute(REQUEST_ATTRIBUTE_NAME);
         if (session != null) {
@@ -80,10 +77,11 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
     @Override
     public boolean isAvailable(String serviceType) {
 
-        LOG.debug("MyRetailCommerceServiceImpl isAvailable: ");
         if (CommerceConstants.SERVICE_COMMERCE.equals(serviceType)) {
+            LOG.debug("MyRetailCommerceServiceImpl isAvailable: TRUE");
             return true;
         } else {
+            LOG.debug("MyRetailCommerceServiceImpl isAvailable: FALSE");
             return false;
         }
     }
@@ -91,11 +89,13 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
     @Override
     public Product getProduct(final String path) throws CommerceException {
 
-        LOG.debug("MyRetailCommerceServiceImpl getProduct: {}", path);
         Resource resource = resolver.getResource(path);
         if (resource != null && MyRetailProductImpl.isAProductOrVariant(resource)) {
-            return new MyRetailProductImpl(resource);
+            MyRetailProductImpl weRetailProductImpl = new MyRetailProductImpl(resource);
+            LOG.debug("MyRetailCommerceServiceImpl getProduct: {} : {}", weRetailProductImpl == null ? "NULL" : "NOT_NULL", path);
+            return weRetailProductImpl;
         }
+        LOG.debug("MyRetailCommerceServiceImpl getProduct: NULL_RESOURCE or NOT_VARIANS: {}", path);
         return null;
     }
 
@@ -108,9 +108,11 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
             // JCR-based vouchers are cq:Pages
             Resource contentResource = resource.getChild(JcrConstants.JCR_CONTENT);
             if (contentResource != null) {
+                LOG.debug("MyRetailCommerceServiceImpl getVoucher: resource {}", resource.getPath());
                 return resource.adaptTo(Voucher.class);
             }
         }
+        LOG.debug("MyRetailCommerceServiceImpl getVoucher: NULL {}", path);
         return null;
     }
 
@@ -127,7 +129,6 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
     @Override
     public void productRolloutHook(Product productData, Page productPage, Product product) throws CommerceException {
 
-        LOG.debug("MyRetailCommerceServiceImpl productRolloutHook: {} , {} , {}", gson.toJson(productData), gson.toJson(productPage), gson.toJson(product));
         try {
             boolean changed = false;
 
@@ -141,13 +142,17 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
             //
             Node productNode = product.adaptTo(Node.class);
             if (productNode != null) {
+                LOG.debug("MyRetailCommerceServiceImpl productRolloutHook productNode: {}", productNode.getPath());
                 if (productData.axisIsVariant("color")) {
+                    LOG.debug("MyRetailCommerceServiceImpl productRolloutHook productNode: color {}", productNode.getPath());
                     if (!productNode.hasProperty("variationAxis")) {
+                        LOG.debug("MyRetailCommerceServiceImpl productRolloutHook productNode: color variationAxis {}", productNode.getPath());
                         productNode.setProperty("variationAxis", "color");
                         productNode.setProperty("variationTitle", "Color");
                         changed = true;
                     }
                 } else {
+                    LOG.debug("MyRetailCommerceServiceImpl productRolloutHook productNode: add variationAxis {}", productNode.getPath());
                     if (productNode.hasProperty("variationAxis") && productNode.getProperty("variationAxis").getString().equals("color")) {
                         productNode.setProperty("variationAxis", "");
                         productNode.setProperty("variationTitle", "");
@@ -157,14 +162,17 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
             }
 
             //
-            // Copy my-retail namespaced tags from the product to the product page.
+            // Copy we-retail namespaced tags from the product to the product page.
             //
             if (CommerceHelper.copyTags(productData, productPage.getContentResource(),
                     new Predicate() {
                         @Override
                         public boolean evaluate(Object o) {
 
-                            return ((Tag) o).getNamespace().getName().equals("my-retail");
+                            String name = ((Tag) o).getNamespace().getName();
+                            boolean equals = name.equals("my-retail");
+                            LOG.debug("MyRetailCommerceServiceImpl productRolloutHook copyTags: {}, {}, {}", name, equals, productPage.getPath());
+                            return equals;
                         }
                     })) {
                 changed = true;
@@ -190,6 +198,7 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
                 productPage.getPageManager().touch(productPage.adaptTo(Node.class), true, Calendar.getInstance(), false);
             }
         } catch(RepositoryException|WCMException e) {
+            LOG.error("MyRetailCommerceServiceImpl productRolloutHook: ERROR {}, {}", e);
             throw new CommerceException("Product rollout hook failed: ", e);
         }
     }
@@ -197,15 +206,17 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
     @Override
     public List<ShippingMethod> getAvailableShippingMethods() throws CommerceException {
 
-        LOG.debug("MyRetailCommerceServiceImpl getAvailableShippingMethods: ");
-        return enumerateMethods("/var/commerce/shipping-methods/my-retail", ShippingMethod.class);
+        List<ShippingMethod> enumerateMethods = enumerateMethods("/var/commerce/shipping-methods/we-retail", ShippingMethod.class);
+        LOG.debug("MyRetailCommerceServiceImpl getAvailableShippingMethods: {}", enumerateMethods);
+        return enumerateMethods;
     }
 
     @Override
     public List<PaymentMethod> getAvailablePaymentMethods() throws CommerceException {
 
-        LOG.debug("MyRetailCommerceServiceImpl getAvailablePaymentMethods: ");
-        return enumerateMethods("/var/commerce/payment-methods/my-retail", PaymentMethod.class);
+        List<PaymentMethod> enumerateMethods = enumerateMethods("/var/commerce/payment-methods/we-retail", PaymentMethod.class);
+        LOG.debug("MyRetailCommerceServiceImpl getAvailablePaymentMethods: {}", enumerateMethods);
+        return enumerateMethods;
     }
 
     @Override

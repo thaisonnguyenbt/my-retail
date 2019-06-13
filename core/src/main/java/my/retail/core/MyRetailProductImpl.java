@@ -49,11 +49,6 @@ public class MyRetailProductImpl extends AbstractJcrProduct {
         } else {
             productPage = null;
         }
-        if (productPage != null) {
-            LOG.info("WeRetailProductImpl_INIT: Not null ! {}, {}", resource.getPath(), productPage.getPath());
-        } else {
-            LOG.info("WeRetailProductImpl_INIT: Is null !! {}", resource.getPath());
-        }
     }
 
     @Override
