@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-06-13T16:00:05.034+08:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2019-06-13T16:00:05.037+08:00"
+        cq:lastRolledoutBy="admin"
+        cq:template="/libs/commerce/templates/section"
+        jcr:mixinTypes="[cq:LiveRelationship]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="[Coats,Coats]"
+        sling:resourceType="commerce/components/section">
+        <templates
+            cq:lastRolledout="{Date}2019-06-13T16:00:05.026+08:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            proxyProductPages="false"/>
+        <target
+            cq:lastRolledout="{Date}2019-06-13T16:00:05.032+08:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            coverImage="/content/dam/my-retail/english/products/apparel/coats/Coats_women.jpg"
+            jcr_title="Coats"/>
+        <filter
+            cq:lastRolledout="{Date}2019-06-13T16:00:05.036+08:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            matchTags="[my-retail:gender/women,my-retail:apparel/coat]"
+            searchType="simple"/>
+    </jcr:content>
+</jcr:root>
