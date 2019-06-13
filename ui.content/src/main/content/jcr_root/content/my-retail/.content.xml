@@ -12,9 +12,6 @@
         sling:redirectStatus="{Long}302"
         sling:resourceType="foundation/components/redirect"
         redirectTarget="/content/my-retail/en">
-        <image jcr:primaryType="nt:unstructured">
-            <file/>
-        </image>
     </jcr:content>
     <language-masters/>
 </jcr:root>
