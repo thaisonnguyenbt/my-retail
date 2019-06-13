@@ -18,6 +18,8 @@ package my.retail.core;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.adobe.cq.commerce.common.AbstractJcrProduct;
 import com.day.cq.wcm.api.Page;
@@ -26,6 +28,9 @@ import com.day.cq.wcm.api.PageManager;
 import my.retail.core.util.MyRetailHelper;
 
 public class MyRetailProductImpl extends AbstractJcrProduct {
+
+    private static Logger LOG = LoggerFactory.getLogger(MyRetailProductImpl.class);
+
     public static final String PN_IDENTIFIER = "identifier";
     public static final String PN_PRICE = "price";
 
@@ -43,6 +48,11 @@ public class MyRetailProductImpl extends AbstractJcrProduct {
             productPage = pageManager.getContainingPage(resource);
         } else {
             productPage = null;
+        }
+        if (productPage != null) {
+            LOG.info("WeRetailProductImpl_INIT: Not null ! {}, {}", resource.getPath(), productPage.getPath());
+        } else {
+            LOG.info("WeRetailProductImpl_INIT: Is null !! {}", resource.getPath());
         }
     }
 
