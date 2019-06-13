@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:catalogVersion="561"
+        cq:lastModified="{Date}2019-06-13T19:19:53.949+08:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2019-06-13T19:19:17.194+08:00"
+        cq:lastRolledoutBy="admin"
+        cq:template="/libs/commerce/templates/catalog"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:language="en"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="My.retail Website Catalog"
+        jcr:uuid="99cd87a5-a152-43c6-86ed-5f2b04df64ce"
+        sling:resourceType="commerce/components/catalog"
+        coverUrl="/content/dam/my-retail/english/products/Product_catalog.jpg">
+        <target
+            cq:lastRolledout="{Date}2019-06-13T19:19:17.189+08:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            coverImage="/content/dam/my-retail/english/products/Product_catalog.jpg"/>
+        <templates
+            cq:lastRolledout="{Date}2019-06-13T19:19:17.192+08:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            catalog="/content/catalogs/my-retail/en/website-template-pages/catalog-page-template"
+            product="/content/catalogs/my-retail/en/website-template-pages/product-page-template"
+            proxyProductPages="false"
+            section="/content/catalogs/my-retail/en/website-template-pages/section-page-template"/>
+        <filter
+            cq:lastRolledout="{Date}2019-06-13T19:19:17.194+08:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            basePath="/var/commerce/products/my-retail"
+            searchType="simple"/>
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/catalogs/my-retail/en/master-catalog"
+            cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default]"
+            jcr:primaryType="cq:LiveCopy"/>
+        <cq:CatalogSyncConfig jcr:primaryType="cq:CatalogSyncConfig">
+            <catalog
+                cq:catalogPath="/content/my-retail/language-masters/en/products"
+                cq:rolloutConfigs="[/libs/msm/catalog/rolloutconfigs/catalogpagecontent,/libs/msm/catalog/rolloutconfigs/catalogrollouthooks]"
+                jcr:primaryType="nt:unstructured"/>
+        </cq:CatalogSyncConfig>
+    </jcr:content>
+    <women/>
+    <men/>
+    <equipment/>
+</jcr:root>

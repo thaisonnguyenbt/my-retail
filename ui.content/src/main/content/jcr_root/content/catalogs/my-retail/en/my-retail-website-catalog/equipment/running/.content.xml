@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-06-13T19:19:17.546+08:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2019-06-13T19:19:17.548+08:00"
+        cq:lastRolledoutBy="admin"
+        cq:template="/libs/commerce/templates/section"
+        jcr:mixinTypes="[cq:LiveRelationship]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="[Running,Running]"
+        sling:resourceType="commerce/components/section"
+        navTitle="Running"
+        pageTitle="Running">
+        <templates
+            cq:lastRolledout="{Date}2019-06-13T19:19:17.542+08:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            proxyProductPages="false"/>
+        <target
+            cq:lastRolledout="{Date}2019-06-13T19:19:17.545+08:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            coverImage="/content/dam/my-retail/english/activities/running/running_5.jpg"
+            jcr_title="Running"
+            navTitle="Running"/>
+        <filter
+            cq:lastRolledout="{Date}2019-06-13T19:19:17.548+08:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            matchTags="[my-retail:activity/running]"
+            searchType="simple"/>
+    </jcr:content>
+</jcr:root>

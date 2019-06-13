@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-06-10T00:01:52.832+08:00"
+        cq:lastModified="{Date}2019-06-13T19:18:32.454+08:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/my-retail/settings/wcm/templates/product-page"
         jcr:language="en"
@@ -41,4 +41,5 @@
             <file/>
         </image>
     </jcr:content>
+    <thumbnail.png/>
 </jcr:root>
