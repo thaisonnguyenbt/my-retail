@@ -94,9 +94,7 @@
                 </productgrid>
             </product-grid-container>
         </root>
-        <image jcr:primaryType="nt:unstructured">
-            <file/>
-        </image>
+        <image jcr:primaryType="nt:unstructured"/>
     </jcr:content>
     <thumbnail.png/>
 </jcr:root>

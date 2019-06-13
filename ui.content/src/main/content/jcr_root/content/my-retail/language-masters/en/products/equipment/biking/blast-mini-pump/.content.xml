@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-06-13T19:20:25.266+08:00"
+        cq:lastModified="{Date}2019-06-14T00:17:11.515+08:00"
         cq:lastModifiedBy="admin"
         cq:productMaster="/var/commerce/products/my-retail/eq/biking/eqbisublp"
         cq:tags="[my-retail:equipment,my-retail:activity/biking,my-retail:season/summer]"
@@ -64,9 +64,7 @@
         <image
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
-            fileReference="/content/dam/my-retail/english/products/activities/biking/Blast.jpg">
-            <file/>
-        </image>
+            fileReference="/content/dam/my-retail/english/products/activities/biking/Blast.jpg"/>
         <cq:LiveSyncConfig
             cq:isDeep="{Boolean}false"
             cq:master="/content/catalogs/my-retail/en/website-template-pages/product-page-template"

@@ -2,9 +2,9 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-06-13T19:19:17.434+08:00"
+        cq:lastModified="{Date}2019-06-14T00:14:58.453+08:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2019-06-13T19:19:17.436+08:00"
+        cq:lastRolledout="{Date}2019-06-14T00:14:58.454+08:00"
         cq:lastRolledoutBy="admin"
         cq:template="/libs/commerce/templates/section"
         jcr:mixinTypes="[cq:LiveRelationship]"
@@ -12,20 +12,20 @@
         jcr:title="[Scarfs,Scarfs]"
         sling:resourceType="commerce/components/section">
         <templates
-            cq:lastRolledout="{Date}2019-06-13T19:19:17.431+08:00"
+            cq:lastRolledout="{Date}2019-06-14T00:14:58.449+08:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             proxyProductPages="false"/>
         <target
-            cq:lastRolledout="{Date}2019-06-13T19:19:17.433+08:00"
+            cq:lastRolledout="{Date}2019-06-14T00:14:58.452+08:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             coverImage="/content/dam/my-retail/english/products/apparel/scarfs/Scarfs.jpg"
             jcr_title="Scarfs"/>
         <filter
-            cq:lastRolledout="{Date}2019-06-13T19:19:17.435+08:00"
+            cq:lastRolledout="{Date}2019-06-14T00:14:58.454+08:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"

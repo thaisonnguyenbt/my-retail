@@ -5,9 +5,9 @@
         cq:catalogBlueprint="/content/catalogs/my-retail/en/my-retail-website-catalog"
         cq:commerceProvider="my-retail"
         cq:commerceType="section"
-        cq:lastModified="{Date}2019-06-13T19:20:23.383+08:00"
+        cq:lastModified="{Date}2019-06-14T00:17:10.032+08:00"
         cq:lastModifiedBy="admin"
-        cq:lastPropertyRollout="{Date}2019-06-13T19:20:23.381+08:00"
+        cq:lastPropertyRollout="{Date}2019-06-14T00:17:10.032+08:00"
         cq:template="/conf/my-retail/settings/wcm/templates/section-page"
         jcr:language="en"
         jcr:mixinTypes="[cq:LiveSync]"
@@ -120,9 +120,7 @@
         </root>
         <image
             jcr:mixinTypes="[cq:LiveRelationship]"
-            jcr:primaryType="nt:unstructured">
-            <file/>
-        </image>
+            jcr:primaryType="nt:unstructured"/>
         <cq:LiveSyncConfig
             cq:isDeep="{Boolean}false"
             cq:master="/content/catalogs/my-retail/en/website-template-pages/catalog-page-template"

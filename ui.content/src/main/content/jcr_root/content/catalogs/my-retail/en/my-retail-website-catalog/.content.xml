@@ -3,9 +3,9 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:catalogVersion="561"
-        cq:lastModified="{Date}2019-06-13T19:19:53.949+08:00"
+        cq:lastModified="{Date}2019-06-14T00:15:52.680+08:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2019-06-13T19:19:17.194+08:00"
+        cq:lastRolledout="{Date}2019-06-14T00:14:58.227+08:00"
         cq:lastRolledoutBy="admin"
         cq:template="/libs/commerce/templates/catalog"
         jcr:isCheckedOut="{Boolean}true"
@@ -13,17 +13,17 @@
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="My.retail Website Catalog"
-        jcr:uuid="99cd87a5-a152-43c6-86ed-5f2b04df64ce"
+        jcr:uuid="aa973df6-80e2-4699-aeb4-741decac68cf"
         sling:resourceType="commerce/components/catalog"
         coverUrl="/content/dam/my-retail/english/products/Product_catalog.jpg">
         <target
-            cq:lastRolledout="{Date}2019-06-13T19:19:17.189+08:00"
+            cq:lastRolledout="{Date}2019-06-14T00:14:58.221+08:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             coverImage="/content/dam/my-retail/english/products/Product_catalog.jpg"/>
         <templates
-            cq:lastRolledout="{Date}2019-06-13T19:19:17.192+08:00"
+            cq:lastRolledout="{Date}2019-06-14T00:14:58.223+08:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
@@ -32,7 +32,7 @@
             proxyProductPages="false"
             section="/content/catalogs/my-retail/en/website-template-pages/section-page-template"/>
         <filter
-            cq:lastRolledout="{Date}2019-06-13T19:19:17.194+08:00"
+            cq:lastRolledout="{Date}2019-06-14T00:14:58.226+08:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"

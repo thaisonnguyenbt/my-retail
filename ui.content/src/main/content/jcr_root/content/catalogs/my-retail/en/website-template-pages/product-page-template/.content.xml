@@ -37,9 +37,7 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="my-retail/components/structure/productrecommendation"/>
         </root>
-        <image jcr:primaryType="nt:unstructured">
-            <file/>
-        </image>
+        <image jcr:primaryType="nt:unstructured"/>
     </jcr:content>
     <thumbnail.png/>
 </jcr:root>
