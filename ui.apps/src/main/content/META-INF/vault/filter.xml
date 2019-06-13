@@ -3,4 +3,8 @@
     <filter root="/apps/my-retail"/>
     <filter root="/apps/sling" />
     <filter root="/apps/public/myretail"/>
+    
+    <filter root="/var/commerce/payment-methods/my-retail"/>
+    <filter root="/var/commerce/shipping-methods/my-retail"/>
+    <filter root="/apps/msm/my-retail/blueprintconfigs/my-retail"/>
 </workspaceFilter>
