@@ -647,6 +647,12 @@
 			    <type>zip</type>
 			    <classifier>min</classifier> <!-- optional, see below -->
 			</dependency>
+			<dependency>
+			    <groupId>com.adobe.cq</groupId>
+			    <artifactId>core.wcm.components.extension</artifactId>
+			    <version>1.0.12</version>
+				<type>zip</type>
+			</dependency>
             
             <dependency>
                 <groupId>org.apache.geronimo.specs</groupId>
@@ -720,5 +726,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 </project>
