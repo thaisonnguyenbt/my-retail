@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="c2d1dd7a-1389-475b-a5cb-5f6c478c4dc5">
     <jcr:content
+        cq:name="fly-fishing-the-amazon-1.jpg"
+        cq:parentPath="/content/dam/my-retail/english/experiences/fly-fishing-the-amazon"
         dam:assetState="processed"
         dam:relativePath="my-retail/english/experiences/fly-fishing-the-amazon/fly-fishing-the-amazon-1.jpg"
-        jcr:lastModified="{Date}2018-02-07T16:53:59.183+01:00"
+        jcr:lastModified="{Date}2019-06-16T03:04:03.982+08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -120,7 +123,8 @@
             crs:Whites2012="{Long}17"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20130809"
-            dam:extracted="{Date}2018-02-07T16:53:58.891+01:00"
+            dam:DigitalCreationTime="182313+0200"
+            dam:extracted="{Date}2019-06-16T03:04:03.590+08:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -130,18 +134,19 @@
             dam:Physicalwidthindpi="{Long}240"
             dam:Physicalwidthininches="{Decimal}6.75"
             dam:Progressive="no"
-            dam:sha1="3bd5e5bf31ffb1fcac4b414a5f2bd455c4a1dcea"
-            dam:size="{Long}178158"
-            dam:TimeCreated="182313+0000"
-            dc:date="{Long}[20130809]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dam:sha1="389b1705df078bb66e7cca2be95fa8684d693429"
+            dam:size="{Long}178793"
+            dam:TimeCreated="182313+0200"
+            dc:date="{Long}[20130809,20130809,20130809]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
-            dc:subject="[bolivia,fly-fishing]"
+            dc:modified="{Date}2019-06-16T03:04:02.276+08:00"
+            dc:subject="[bolivia,fly-fishing,bolivia,fly-fishing,bolivia,fly-fishing]"
             dc:subject_xmpArrayType="rdf:Bag"
             exif:ApertureValue="6/1"
             exif:ColorSpace="{Long}65535"
             exif:CustomRendered="{Long}0"
-            exif:DateTimeOriginal="{Date}2013-08-09T18:23:13.000+02:00"
+            exif:DateTimeOriginal="{Date}2013-08-09T18:23:13.000+08:00"
             exif:ExifVersion="0230"
             exif:ExposureBiasValue="-1/3"
             exif:ExposureMode="{Long}0"
@@ -169,6 +174,8 @@
             exifEX:PhotographicSensitivity="{Long}1000"
             exifEX:RecommendedExposureIndex="{Long}1000"
             exifEX:SensitivityType="{Long}2"
+            jcr:lastModified="{Date}2019-06-16T03:04:02.276+08:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:ColorMode="{Long}3"
@@ -246,13 +253,13 @@
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
-            dam:score="{Long}1"
+            dam:score="{Long}2"
             jcr:primaryType="nt:unstructured"
             usedBy="[aem]">
             <aem
                 jcr:primaryType="nt:unstructured"
-                count="{Long}1"
-                lastUsed="{Date}2018-02-07T16:52:46.179+01:00"/>
+                count="{Long}2"
+                lastUsed="{Date}2019-06-16T03:15:28.776+08:00"/>
         </usages>
     </jcr:content>
 </jcr:root>

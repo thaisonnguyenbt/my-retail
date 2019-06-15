@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="d884b858-6c04-4137-b813-d2d2ef67b441">
     <jcr:content
+        cq:name="skitouring-1.jpg"
+        cq:parentPath="/content/dam/my-retail/english/experiences/skitouring"
         dam:assetState="processed"
         dam:relativePath="my-retail/english/experiences/skitouring/skitouring-1.jpg"
-        jcr:lastModified="{Date}2018-02-07T17:20:45.124+01:00"
+        jcr:lastModified="{Date}2019-06-16T03:04:02.994+08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -132,7 +135,7 @@
             crs:WhiteBalance="Custom"
             crs:Whites2012="{Long}76"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-02-07T17:20:44.810+01:00"
+            dam:extracted="{Date}2019-06-16T03:04:02.641+08:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -142,16 +145,17 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}5.400000095367432"
             dam:Progressive="no"
-            dam:sha1="c5d1fb3d2222d84b1761e87359db8e609bf4435a"
-            dam:size="{Long}110077"
-            dam:TimeCreated="200722+0000"
-            dc:date="{Long}[20160513]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dam:sha1="b77152d1f29697888d9dc19dd8b25b6c3514f4e2"
+            dam:size="{Long}110707"
+            dam:TimeCreated="200722+0200"
+            dc:date="{Long}[20160513,20160513,20160513]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
+            dc:modified="{Date}2019-06-16T03:04:00.567+08:00"
             exif:ApertureValue="4970854/1000000"
             exif:ColorSpace="{Long}65535"
             exif:CustomRendered="{Long}0"
-            exif:DateTimeOriginal="{Date}2016-05-13T20:07:22.890+02:00"
+            exif:DateTimeOriginal="{Date}2016-05-13T20:07:22.890+08:00"
             exif:ExifVersion="0230"
             exif:ExposureBiasValue="0/1"
             exif:ExposureMode="{Long}1"
@@ -179,6 +183,8 @@
             exifEX:PhotographicSensitivity="{Long}160"
             exifEX:RecommendedExposureIndex="{Long}160"
             exifEX:SensitivityType="{Long}2"
+            jcr:lastModified="{Date}2019-06-16T03:04:00.567+08:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:ColorMode="{Long}3"
@@ -222,6 +228,12 @@
                 exif:RedEyeMode="{Boolean}false"
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:b19719b1-5a5d-1179-a9d0-f4a297edffc4"
+                stRef:instanceID="xmp.iid:5d37f431-dc6b-470a-8d00-be4f3b8ba709"
+                stRef:originalDocumentID="D42BEBA8E33227EE90A4E00A79D1FE8C"
                 xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
@@ -292,12 +304,6 @@
                     stEvt:when="{Date}2018-02-07T17:20:21.000+01:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="adobe:docid:photoshop:b19719b1-5a5d-1179-a9d0-f4a297edffc4"
-                stRef:instanceID="xmp.iid:5d37f431-dc6b-470a-8d00-be4f3b8ba709"
-                stRef:originalDocumentID="D42BEBA8E33227EE90A4E00A79D1FE8C"
-                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
