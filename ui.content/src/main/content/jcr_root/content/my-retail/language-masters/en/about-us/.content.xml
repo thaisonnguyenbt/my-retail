@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:template="/conf/my-retail/settings/wcm/templates/myretail-hero-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="My.Retail About Us"
+        jcr:title="About Us"
         sling:resourceType="my-retail/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
