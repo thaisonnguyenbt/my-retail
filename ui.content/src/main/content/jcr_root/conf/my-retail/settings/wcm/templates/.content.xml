@@ -2,11 +2,11 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
-    <content-page/>
     <myretail-hero-page/>
     <rep:policy/>
     <myretail-redirect-page/>
     <section-page/>
     <product-page/>
     <my-retail-experience-page/>
+    <my-retail-content-page/>
 </jcr:root>
