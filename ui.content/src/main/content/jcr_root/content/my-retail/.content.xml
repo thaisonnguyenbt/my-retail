@@ -4,6 +4,7 @@
     <jcr:content
         cq:allowedTemplates="/conf/my-retail/settings/wcm/templates/.*"
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:template="/conf/my-retail/settings/wcm/templates/myretail-redirect-page"
         cq:lastModified="{Date}2019-06-08T03:18:02.149+08:00"
         cq:lastModifiedBy="admin"
         jcr:primaryType="cq:PageContent"
