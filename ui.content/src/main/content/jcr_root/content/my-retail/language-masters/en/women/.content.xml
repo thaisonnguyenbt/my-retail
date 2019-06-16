@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-06-16T15:12:05.700+08:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/my-retail/settings/wcm/templates/myretail-hero-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Women"
+        sling:resourceType="my-retail/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2019-06-02T18:48:35.556+08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-06-02T19:00:16.468+08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title
+                    jcr:created="{Date}2019-06-16T14:58:17.072+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T14:58:44.689+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="FEATURED PRODUCTS"
+                    sling:resourceType="my-retail/components/content/title"
+                    type="h2"/>
+                <productgrid
+                    jcr:created="{Date}2019-06-16T14:59:13.249+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T15:03:31.682+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-retail/components/content/productgrid"
+                    childDepth="1"
+                    listFrom="static"
+                    pages="[/content/my-retail/language-masters/en/products/women/shorts/bahamas-shorts,/content/my-retail/language-masters/en/products/women/pants/hiking-pants,/content/my-retail/language-masters/en/products/women/shirts/devi-sleeveless-shirt,/content/my-retail/language-masters/en/products/women/shorts/candide-trail-short,/content/my-retail/language-masters/en/products/women/shorts/fleet-fox-running-shorts,/content/my-retail/language-masters/en/products/women/shirts/soleil-tunic]"
+                    sortOrder="asc"
+                    tagsMatch="any"/>
+                <button
+                    jcr:created="{Date}2019-06-16T15:05:03.613+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T15:05:21.096+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-retail/components/content/button"
+                    label="All women's products"
+                    linkTo="/content/my-retail/language-masters/en/products/women"/>
+                <teaser
+                    jcr:created="{Date}2019-06-16T15:05:48.864+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T15:08:36.264+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Push the limits"
+                    sling:resourceType="my-retail/components/content/teaser"
+                    actionsEnabled="true"
+                    descriptionFromPage="false"
+                    fileReference="/content/dam/my-retail/english/activities/climbing/kalymnos-island-female.jpg"
+                    textIsRich="true"
+                    titleFromPage="false">
+                    <actions jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            link="/content/my-retail/language-masters/en/products/women/shirts"
+                            text="Our strongest clothes"/>
+                    </actions>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </teaser>
+                <teaser_237876233
+                    jcr:created="{Date}2019-06-16T15:08:59.916+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T15:10:28.090+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Always comfortable"
+                    sling:resourceType="my-retail/components/content/teaser"
+                    actionsEnabled="true"
+                    descriptionFromPage="false"
+                    fileReference="/content/dam/my-retail/english/activities/running/running-desert-woman.jpg"
+                    textIsRich="true"
+                    titleFromPage="false">
+                    <actions jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            link="/content/my-retail/language-masters/en/products/women/coats"
+                            text="Our warmest jackets"/>
+                    </actions>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </teaser_237876233>
+                <title_2124334427
+                    jcr:created="{Date}2019-06-16T15:11:06.011+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T15:11:12.270+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Girls' top stories"
+                    sling:resourceType="my-retail/components/content/title"
+                    type="h2"/>
+                <list
+                    cq:styleIds="[1560665261362,1560665350142]"
+                    jcr:created="{Date}2019-06-16T15:11:19.616+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T15:11:50.347+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-retail/components/content/list"
+                    childDepth="1"
+                    itemType="article"
+                    linkItems="true"
+                    listFrom="children"
+                    orderBy="title"
+                    parentPage="/content/my-retail/language-masters/en/experience"
+                    showDescription="false"
+                    showModificationDate="true"
+                    sortOrder="asc"
+                    tagsMatch="any"/>
+            </responsivegrid>
+            <heroimage
+                jcr:created="{Date}2019-06-02T02:24:29.963+08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-06-16T14:58:01.775+08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="my-retail/components/content/heroimage"
+                fileReference="/content/dam/my-retail/english/activities/running/fitness-woman.jpg"
+                useFullWidth="true"/>
+        </root>
+    </jcr:content>
+</jcr:root>
