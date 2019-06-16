@@ -148,12 +148,12 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
-                        jcr:lastModified="{Date}2019-06-10T14:03:56.304+08:00"
+                        jcr:lastModified="{Date}2019-06-16T23:25:49.213+08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="My.Retail Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,group:My.Retail,group:My.Retail Commerce,group:My.Retail Form,group:My.Retail.Structure]"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:Commerce,group:My.Retail,group:My.Retail Commerce,group:My.Retail Form,group:My.Retail.Structure]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
