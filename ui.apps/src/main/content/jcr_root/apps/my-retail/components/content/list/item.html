@@ -26,7 +26,7 @@
 <template data-sly-template.article="${@ list, item}">
     <article>
         <a class="cmp-list__item-link" href="${item.URL}" data-sly-unwrap="${!list.linkItems}">
-            <sly data-sly-resource="${item.path @ appendPath='/_jcr_content/root/hero_image', resourceType='my-retail/components/content/image', decoration='false'}"></sly>
+            <sly data-sly-resource="${item.path @ appendPath='/_jcr_content/root/heroimage', resourceType='my-retail/components/content/image', decoration='false'}"></sly>
             <span class="cmp-list__item-title">${item.title}</span>
             <span data-sly-test="${list.showModificationDate}"
                   class="cmp-list__item-date">${list.dateFormatString @format=item.lastModified}</span>
