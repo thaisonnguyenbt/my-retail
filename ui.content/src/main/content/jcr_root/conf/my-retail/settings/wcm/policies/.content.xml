@@ -17,7 +17,7 @@
             </form>
             <content jcr:primaryType="nt:unstructured">
                 <teaser jcr:primaryType="nt:unstructured">
-                    <policy_1559545876047
+                    <my-retail-default-teaser
                         cq:styleDefaultClasses="my-Teaser"
                         jcr:lastModified="{Date}2019-06-03T15:14:43.235+08:00"
                         jcr:lastModifiedBy="admin"
@@ -43,7 +43,7 @@
                                 </cq:styles>
                             </item0>
                         </cq:styleGroups>
-                    </policy_1559545876047>
+                    </my-retail-default-teaser>
                 </teaser>
                 <breadcrumb jcr:primaryType="nt:unstructured">
                     <my-retail-product-page
@@ -73,6 +73,58 @@
                     </my-retail-section-page>
                 </title>
                 <heroimage jcr:primaryType="nt:unstructured"/>
+                <list jcr:primaryType="nt:unstructured">
+                    <my-retail-default-list
+                        jcr:lastModified="{Date}2019-06-16T14:09:23.820+08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="My.Retail Default"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        disableChildren="false"
+                        disableSearch="false"
+                        disableStatic="false"
+                        disableTags="false"
+                        linkItems="false"
+                        showDescription="false"
+                        showModificationDate="false">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Layout"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="my-list--block my-list--teaser"
+                                        cq:styleId="1560665228620"
+                                        cq:styleLabel="Block"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="my-list--grid my-list--teaser"
+                                        cq:styleId="1560665261362"
+                                        cq:styleLabel="Grid"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                            <item1
+                                cq:styleGroupLabel="Display"
+                                cq:styleGroupMultiple="true"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="my-list--date"
+                                        cq:styleId="1560665319146"
+                                        cq:styleLabel="Date"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="my-list--image"
+                                        cq:styleId="1560665350142"
+                                        cq:styleLabel="Image"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item1>
+                        </cq:styleGroups>
+                    </my-retail-default-list>
+                </list>
             </content>
             <structure jcr:primaryType="nt:unstructured">
                 <page jcr:primaryType="nt:unstructured">
