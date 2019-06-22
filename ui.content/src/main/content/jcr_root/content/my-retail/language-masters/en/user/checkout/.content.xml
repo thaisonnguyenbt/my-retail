@@ -2,63 +2,90 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-06-16T23:27:24.032+08:00"
+        cq:checkoutPage=""
+        cq:lastModified="{Date}2017-01-23T16:22:41.693+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/my-retail/settings/wcm/templates/my-retail-content-page"
+        jcr:lastModified="{Date}2016-09-08T15:22:11.728+02:00"
+        jcr:lastModifiedBy="admin"
         jcr:primaryType="cq:PageContent"
         jcr:title="Checkout"
-        sling:resourceType="my-retail/components/structure/page">
+        sling:resourceType="my-retail/components/structure/page"
+        hideInNav="true">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <responsivegrid
-                jcr:created="{Date}2019-06-16T20:14:43.462+08:00"
+                jcr:created="{Date}2016-01-13T15:58:09.854+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-06-16T20:15:25.626+08:00"
+                jcr:lastModified="2016-01-13T15:58:50.877+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
-                <checkoutform
-                    jcr:created="{Date}2019-06-16T22:00:24.065+08:00"
+                <formcontainer
+                    jcr:created="{Date}2017-01-23T16:14:01.728+01:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-06-16T22:01:11.543+08:00"
+                    jcr:lastModified="{Date}2017-01-23T16:14:01.728+01:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="my-retail/components/content/checkoutform"
-                    action="/content/usergenerated/my-retail/language-masters/en/user/checkout/cq-gen1560693624067/"
+                    action="/content/usergenerated/my-retail/language-masters/en/user/checkout/cq-gen1485184441766/"
                     actionType="commerce/components/actions/updateorder"
                     formid="checkout"
                     redirect="/content/my-retail/language-masters/en/user/checkout/order">
-                    <responsivegrid
-                        jcr:created="{Date}2019-06-16T22:01:55.916+08:00"
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="8"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                        <intermediate
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                    <column1
+                        jcr:created="{Date}2016-11-17T09:59:29.539+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-06-16T22:01:55.916+08:00"
+                        jcr:lastModified="{Date}2016-11-17T09:59:29.539+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
-                                offset="0"
+                                width="4"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                width="12"/>
+                            <intermediate
+                                jcr:primaryType="nt:unstructured"
+                                width="4"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
                                 width="4"/>
                         </cq:responsive>
-                        <title
-                            jcr:created="{Date}2019-06-16T22:03:16.122+08:00"
+                        <shipping-address-title
+                            jcr:created="{Date}2016-11-10T09:45:14.834+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T22:03:37.640+08:00"
+                            jcr:lastModified="{Date}2016-11-10T09:45:46.049+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Shipping Address"
                             sling:resourceType="my-retail/components/content/title"
                             type="h4"/>
-                        <text
-                            jcr:created="{Date}2019-06-16T22:04:13.401+08:00"
+                        <shipping.firstname
+                            jcr:created="{Date}2016-11-10T09:41:00.403+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T22:05:02.930+08:00"
+                            jcr:lastModified="{Date}2016-11-30T09:57:44.695+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Firstname"
                             sling:resourceType="my-retail/components/form/text"
+                            constraintType="text"
                             helpMessage="Firstname"
                             hideTitle="true"
                             name="shipping.firstname"
@@ -66,71 +93,72 @@
                             rows="2"
                             type="text"
                             usePlaceholder="true"/>
-                        <text_2057999270
-                            jcr:created="{Date}2019-06-16T22:34:23.360+08:00"
+                        <shipping.lastname
+                            jcr:created="{Date}2016-11-10T09:41:00.403+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T22:35:12.463+08:00"
+                            jcr:lastModified="{Date}2016-11-17T10:05:39.321+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Lastname"
                             sling:resourceType="my-retail/components/form/text"
+                            constraintType="text"
                             helpMessage="Lastname"
                             hideTitle="true"
                             name="shipping.lastname"
                             required="true"
-                            rows="2"
                             type="text"
                             usePlaceholder="true"/>
-                        <text_305746245
-                            jcr:created="{Date}2019-06-16T22:35:46.071+08:00"
+                        <shipping.street1
+                            jcr:created="{Date}2016-11-10T09:41:45.846+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T22:36:17.177+08:00"
+                            jcr:lastModified="{Date}2016-11-17T10:05:50.315+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Address line 1"
                             sling:resourceType="my-retail/components/form/text"
+                            constraintType="text"
                             helpMessage="Address line 1"
                             hideTitle="true"
                             name="shipping.street1"
-                            rows="2"
                             type="text"
                             usePlaceholder="true"/>
-                        <text_2017950102
-                            jcr:created="{Date}2019-06-16T22:36:56.827+08:00"
+                        <shipping.street2
+                            jcr:created="{Date}2016-11-10T09:41:54.541+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T22:37:29.283+08:00"
+                            jcr:lastModified="{Date}2016-11-17T10:05:58.195+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Address line 2"
                             sling:resourceType="my-retail/components/form/text"
+                            constraintType="text"
                             helpMessage="Address line 2"
                             hideTitle="true"
                             name="shipping.street2"
-                            rows="2"
                             type="text"
                             usePlaceholder="true"/>
-                        <text_2135459327
-                            jcr:created="{Date}2019-06-16T22:37:52.385+08:00"
+                        <shipping.city
+                            jcr:created="{Date}2016-11-10T09:42:10.714+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T22:38:11.912+08:00"
+                            jcr:lastModified="{Date}2016-11-17T10:06:10.373+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="City"
                             sling:resourceType="my-retail/components/form/text"
+                            constraintType="text"
                             helpMessage="City"
                             hideTitle="true"
                             name="shipping.city"
-                            rows="2"
                             type="text"
                             usePlaceholder="true"/>
-                        <text_460526014
-                            jcr:created="{Date}2019-06-16T22:38:35.211+08:00"
+                        <shipping.zip
+                            jcr:created="{Date}2016-11-10T09:42:14.074+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T22:39:14.194+08:00"
+                            jcr:lastModified="{Date}2016-11-17T10:06:24.400+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="NPA"
                             sling:resourceType="my-retail/components/form/text"
+                            constraintType="text"
                             helpMessage="NPA"
                             hideTitle="true"
                             name="shipping.zip"
@@ -139,14 +167,32 @@
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
+                                    width="2"/>
+                            </cq:responsive>
+                        </shipping.zip>
+                        <shipping.state
+                            jcr:created="{Date}2016-11-17T17:37:33.693+01:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-12-15T10:19:44.010+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="State"
+                            sling:resourceType="my-retail/components/form/options"
+                            listPath="/content/my-retail/resources/states/us"
+                            name="shipping.state"
+                            source="list"
+                            type="drop-down">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="2"/>
                             </cq:responsive>
-                        </text_460526014>
-                        <options
-                            jcr:created="{Date}2019-06-16T22:40:17.275+08:00"
+                        </shipping.state>
+                        <shipping.country
+                            jcr:created="{Date}2016-11-17T16:56:18.279+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T22:42:01.220+08:00"
+                            jcr:lastModified="{Date}2016-12-14T13:51:55.670+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Country"
@@ -155,22 +201,21 @@
                             name="shipping.country"
                             source="datasource"
                             type="drop-down"/>
-                        <title_1934808579
-                            jcr:created="{Date}2019-06-16T22:42:33.083+08:00"
+                        <billing-address-title
+                            jcr:created="{Date}2016-11-10T09:46:07.485+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T22:42:48.787+08:00"
+                            jcr:lastModified="{Date}2016-11-10T09:46:45.124+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Billing Address"
+                            jcr:title="Billing address"
                             sling:resourceType="my-retail/components/content/title"
                             type="h4"/>
-                        <options_1484131708
-                            jcr:created="{Date}2019-06-16T22:43:22.627+08:00"
+                        <billing-is-shipping-address
+                            jcr:created="{Date}2016-11-18T13:47:35.063+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T22:50:05.432+08:00"
+                            jcr:lastModified="{Date}2016-12-14T15:41:22.119+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Same as Shipping Address"
                             sling:resourceType="my-retail/components/form/options"
                             name="billing-is-shipping-address"
                             source="local"
@@ -182,149 +227,364 @@
                                     text="Same as shipping address"
                                     value="yes"/>
                             </items>
-                        </options_1484131708>
-                        <text_1458076971
-                            jcr:created="{Date}2019-06-16T22:58:53.112+08:00"
+                        </billing-is-shipping-address>
+                        <billing.firstname
+                            jcr:created="{Date}2016-11-10T09:41:00.403+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T22:59:45.030+08:00"
+                            jcr:lastModified="{Date}2016-11-17T10:06:53.867+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Firstname"
                             sling:resourceType="my-retail/components/form/text"
+                            constraintType="text"
                             helpMessage="Firstname"
                             hideTitle="true"
                             name="billing.firstname"
-                            rows="2"
                             type="text"
                             usePlaceholder="true"/>
-                        <text_54580458
-                            jcr:created="{Date}2019-06-16T23:00:09.577+08:00"
+                        <billing.lastname
+                            jcr:created="{Date}2016-11-10T09:41:00.403+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T23:00:30.013+08:00"
+                            jcr:lastModified="{Date}2016-11-17T10:07:03.891+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Lastname"
                             sling:resourceType="my-retail/components/form/text"
+                            constraintType="text"
                             helpMessage="Lastname"
                             hideTitle="true"
                             name="billing.lastname"
-                            rows="2"
                             type="text"
                             usePlaceholder="true"/>
-                        <text_1880206741
-                            jcr:created="{Date}2019-06-16T23:00:45.398+08:00"
+                        <billing.street1
+                            jcr:created="{Date}2016-11-10T09:41:45.846+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T23:01:11.094+08:00"
+                            jcr:lastModified="{Date}2016-11-17T10:07:13.188+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Address Line 1"
+                            jcr:title="Address line 1"
                             sling:resourceType="my-retail/components/form/text"
-                            helpMessage="Address Line 1"
+                            constraintType="text"
+                            helpMessage="Address line 1"
                             hideTitle="true"
                             name="billing.street1"
-                            rows="2"
                             type="text"
                             usePlaceholder="true"/>
-                        <text_577498855
-                            jcr:created="{Date}2019-06-16T23:01:27.823+08:00"
+                        <billing.street2
+                            jcr:created="{Date}2016-11-10T09:41:54.541+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T23:01:52.009+08:00"
+                            jcr:lastModified="{Date}2016-11-17T10:07:22.048+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Address line 2"
                             sling:resourceType="my-retail/components/form/text"
+                            constraintType="text"
                             helpMessage="Address line 2"
                             hideTitle="true"
                             name="billing.street2"
-                            rows="2"
                             type="text"
                             usePlaceholder="true"/>
-                        <text_1782728397
-                            jcr:created="{Date}2019-06-16T23:02:07.009+08:00"
+                        <billing.city
+                            jcr:created="{Date}2016-11-10T09:42:10.714+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T23:02:23.921+08:00"
+                            jcr:lastModified="{Date}2016-11-17T10:07:31.401+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="City"
                             sling:resourceType="my-retail/components/form/text"
+                            constraintType="text"
                             helpMessage="City"
                             hideTitle="true"
                             name="billing.city"
-                            rows="2"
                             type="text"
                             usePlaceholder="true"/>
-                        <text_1849794871
-                            jcr:created="{Date}2019-06-16T23:02:45.610+08:00"
+                        <billing.zip
+                            jcr:created="{Date}2016-11-10T09:42:14.074+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T23:02:59.815+08:00"
+                            jcr:lastModified="{Date}2016-11-17T10:07:39.678+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="NPA"
                             sling:resourceType="my-retail/components/form/text"
+                            constraintType="text"
                             helpMessage="NPA"
                             hideTitle="true"
                             name="billing.zip"
-                            rows="2"
                             type="text"
                             usePlaceholder="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
+                            </cq:responsive>
+                        </billing.zip>
+                        <billing.state
+                            jcr:created="{Date}2016-11-17T17:37:33.693+01:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-11-18T10:04:48.894+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="my-retail/components/form/options"
+                            caption="State"
+                            listPath="/content/my-retail/resources/states/us"
+                            name="billing.state"
+                            source="list"
+                            type="drop-down">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="2"/>
                             </cq:responsive>
-                        </text_1849794871>
-                        <options_1879612840
-                            jcr:created="{Date}2019-06-16T23:03:49.368+08:00"
+                        </billing.state>
+                        <billing.country
+                            jcr:created="{Date}2016-11-17T16:56:18.279+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T23:04:54.908+08:00"
+                            jcr:lastModified="{Date}2016-12-14T15:41:01.126+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Country"
                             sling:resourceType="my-retail/components/form/options"
+                            caption="Country"
                             datasourceRT="my-retail/components/form/options/datasource/countriesdatasource"
                             name="billing.country"
                             source="datasource"
-                            type="drop-down"/>
-                    </responsivegrid>
-                    <responsivegrid_1966488154
-                        jcr:created="{Date}2019-06-16T22:02:00.667+08:00"
+                            type="drop-down">
+                            <items jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    disabled="true"
+                                    selected="true"
+                                    text="Country"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    text="France"
+                                    value="FR"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    text="Germany"
+                                    value="DE"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    text="Switzerland"
+                                    value="CH"/>
+                                <item4
+                                    jcr:primaryType="nt:unstructured"
+                                    text="United States"
+                                    value="US"/>
+                            </items>
+                        </billing.country>
+                    </column1>
+                    <column2
+                        jcr:created="{Date}2016-11-17T10:00:29.303+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-06-16T22:02:00.667+08:00"
+                        jcr:lastModified="{Date}2016-11-17T10:00:29.303+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
-                                offset="0"
+                                width="4"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                width="12"/>
+                            <intermediate
+                                jcr:primaryType="nt:unstructured"
+                                width="4"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
                                 width="4"/>
                         </cq:responsive>
-                        <title
-                            jcr:created="{Date}2019-06-16T23:23:40.134+08:00"
+                        <shipping-method-title
+                            jcr:created="{Date}2016-11-10T09:58:24.717+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T23:23:47.513+08:00"
+                            jcr:lastModified="{Date}2016-11-10T09:58:39.293+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Shipping method"
                             sling:resourceType="my-retail/components/content/title"
                             type="h4"/>
                         <shippingmethods
-                            jcr:created="{Date}2019-06-16T23:27:24.028+08:00"
+                            jcr:created="{Date}2016-11-10T09:58:07.938+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-06-16T23:27:24.028+08:00"
+                            jcr:lastModified="{Date}2016-11-10T09:58:07.938+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="commerce/components/shippingmethods"/>
-                    </responsivegrid_1966488154>
+                        <payment-method-title
+                            jcr:created="{Date}2016-11-10T10:56:54.273+01:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-11-10T10:57:06.509+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Payment method"
+                            sling:resourceType="my-retail/components/content/title"
+                            type="h4"/>
+                        <paymentmethods
+                            jcr:created="{Date}2016-11-10T10:57:21.542+01:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-11-10T10:57:21.542+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="commerce/components/paymentmethods"/>
+                        <paypal-text
+                            jcr:created="{Date}2016-11-17T15:23:59.005+01:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-11-17T15:25:05.557+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="my-retail/components/content/text"
+                            text="&lt;p>You will be redirected to PayPal site to complete the order.&lt;/p>&#xd;&#xa;"
+                            textIsRich="true"/>
+                        <card-number
+                            jcr:created="{Date}2016-11-10T09:42:10.714+01:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-11-17T10:07:31.401+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Card Number"
+                            sling:resourceType="my-retail/components/form/text"
+                            constraintType="text"
+                            helpMessage="Card Number"
+                            hideTitle="true"
+                            name="card.number"
+                            type="text"
+                            usePlaceholder="true"/>
+                        <card-expiration-date
+                            jcr:created="{Date}2016-11-10T09:42:14.074+01:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-11-17T10:06:24.400+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Expiration date"
+                            sling:resourceType="my-retail/components/form/text"
+                            constraintType="text"
+                            helpMessage="Expiration date"
+                            hideTitle="true"
+                            name="card.expiration.date"
+                            type="text"
+                            usePlaceholder="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
+                            </cq:responsive>
+                        </card-expiration-date>
+                        <card-security-code
+                            jcr:created="{Date}2016-11-10T09:42:14.074+01:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-11-17T10:06:24.400+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Security Code"
+                            sling:resourceType="my-retail/components/form/text"
+                            constraintType="text"
+                            helpMessage="Security Code"
+                            hideTitle="true"
+                            name="card.security.code"
+                            type="text"
+                            usePlaceholder="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
+                            </cq:responsive>
+                        </card-security-code>
+                        <gift-promotion-title
+                            jcr:created="{Date}2016-11-10T11:07:14.454+01:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-11-10T11:07:31.282+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Gift &amp; Promotional Codes"
+                            sling:resourceType="my-retail/components/content/title"
+                            type="h4"/>
+                        <promotional-code
+                            jcr:created="{Date}2016-11-10T11:07:46.063+01:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-11-17T10:08:17.039+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Promotional Code"
+                            sling:resourceType="my-retail/components/form/text"
+                            constraintType="text"
+                            helpMessage="Promotional Code"
+                            hideTitle="true"
+                            name="promotional-code"
+                            type="text"
+                            usePlaceholder="true"/>
+                        <charset
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="my-retail/components/form/hidden"
+                            name="_charset_"
+                            value="utf-8"/>
+                        <button
+                            jcr:created="{Date}2016-11-10T11:10:58.798+01:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2016-11-10T11:12:50.076+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Continue"
+                            sling:resourceType="my-retail/components/form/button"
+                            type="submit">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="3"
+                                    width="2"/>
+                            </cq:responsive>
+                        </button>
+                    </column2>
+                </formcontainer>
+                <responsivegrid
+                    jcr:created="{Date}2016-11-17T10:09:33.329+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2016-11-17T10:09:33.329+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="8"/>
+                            width="4"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                        <intermediate
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
                     </cq:responsive>
-                </checkoutform>
+                    <cart-title
+                        jcr:created="{Date}2016-11-10T09:45:14.834+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-11-10T09:45:46.049+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="YOUR ORDER"
+                        sling:resourceType="my-retail/components/content/title"
+                        type="h2"/>
+                    <cart
+                        jcr:created="{Date}2016-11-22T17:29:57.139+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-11-22T17:30:03.441+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="my-retail/components/content/minicart"
+                        isReadOnly="true"/>
+                    <shoppingcartprices
+                        jcr:created="{Date}2016-11-24T15:13:26.530+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-11-24T16:01:12.958+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="my-retail/components/content/shoppingcartprices"
+                        showSubTotal="true"/>
+                </responsivegrid>
             </responsivegrid>
         </root>
     </jcr:content>
+    <order/>
 </jcr:root>
