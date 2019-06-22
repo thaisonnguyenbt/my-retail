@@ -206,7 +206,7 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
     @Override
     public List<ShippingMethod> getAvailableShippingMethods() throws CommerceException {
 
-        List<ShippingMethod> enumerateMethods = enumerateMethods("/var/commerce/shipping-methods/we-retail", ShippingMethod.class);
+        List<ShippingMethod> enumerateMethods = enumerateMethods("/var/commerce/shipping-methods/my-retail", ShippingMethod.class);
         LOG.debug("MyRetailCommerceServiceImpl getAvailableShippingMethods: {}", enumerateMethods);
         return enumerateMethods;
     }
@@ -214,7 +214,7 @@ public class MyRetailCommerceServiceImpl extends AbstractJcrCommerceService impl
     @Override
     public List<PaymentMethod> getAvailablePaymentMethods() throws CommerceException {
 
-        List<PaymentMethod> enumerateMethods = enumerateMethods("/var/commerce/payment-methods/we-retail", PaymentMethod.class);
+        List<PaymentMethod> enumerateMethods = enumerateMethods("/var/commerce/payment-methods/my-retail", PaymentMethod.class);
         LOG.debug("MyRetailCommerceServiceImpl getAvailablePaymentMethods: {}", enumerateMethods);
         return enumerateMethods;
     }
