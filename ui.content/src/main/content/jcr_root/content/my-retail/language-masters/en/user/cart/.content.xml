@@ -27,7 +27,7 @@
                     jcr:title="Shopping Cart"
                     sling:resourceType="my-retail/components/content/title"
                     type="h2"/>
-                <shoppingcart
+                <cart
                     jcr:created="{Date}2019-06-16T20:49:08.626+08:00"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2019-06-16T20:49:08.626+08:00"
