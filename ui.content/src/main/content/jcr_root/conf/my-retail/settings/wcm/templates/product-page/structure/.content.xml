@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2019-06-10T16:49:27.149+08:00"
+        cq:lastModified="{Date}2019-06-23T20:14:31.850+08:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/my-retail/settings/wcm/templates/product-page"
         jcr:primaryType="cq:PageContent"
@@ -95,10 +95,13 @@
             <similar_products
                 jcr:created="{Date}2019-06-10T16:49:18.597+08:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-06-10T16:49:18.597+08:00"
+                jcr:lastModified="{Date}2019-06-23T20:14:31.846+08:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="my-retail/components/structure/productrecommendation"/>
+                jcr:title="relatedproducts"
+                sling:resourceType="my-retail/components/structure/productrecommendation"
+                max="{Long}6"
+                relationshipType="relatedproducts:my-retail.similar-to-current"/>
             <footer
                 jcr:created="{Date}2019-06-10T16:49:27.146+08:00"
                 jcr:createdBy="admin"

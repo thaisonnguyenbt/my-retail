@@ -15,7 +15,7 @@
 */-->
 <div class="my-ShoppingCartPrices" data-resource="${resource.path}"
      data-sly-use.cart="my.retail.core.models.ShoppingCartPricesModel"
-     data-sly-use.hapiCartPrices="${'org.apache.sling.hapi.sightly.HApiUse' @type='/apps/public/my-retail/hapi_types/cartprices'}">
+     data-sly-use.hapiCartPrices="${'org.apache.sling.hapi.sightly.HApiUse' @type='/apps/public/myretail/hapi_types/cartprices'}">
     <div class="shoppingcart-prices body" data-sly-attribute="${hapiCartPrices.itemtype}" data-sly-test="${!cart.isEmpty}">
         <div class="row" data-sly-test="${cart.showSubTotal}">
             <div class="cell-title">${'Products subtotal' @ i18n}</div>
