@@ -39,4 +39,8 @@
             </responsivegrid>
         </root>
     </jcr:content>
+    <addressbook/>
+    <profile/>
+    <open-orders/>
+    <order-history/>
 </jcr:root>

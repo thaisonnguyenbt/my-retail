@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
+    <resources/>
     <jcr:content
         cq:allowedTemplates="/conf/my-retail/settings/wcm/templates/.*"
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:template="/conf/my-retail/settings/wcm/templates/myretail-redirect-page"
         cq:lastModified="{Date}2019-06-08T03:18:02.149+08:00"
         cq:lastModifiedBy="admin"
+        cq:template="/conf/my-retail/settings/wcm/templates/myretail-redirect-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="My.Retail"
         sling:redirect="true"
         sling:redirectStatus="{Long}302"
         sling:resourceType="foundation/components/redirect"
-        redirectTarget="/content/my-retail/en">
-    </jcr:content>
+        redirectTarget="/content/my-retail/en"/>
     <language-masters/>
 </jcr:root>

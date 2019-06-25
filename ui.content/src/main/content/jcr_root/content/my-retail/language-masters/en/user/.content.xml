@@ -7,8 +7,8 @@
         cq:template="/conf/my-retail/settings/wcm/templates/my-retail-content-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="User"
-        hideInNav="true"
-        sling:resourceType="my-retail/components/structure/page">
+        sling:resourceType="my-retail/components/structure/page"
+        hideInNav="true">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
