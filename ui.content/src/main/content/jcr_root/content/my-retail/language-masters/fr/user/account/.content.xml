@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-06-25T12:49:16.530+08:00"
+        cq:lastModifiedBy="translation-job-service"
+        cq:lastTranslationUpdate="{Date}2019-06-25T12:49:16.530+08:00"
+        cq:template="/conf/my-retail/settings/wcm/templates/my-retail-content-page"
+        cq:translationSourcePath="/content/my-retail/language-masters/en/user/account"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="My Account"
+        sling:resourceType="my-retail/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2019-06-16T20:14:43.462+08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-06-16T20:15:25.626+08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title
+                    jcr:created="{Date}2019-06-16T20:31:30.320+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T20:31:36.460+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="MY ACCOUNT"
+                    sling:resourceType="my-retail/components/content/title"
+                    type="h2"/>
+                <text
+                    jcr:created="{Date}2019-06-16T20:31:43.847+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T20:33:08.822+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-retail/components/content/text"
+                    text="&lt;p>&lt;a href=&quot;http://localhost:4503/content/we-retail/language-masters/en/user/account/order-history.html&quot;>Order History&lt;/a>&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+    <addressbook/>
+    <profile/>
+    <open-orders/>
+    <order-history/>
+</jcr:root>

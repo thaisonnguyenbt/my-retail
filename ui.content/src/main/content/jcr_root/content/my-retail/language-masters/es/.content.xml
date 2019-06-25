@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cartPage="/content/my-retail/language-masters/es/user/cart"
+        cq:checkoutPage="/content/my-retail/language-masters/es/user/cart"
+        cq:contextHubPath="/libs/settings/cloudsettings/legacy/contexthub"
+        cq:contextHubSegmentsPath="/conf/my-retail/settings/wcm/segments"
+        cq:lastModified="{Date}2019-06-25T12:50:38.971+08:00"
+        cq:lastModifiedBy="admin"
+        cq:lastTranslationUpdate="{Date}2019-06-25T12:49:04.089+08:00"
+        cq:template="/conf/my-retail/settings/wcm/templates/myretail-hero-page"
+        cq:translationSourcePath="/content/my-retail/language-masters/en"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Spainish"
+        sling:resourceType="my-retail/components/structure/page"
+        navRoot="{Boolean}true">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2019-06-02T18:48:35.556+08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-06-02T19:00:16.468+08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title
+                    jcr:created="{Date}2019-06-09T22:36:05.682+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T19:50:55.598+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="DISCOVER THE FINEST GEAR"
+                    sling:resourceType="my-retail/components/content/title"
+                    type="h1"/>
+                <carousel
+                    jcr:created="{Date}2019-06-09T22:47:51.268+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-09T22:47:51.268+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-retail/components/content/carousel">
+                    <teaser_1732483089
+                        jcr:created="{Date}2019-06-09T22:51:50.391+08:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>Explore equipment&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2019-06-09T22:52:45.290+08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="For the ones who want the strongest"
+                        sling:resourceType="my-retail/components/content/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/my-retail/english/activities/climbing/climber-gear-rope.jpg"
+                        textIsRich="true"
+                        titleFromPage="false"/>
+                    <teaser_500007032
+                        jcr:created="{Date}2019-06-09T22:49:49.150+08:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>Explore products for men&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2019-06-09T22:51:08.069+08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="For those who challenge the elements"
+                        sling:resourceType="my-retail/components/content/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/my-retail/english/activities/biking/rocks-downhill.jpg"
+                        textIsRich="true"
+                        titleFromPage="false"/>
+                    <teaser
+                        jcr:created="{Date}2019-06-09T22:47:59.462+08:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>Explore products for women&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2019-06-09T22:48:49.713+08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="For those who never stop"
+                        sling:resourceType="my-retail/components/content/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/my-retail/english/activities/running/running-woods-woman.jpg"
+                        textIsRich="true"
+                        titleFromPage="false"/>
+                </carousel>
+                <sitefeature
+                    jcr:created="{Date}2019-06-09T22:55:15.983+08:00"
+                    jcr:createdBy="admin"
+                    jcr:description="&lt;p>And free return&lt;/p>&#xd;&#xa;"
+                    jcr:lastModified="{Date}2019-06-09T22:56:28.219+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Free delivery"
+                    sling:resourceType="my-retail/components/content/sitefeature"
+                    actionsEnabled="false"
+                    descriptionFromPage="false"
+                    fileReference="/content/dam/my-retail/english/features/cart.png"
+                    textIsRich="true"
+                    titleFromPage="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </sitefeature>
+                <sitefeature_627303890
+                    jcr:created="{Date}2019-06-09T22:56:53.184+08:00"
+                    jcr:createdBy="admin"
+                    jcr:description="&lt;p>Worldwide shipping&lt;/p>&#xd;&#xa;"
+                    jcr:lastModified="{Date}2019-06-09T22:57:28.478+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Order tracking"
+                    sling:resourceType="my-retail/components/content/sitefeature"
+                    actionsEnabled="false"
+                    descriptionFromPage="false"
+                    fileReference="/content/dam/my-retail/english/features/tracking.png"
+                    textIsRich="true"
+                    titleFromPage="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </sitefeature_627303890>
+                <sitefeature_967112737
+                    jcr:created="{Date}2019-06-09T22:57:33.849+08:00"
+                    jcr:createdBy="admin"
+                    jcr:description="&lt;p>With our outdoor specialist&lt;/p>&#xd;&#xa;"
+                    jcr:lastModified="{Date}2019-06-09T22:58:06.766+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Online support"
+                    sling:resourceType="my-retail/components/content/sitefeature"
+                    actionsEnabled="false"
+                    descriptionFromPage="false"
+                    fileReference="/content/dam/my-retail/english/features/support.png"
+                    textIsRich="true"
+                    titleFromPage="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </sitefeature_967112737>
+                <title_429772023
+                    jcr:created="{Date}2019-06-09T23:00:00.057+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-09T23:00:11.951+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="FEATURED PRODUCTS"
+                    sling:resourceType="my-retail/components/content/title"
+                    type="h2"/>
+                <productgrid
+                    jcr:created="{Date}2019-06-16T19:40:15.155+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T19:42:39.635+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-retail/components/content/productgrid"
+                    childDepth="1"
+                    listFrom="static"
+                    pages="[/content/my-retail/language-masters/es/products/women/coats/sleek-insulated-coat,/content/my-retail/language-masters/es/products/men/coats/el-gordo-down-jacket,/content/my-retail/language-masters/es/products/men/shirts/expedition-tech-long-sleeved-shirt,/content/my-retail/language-masters/es/products/men/pants/trail-model-pants,/content/my-retail/language-masters/es/products/equipment/biking/marin-mountain-bike-shoes,/content/my-retail/language-masters/es/products/women/shirts/rios-t-shirt]"
+                    sortOrder="asc"
+                    tagsMatch="any"/>
+                <title_179438228
+                    jcr:created="{Date}2019-06-16T19:43:02.891+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T19:43:09.428+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="OUR TOP STORIES"
+                    sling:resourceType="my-retail/components/content/title"
+                    type="h2"/>
+                <list
+                    cq:styleIds="[1560665261362,1560665350142]"
+                    jcr:created="{Date}2019-06-16T19:43:22.668+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T19:43:56.971+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-retail/components/content/list"
+                    childDepth="1"
+                    itemType="article"
+                    linkItems="true"
+                    listFrom="children"
+                    parentPage="/content/my-retail/language-masters/es/experience"
+                    showDescription="false"
+                    showModificationDate="true"
+                    sortOrder="asc"
+                    tagsMatch="any"/>
+                <title_251791327
+                    jcr:created="{Date}2019-06-16T19:44:24.239+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T19:44:31.965+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="New arrivals"
+                    sling:resourceType="my-retail/components/content/title"
+                    type="h2"/>
+                <productgrid_805841048
+                    jcr:created="{Date}2019-06-16T19:45:11.016+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T19:46:37.026+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-retail/components/content/productgrid"
+                    childDepth="1"
+                    listFrom="static"
+                    pages="[/content/my-retail/language-masters/es/products/women/coats/sleek-insulated-coat,/content/my-retail/language-masters/es/products/men/coats/el-gordo-down-jacket,/content/my-retail/language-masters/es/products/men/shirts/expedition-tech-long-sleeved-shirt,/content/my-retail/language-masters/es/products/men/pants/trail-model-pants,/content/my-retail/language-masters/es/products/equipment/biking/marin-mountain-bike-shoes,/content/my-retail/language-masters/es/products/women/shirts/rios-t-shirt]"
+                    sortOrder="asc"
+                    tagsMatch="any"/>
+                <title_137531557
+                    jcr:created="{Date}2019-06-16T19:47:07.970+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T19:47:14.065+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Join our Community"
+                    sling:resourceType="my-retail/components/content/title"
+                    type="h2"/>
+                <teaser
+                    jcr:created="{Date}2019-06-16T19:47:22.766+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T19:49:01.245+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-retail/components/content/teaser"
+                    fileReference="/content/dam/my-retail/english/activities/hiking-camping/My-Retail-Camp-Summer-Night.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </teaser>
+                <teaser_1981963689
+                    jcr:created="{Date}2019-06-16T19:47:31.553+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T19:49:24.155+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-retail/components/content/teaser"
+                    fileReference="/content/dam/my-retail/english/activities/climbing/ice-climbing-group.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </teaser_1981963689>
+                <teaser_327736182
+                    jcr:created="{Date}2019-06-16T19:47:37.231+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-06-16T19:49:44.389+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-retail/components/content/teaser"
+                    fileReference="/content/dam/my-retail/english/activities/biking/group-mountain-bikers.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </teaser_327736182>
+            </responsivegrid>
+            <heroimage
+                jcr:created="{Date}2019-06-02T02:24:29.963+08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-06-09T22:26:56.863+08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="my-retail/components/content/heroimage"
+                buttonLabel="Shop Now"
+                fileReference="/content/dam/my-retail/english/activities/hiking-camping/My-Retail-Trekker-Khumbu-Valley.jpg"
+                heading="All-new winter collection"
+                title="BUILT FOR THE COLDEST WINTER ON EARTH"
+                useFullWidth="true"/>
+        </root>
+    </jcr:content>
+    <experience/>
+    <men/>
+    <women/>
+    <equipment/>
+    <about-us/>
+    <products/>
+    <user/>
+</jcr:root>

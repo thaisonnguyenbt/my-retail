@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-06-25T12:58:10.836+08:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2019-06-25T12:58:10.837+08:00"
+        cq:lastRolledoutBy="admin"
+        cq:lastTranslationUpdate="{Date}2019-06-25T12:48:57.897+08:00"
+        cq:template="/conf/my-retail/settings/wcm/templates/my-retail-content-page"
+        cq:translationSourcePath="/content/my-retail/language-masters/en/user"
+        jcr:mixinTypes="[cq:LiveRelationship]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="User"
+        sling:resourceType="my-retail/components/structure/page"
+        hideInNav="true">
+        <root
+            cq:lastRolledout="{Date}2019-06-25T12:58:10.833+08:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                cq:lastRolledout="{Date}2019-06-25T12:58:10.837+08:00"
+                cq:lastRolledoutBy="admin"
+                jcr:created="{Date}2019-06-16T20:14:43.462+08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-06-25T12:58:10.835+08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
+    </jcr:content>
+    <smartlist/>
+    <mailbox/>
+    <account/>
+    <cart/>
+    <checkout/>
+</jcr:root>

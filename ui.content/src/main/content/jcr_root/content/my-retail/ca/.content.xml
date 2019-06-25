@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-06-25T12:51:14.106+08:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2019-06-25T12:51:14.110+08:00"
+        cq:lastRolledoutBy="admin"
+        cq:redirectTarget="/content/my-retail/ca/en"
+        cq:template="/conf/my-retail/settings/wcm/templates/myretail-redirect-page"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Canada"
+        sling:resourceType="my-retail/components/structure/page">
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/my-retail/language-masters"
+            cq:rolloutConfigs="[]"
+            jcr:primaryType="cq:LiveCopy"/>
+    </jcr:content>
+    <en/>
+    <fr/>
+    <es/>
+    <de/>
+</jcr:root>

@@ -15,4 +15,6 @@
         sling:resourceType="foundation/components/redirect"
         redirectTarget="/content/my-retail/en"/>
     <language-masters/>
+    <us/>
+    <ca/>
 </jcr:root>

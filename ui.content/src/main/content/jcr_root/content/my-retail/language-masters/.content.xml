@@ -10,4 +10,7 @@
         jcr:title="My.Retail Language Masters"
         sling:resourceType="my-retail/components/structure/page"/>
     <en/>
+    <fr/>
+    <es/>
+    <de/>
 </jcr:root>
