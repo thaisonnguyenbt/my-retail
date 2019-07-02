@@ -4,7 +4,7 @@
           jcr:primaryType="nt:unstructured"
           sling:resourceType="cq/security/components/profile"
           aboutMe="Iris is E-Commerce Director at We.Retail"
-          email="iris.r.mccoy@we-retail.net"
+          email="iris.r.mccoy@my-retail.net"
           familyName="Mccoy"
           gender="female"
           givenName="Iris"

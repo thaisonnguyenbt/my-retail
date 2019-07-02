@@ -20,7 +20,6 @@
             <div class="my-HeroImage-wrapper">
                 <p class="h3">${properties.heading}</p>
                 <strong class="my-HeroImage-title h1">${properties.title || currentPage.title}</strong>
-
                 <p data-sly-test="${properties.buttonLabel && properties.buttonLinkTo}">
                     <a class="btn btn-primary btn-action" href="${properties.buttonLinkTo @ extension = 'html'}" role="button">${properties.buttonLabel}</a>
                 </p>

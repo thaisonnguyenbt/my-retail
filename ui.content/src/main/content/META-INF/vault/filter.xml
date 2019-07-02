@@ -7,6 +7,7 @@
     <filter root="/content/projects/my-retail"/>
     <filter root="/content/cq:tags/my-retail"/>
     <filter root="/content/catalogs/my-retail"/>
+    <filter root="/content/campaigns/my-retail"/>
     
     
     <filter root="/etc/community/my-retail"/>

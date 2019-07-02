@@ -4,7 +4,7 @@
           jcr:mixinTypes="[granite:Ranking,mix:title]"
           sling:resourceType="cq/security/components/profile"
           aboutMe="Virginia works in the Merchandising Acquisition team at We.Retail. She works with vendors to retrieve assets for the products."
-          email="virginia.l.armstrong@we-retail.net"
+          email="virginia.l.armstrong@my-retail.net"
           familyName="Armstrong"
           gender="female"
           givenName="Virginia"

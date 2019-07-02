@@ -18,15 +18,15 @@
                 <summerSegment
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="cq/contexthub/components/traits/generic-comparison/type/segment"
-                    segment="/conf/we-retail/settings/wcm/segments/summer"/>
+                    segment="/conf/my-retail/settings/wcm/segments/summer"/>
                 <maleSegment
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="cq/contexthub/components/traits/generic-comparison/type/segment"
-                    segment="/conf/we-retail/settings/wcm/segments/male"/>
+                    segment="/conf/my-retail/settings/wcm/segments/male"/>
                 <under30Segment
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="cq/contexthub/components/traits/generic-comparison/type/segment"
-                    segment="/conf/we-retail/settings/wcm/segments/under-30"/>
+                    segment="/conf/my-retail/settings/wcm/segments/under-30"/>
             </andpar>
         </traits>
     </jcr:content>

@@ -4,7 +4,7 @@
           jcr:mixinTypes="[granite:Ranking,mix:title]"
           sling:resourceType="cq/security/components/profile"
           aboutMe="Kerri is Marketing Manager at We.Retail"
-          email="kerri.saner@we-retail.net"
+          email="kerri.saner@my-retail.net"
           familyName="Saner"
           gender="female"
           givenName="Kerri"

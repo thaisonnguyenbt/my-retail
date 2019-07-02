@@ -18,11 +18,11 @@
                 <summerSegment
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="cq/contexthub/components/traits/generic-comparison/type/segment"
-                    segment="/conf/we-retail/settings/wcm/segments/summer"/>
+                    segment="/conf/my-retail/settings/wcm/segments/summer"/>
                 <femaleSegment
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="cq/contexthub/components/traits/generic-comparison/type/segment"
-                    segment="/conf/we-retail/settings/wcm/segments/female"/>
+                    segment="/conf/my-retail/settings/wcm/segments/female"/>
             </andpar>
         </traits>
     </jcr:content>

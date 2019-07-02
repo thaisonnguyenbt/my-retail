@@ -31,13 +31,13 @@
                 address_x0040_ContentType="text/html"
                 dateopened="{Date}2017-10-09T11:24:00.000-07:00"
                 description="San Jose is a large city surrounded by rolling hills in Silicon Valley, a major technology hub in California's Bay Area. Architectural landmarks, from the 1883 Italianate-style Oddfellows building to Spanish Colonial Revival structures, make up the downtown historic district. The downtown area is also home to the Tech Museum of Innovation, devoted to the exploration of science and technology."
-                events="&lt;ul style=&quot;list-style-position: inside;&quot;>&#xa;&lt;li>Summer 2017 Biking Challenge 25k&lt;/li>&#xa;&lt;li>10k Marathon organized by WeRetail&amp;nbsp;for Green Environment Initiative&lt;/li>&#xa;&lt;li>Mission Peak Hike Challenge&lt;/li>&#xa;&lt;/ul>&#xa;"
+                events="&lt;ul style=&quot;list-style-position: inside;&quot;>&#xa;&lt;li>Summer 2017 Biking Challenge 25k&lt;/li>&#xa;&lt;li>10k Marathon organized by MyRetail&amp;nbsp;for Green Environment Initiative&lt;/li>&#xa;&lt;li>Mission Peak Hike Challenge&lt;/li>&#xa;&lt;/ul>&#xa;"
                 events_x0040_ContentType="text/html"
                 gift-cards="{Boolean}false"
                 openinghours="&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Monday&lt;/td>&#xa;&lt;td>8AM–5PM&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Tuesday&lt;/td>&#xa;&lt;td>8AM–5PM&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Wednesday&lt;/td>&#xa;&lt;td>8AM–5PM&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Thursday&lt;/td>&#xa;&lt;td>8AM–5PM&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Friday&lt;/td>&#xa;&lt;td>8AM–5PM&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Saturday&lt;/td>&#xa;&lt;td>Closed&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Sunday&lt;/td>&#xa;&lt;td>Closed&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;"
                 openinghours_x0040_ContentType="text/html"
                 reference="[/content/dam/my-retail/english/activities/hiking/hiking_4.jpg]"
-                storelocation="WeRetail San Jose"
+                storelocation="MyRetail San Jose"
                 tags="[my-retail:activity/biking,my-retail:activity/hiking]"/>
         </data>
         <metadata

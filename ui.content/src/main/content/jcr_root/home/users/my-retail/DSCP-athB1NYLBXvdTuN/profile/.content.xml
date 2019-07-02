@@ -4,7 +4,7 @@
           jcr:mixinTypes="[granite:Ranking,mix:title]"
           sling:resourceType="cq/security/components/profile"
           aboutMe="Carlene is Merchandising Manager at We.Retail. She owns the women clothing products."
-          email="cavery@we-retail.net"
+          email="cavery@my-retail.net"
           familyName="Avery"
           gender="female"
           givenName="Carlene"
