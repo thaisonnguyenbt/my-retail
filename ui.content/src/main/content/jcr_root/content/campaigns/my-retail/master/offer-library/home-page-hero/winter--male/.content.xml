@@ -21,7 +21,7 @@
                 sling:resourceType="my-retail/components/content/heroimage"
                 buttonLabel="Shop now"
                 buttonLinkTo="/content/my-retail/language-masters/en/women"
-                fileReference="/content/dam/my-retail/en/activities/skiing/skiing-male-winter.jpg"
+                fileReference="/content/dam/my-retail/english/activities/skiing/skiing-male-winter.jpg"
                 heading="All-new winter collection 2016"
                 title="BUILD FOR THE COLDEST WINTER ON EARTH"
                 useFullWidth="true"/>

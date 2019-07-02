@@ -19,7 +19,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="my-retail/components/content/teaser"
-                fileReference="/content/dam/my-retail/en/activities/biking/rocks-downhill.jpg"
+                fileReference="/content/dam/my-retail/english/activities/biking/rocks-downhill.jpg"
                 actionsEnabled="{Boolean}true">
                 <cq:responsive jcr:primaryType="nt:unstructured">
                     <default
