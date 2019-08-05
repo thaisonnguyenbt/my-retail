@@ -20,8 +20,6 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-import javax.annotation.PostConstruct;
-
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
@@ -34,17 +32,17 @@ import org.apache.sling.models.annotations.injectorspecific.SlingObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.day.cq.commons.ImageResource;
-import com.day.cq.wcm.api.Page;
-import com.day.cq.wcm.api.PageManager;
 import com.adobe.cq.commerce.api.CommerceException;
 import com.adobe.cq.commerce.api.CommerceService;
 import com.adobe.cq.commerce.api.CommerceSession;
 import com.adobe.cq.commerce.api.Product;
 import com.adobe.cq.commerce.common.CommerceHelper;
+import com.day.cq.commons.ImageResource;
+import com.day.cq.wcm.api.Page;
+import com.day.cq.wcm.api.PageManager;
 
 @Model(adaptables = SlingHttpServletRequest.class)
-public class ProductGridItem {
+public class ProductGridItem extends BaseSightlyModel {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ProductGridItem.class);
 
@@ -71,8 +69,8 @@ public class ProductGridItem {
     private String path;
     private ProductFilters filters;
 
-    @PostConstruct
-    private void initModel() {
+    @Override
+    protected void init() {
         Page productPage = pageManager.getContainingPage(resource.getPath());
         Product currentProduct = CommerceHelper.findCurrentProduct(productPage);
         if(currentProduct == null) {

@@ -15,8 +15,6 @@
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 package my.retail.core.models;
 
-import javax.annotation.PostConstruct;
-
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.models.annotations.Model;
@@ -24,7 +22,7 @@ import org.apache.sling.models.annotations.injectorspecific.ScriptVariable;
 import org.apache.sling.models.annotations.injectorspecific.Self;
 
 @Model(adaptables = SlingHttpServletRequest.class)
-public class HeroImage {
+public class HeroImage extends BaseSightlyModel {
 
     private static final String PN_FULL_WIDTH = "useFullWidth";
 
@@ -37,8 +35,8 @@ public class HeroImage {
     private String classList;
     private Image image;
 
-    @PostConstruct
-    private void initModel() {
+    @Override
+    protected void init() {
         classList = getClassList();
         image = getImage();
     }

@@ -22,7 +22,7 @@ import org.apache.sling.models.annotations.injectorspecific.InjectionStrategy;
 import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
 @Model(adaptables = {SlingHttpServletRequest.class})
-public class Button {
+public class Button extends BaseSightlyModel {
 
     private static final String LINK_TO_DEFAULT = "#";
     private static final String CSS_CLASS_DEFAULT = "";
@@ -39,6 +39,11 @@ public class Button {
 
     public String getCssClass() {
         return cssClass;
+    }
+
+    @Override
+    protected void init() throws Exception {
+
     }
 
 }

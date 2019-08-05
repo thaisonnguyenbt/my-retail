@@ -28,8 +28,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import javax.annotation.PostConstruct;
-
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -52,7 +50,7 @@ import com.adobe.cq.commerce.common.PriceFilter;
 import com.day.cq.wcm.api.Page;
 
 @Model(adaptables = SlingHttpServletRequest.class)
-public class ShoppingCartModel {
+public class ShoppingCartModel extends BaseSightlyModel {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ShoppingCartModel.class);
 
@@ -72,8 +70,8 @@ public class ShoppingCartModel {
     private List<PromotionInfo> orderPromotions = new ArrayList<PromotionInfo>();
     private Map<Integer, List<PromotionInfo>> cartEntryPromotions = new HashMap<Integer, List<PromotionInfo>>();
 
-    @PostConstruct
-    private void initModel() throws CommerceException {
+    @Override
+    protected void init() throws CommerceException {
         createCommerceSession();
         populatePromotions();
         populateCartEntries();

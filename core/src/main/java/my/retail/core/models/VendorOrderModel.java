@@ -15,9 +15,6 @@
  */
 package my.retail.core.models;
 
-import javax.annotation.PostConstruct;
-
-import com.adobe.cq.commerce.api.CommerceException;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.models.annotations.Default;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
@@ -25,6 +22,7 @@ import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.RequestAttribute;
 import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
+import com.adobe.cq.commerce.api.CommerceException;
 import com.adobe.cq.commerce.common.VendorJcrPlacedOrder;
 
 @Model(adaptables = SlingHttpServletRequest.class, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
@@ -40,8 +38,8 @@ public class VendorOrderModel extends OrderModel {
     @ValueMapValue
     private String title;
 
-    @PostConstruct
-    private void initModel() throws CommerceException {
+    @Override
+    protected void init() throws CommerceException {
         placedOrder = order;
         populateCartEntries();
     }

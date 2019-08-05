@@ -20,7 +20,6 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.Map;
 
-import javax.annotation.PostConstruct;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.lang3.StringUtils;
@@ -60,8 +59,8 @@ public class OrderModel extends ShoppingCartModel {
     protected PlacedOrder placedOrder;
     protected Map<String, Object> orderDetails;
 
-    @PostConstruct
-    private void initModel() throws CommerceException {
+    @Override
+    protected void init() throws CommerceException {
         createCommerceSession();
         populateOrder();
         populatePromotions();

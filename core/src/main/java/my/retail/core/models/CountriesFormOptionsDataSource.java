@@ -54,6 +54,8 @@ import com.google.common.collect.ImmutableMap;
 )
 public class CountriesFormOptionsDataSource extends SlingSafeMethodsServlet {
 
+    private static final long serialVersionUID = -8114936306260190128L;
+
     final static String RESOURCE_TYPE = "my-retail/components/form/options/datasource/countriesdatasource";
 
     private final static String COUNTRY_OPTIONS_HEADER = "Country";
@@ -99,6 +101,7 @@ public class CountriesFormOptionsDataSource extends SlingSafeMethodsServlet {
         request.setAttribute(DataSource.class.getName(), countriesDataSource);
     }
 
+    @SuppressWarnings("deprecation")
     private List<Resource> getCountriesList(SlingHttpServletRequest request) {
         List<Resource> countries = new ArrayList<>();
         SlingBindings bindings = (SlingBindings) request.getAttribute(SlingBindings.class.getName());

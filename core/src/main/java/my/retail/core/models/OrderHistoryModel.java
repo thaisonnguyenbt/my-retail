@@ -24,8 +24,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-import javax.annotation.PostConstruct;
-
 import org.apache.commons.collections.Predicate;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
@@ -52,7 +50,7 @@ import my.retail.core.MyRetailConstants;
 
 
 @Model(adaptables = SlingHttpServletRequest.class)
-public class OrderHistoryModel {
+public class OrderHistoryModel extends BaseSightlyModel {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(OrderHistoryModel.class);
 
@@ -67,8 +65,8 @@ public class OrderHistoryModel {
 
     private List<PlacedOrderWrapper> wrappedOrders;
 
-    @PostConstruct
-    private void initModel() {
+    @Override
+    protected void init() {
         try {
             CommerceService commerceService = currentPage.getContentResource().adaptTo(CommerceService.class);
             if (commerceService != null) {

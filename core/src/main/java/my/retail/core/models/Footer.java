@@ -21,8 +21,6 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import javax.annotation.PostConstruct;
-
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.ScriptVariable;
@@ -36,7 +34,7 @@ import my.retail.core.util.UrlHelper;
 
 
 @Model(adaptables = { SlingHttpServletRequest.class })
-public class Footer {
+public class Footer extends BaseSightlyModel {
 	
 	@ScriptVariable
 	private PageManager pageManager;
@@ -47,8 +45,8 @@ public class Footer {
 	private List<Page> items = new ArrayList<Page>();
     private int currentYear;
 
-    @PostConstruct
-    private void initModel() {
+    @Override
+    protected void init() {
         currentYear = Calendar.getInstance().get(Calendar.YEAR);
         populateItems();
     }

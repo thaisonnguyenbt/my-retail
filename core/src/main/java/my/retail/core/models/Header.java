@@ -20,7 +20,6 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import javax.annotation.PostConstruct;
 import javax.jcr.RepositoryException;
 
 import org.apache.jackrabbit.api.security.user.UserManager;
@@ -48,7 +47,7 @@ import com.day.cq.wcm.api.Template;
 import my.retail.core.util.MyRetailHelper;
 
 @Model(adaptables = {SlingHttpServletRequest.class})
-public class Header {
+public class Header extends BaseSightlyModel {
     public static final Logger LOGGER = LoggerFactory.getLogger(Header.class);
 
     public static final String REDIRECT_RESOURCE_TYPE = "my-retail/components/structure/page";
@@ -59,7 +58,6 @@ public class Header {
     public static final String SIGN_IN_PATH = "community/signin";
     public static final String SIGN_UP_PATH = "community/signup";
 
-    @SuppressWarnings("squid:S2068")
     public static final String FORGOT_PWD_PATH = "community/useraccount/forgotpassword";
     public static final String NOTIFICATION_PATH = "community/notifications";
     public static final String MODERATION_PATH = "community/moderation";
@@ -110,8 +108,8 @@ public class Header {
     private UserManagementService ums;
     private Resource navigationResource;
 
-    @PostConstruct
-    private void initModel() {
+    @Override
+    protected void init() {
         try {
             Page resourcePage = pageManager.getContainingPage(resource);
             if (resourcePage.getPath().startsWith("/conf/")) {
@@ -265,6 +263,7 @@ public class Header {
      * Returns all the pages of a sub-tree root - root node to start listing
      * from level - how deep to get into the tree
      */
+    @SuppressWarnings("unused")
     private List<PagePojo> getPages(Page root, int level, Page currentPage) {
         if (root == null || level == 0) {
             return null;

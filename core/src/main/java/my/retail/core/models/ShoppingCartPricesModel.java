@@ -25,8 +25,6 @@ import java.util.List;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-import javax.annotation.PostConstruct;
-
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.models.annotations.Default;
@@ -47,7 +45,7 @@ import com.day.cq.i18n.I18n;
 import com.day.cq.wcm.api.Page;
 
 @Model(adaptables = SlingHttpServletRequest.class)
-public class ShoppingCartPricesModel {
+public class ShoppingCartPricesModel extends BaseSightlyModel {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ShoppingCartPricesModel.class);
     
@@ -91,8 +89,8 @@ public class ShoppingCartPricesModel {
 
     private I18n i18n;
 
-    @PostConstruct
-    private void initModel() throws CommerceException {
+    @Override
+    protected void init() throws CommerceException {
         CommerceService commerceService = currentPage.getContentResource().adaptTo(CommerceService.class);
         if (commerceService == null) {
             LOGGER.error("Failed to obtain commerce service");

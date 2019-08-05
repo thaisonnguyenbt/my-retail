@@ -15,7 +15,6 @@
  */
 package my.retail.core.models;
 
-import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 import javax.inject.Named;
 
@@ -26,7 +25,7 @@ import org.apache.sling.models.annotations.Model;
 import org.apache.sling.settings.SlingSettingsService;
 
 @Model(adaptables=Resource.class)
-public class HelloWorldModel {
+public class HelloWorldModel extends BaseSightlyModel {
 
     @Inject
     private SlingSettingsService settings;
@@ -36,7 +35,7 @@ public class HelloWorldModel {
 
     private String message;
 
-    @PostConstruct
+    @Override
     protected void init() {
         message = "\tHello World!\n";
         message += "\tThis is instance: " + settings.getSlingId() + "\n";

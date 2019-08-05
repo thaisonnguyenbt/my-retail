@@ -15,8 +15,6 @@
  */
 package my.retail.core.models;
 
-import javax.annotation.PostConstruct;
-
 import org.apache.jackrabbit.oak.spi.security.user.UserConstants;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
@@ -41,7 +39,7 @@ import my.retail.core.models.handler.CommerceHandler;
 import my.retail.core.util.MyRetailGson;
 
 @Model(adaptables = SlingHttpServletRequest.class)
-public class ProductModel {
+public class ProductModel extends BaseSightlyModel {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ProductModel.class);
 
@@ -70,8 +68,8 @@ public class ProductModel {
     private ProductItem productItem;
     private boolean isAnonymous;
 
-    @PostConstruct
-    private void initModel() {
+    @Override
+    protected void init() {
         try {
             commerceService = currentPage.getContentResource().adaptTo(CommerceService.class);
             if (commerceService != null) {

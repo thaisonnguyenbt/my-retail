@@ -16,8 +16,6 @@
 package my.retail.core.models.handler;
 
 
-import javax.annotation.PostConstruct;
-
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
@@ -38,10 +36,11 @@ import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.api.designer.Style;
 
 import my.retail.core.MyRetailConstants;
+import my.retail.core.models.BaseSightlyModel;
 
 
 @Model(adaptables = SlingHttpServletRequest.class)
-public class CommerceHandler {
+public class CommerceHandler extends BaseSightlyModel {
 
     private static final String ADD_CART_ENTRY_SELECTOR = "." + MyRetailConstants.ADD_CARTENTRY_SELECTOR + ".html";
     private static final String ADD_SMARTLIST_ENTRY_SELECTOR = ".commerce.smartlist.management.html";
@@ -83,8 +82,8 @@ public class CommerceHandler {
     private boolean productPageProxy = false;
     private String productTrackingPath;
 
-    @PostConstruct
-    private void initHandler() throws CommerceException {
+    @Override
+    protected void init() throws CommerceException {
         PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
         currentPage = pageManager.getContainingPage(resource);
         addToCardUrl = currentPage.getPath() + ADD_CART_ENTRY_SELECTOR;

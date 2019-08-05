@@ -15,8 +15,6 @@
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 package my.retail.core.models;
 
-import javax.annotation.PostConstruct;
-
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
@@ -31,7 +29,7 @@ import org.slf4j.LoggerFactory;
 import com.day.cq.wcm.api.Page;
 
 @Model(adaptables = SlingHttpServletRequest.class)
-public class CategoryTeaser {
+public class CategoryTeaser extends BaseSightlyModel {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(CategoryTeaser.class);
 
@@ -50,8 +48,8 @@ public class CategoryTeaser {
     private String buttonLinkTo;
     private String buttonLabel;
 
-    @PostConstruct
-    private void initModel() {
+    @Override
+    protected void init() {
         buttonLinkTo = properties.get(PN_BUTTON_LINK_TO, "");
         buttonLabel = properties.get(PN_BUTTON_LABEL, "");
         if (StringUtils.isNotEmpty(buttonLinkTo)) {
