@@ -47,7 +47,7 @@ public class WorkflowMBeanManagerImpl implements WorkflowMBeanManager {
     private Session session;
 
     // Details about model nodes
-    private static final String MODEL_ROOT = "/etc/workflow/models";
+    private static final String MODEL_ROOT = "/conf/global/settings/workflow/models";
     private static final String MODEL_NODE = "model";
 
     private Set<String> modelIds = new HashSet<String>();

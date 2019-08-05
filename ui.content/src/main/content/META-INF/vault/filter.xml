@@ -21,4 +21,5 @@
     
     <filter root="/var/commerce/products/my-retail"/>
     <filter root="/conf/my-retail/settings/dam/cfm/models"/>
+    <filter root="/conf/global/settings/workflow"/>
 </workspaceFilter>
