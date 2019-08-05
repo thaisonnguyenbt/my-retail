@@ -16,6 +16,8 @@ import org.slf4j.LoggerFactory;
 @Service
 public class Flushcache extends SlingSafeMethodsServlet {
 
+    private static final long serialVersionUID = -3415432102245414091L;
+
     @Property(value = "/bin/flushcache")
     static final String SERVLET_PATH = "sling.servlet.paths";
 
