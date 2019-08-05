@@ -58,6 +58,7 @@ public class MyRetailProductImpl extends AbstractJcrProduct {
     }
 
     @Override
+    @SuppressWarnings("unchecked")
     public <T> T getProperty(String name, Class<T> type) {
         if (name.equals("brand")) {
             return (T) getBrand();
@@ -67,6 +68,7 @@ public class MyRetailProductImpl extends AbstractJcrProduct {
     }
 
     @Override
+    @SuppressWarnings("unchecked")
     public <T> T getProperty(String name, String selectorString, Class<T> type) {
         if (name.equals("brand")) {
             return (T) getBrand();

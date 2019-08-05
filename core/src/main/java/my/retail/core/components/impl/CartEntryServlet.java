@@ -78,7 +78,6 @@ public class CartEntryServlet extends SlingAllMethodsServlet {
     private static final String CART_PATH = "/user/cart/jcr:content/root/responsivegrid/cart";
     private static final String CART_PRICES_PATH = "/user/cart/jcr:content/root/responsivegrid/shoppingcartprices";
 
-    @SuppressWarnings("CQRules:CQBP-71")
     private static final String NAV_CART_PATH = "/apps/my-retail/components/structure/navcart";
 
     @Reference

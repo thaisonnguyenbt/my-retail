@@ -37,15 +37,6 @@
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-bundle-plugin</artifactId>
                 <extensions>true</extensions>
-                <executions>
-                    <execution>
-                        <id>generate-osgi-metadata-for-unittests</id>
-                        <goals>
-                            <goal>manifest</goal>
-                        </goals>
-                        <phase>process-classes</phase>
-                    </execution>
-                </executions>
                 <configuration>
                     <exportScr>true</exportScr>
                     <instructions>
@@ -60,8 +51,35 @@
                         <!-- Allow the processing of SCR annotations via 
                             a bnd plugin -->
                         <_plugin>org.apache.felix.scrplugin.bnd.SCRDescriptorBndPlugin;destdir=${project.build.outputDirectory}</_plugin>
+                        <_dsannotations>*</_dsannotations>
+						<_metatypeannotations>*</_metatypeannotations>
                     </instructions>
                 </configuration>
+                <executions>
+                	<execution>
+                        <id>generate-osgi-metadata-for-unittests</id>
+                        <goals>
+                            <goal>manifest</goal>
+                        </goals>
+                        <phase>process-classes</phase>
+                    </execution>
+					<execution>
+						<id>scr-metadata</id>
+						<goals>
+							<goal>manifest</goal>
+						</goals>
+						<configuration>
+							<supportIncrementalBuild>true</supportIncrementalBuild>
+						</configuration>
+					</execution>
+					<execution>
+						<id>generate-osgi-metadata-for-unittests</id>
+						<goals>
+							<goal>manifest</goal>
+						</goals>
+						<phase>process-classes</phase>
+					</execution>
+				</executions>
                 <dependencies>
                     <!-- Add a dependency to the bnd plugin -->
                     <dependency>
@@ -72,6 +90,42 @@
                 </dependencies>
             </plugin>
         </plugins>
+        <pluginManagement>
+			<plugins>
+				<!--This plugin's configuration is used to store Eclipse m2e settings 
+					only. It has no influence on the Maven build itself. -->
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											org.apache.felix
+										</groupId>
+										<artifactId>
+											maven-scr-plugin
+										</artifactId>
+										<versionRange>
+											[1.20.0,)
+										</versionRange>
+										<goals>
+											<goal>scr</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore />
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
     </build>
 
     <dependencies>
@@ -154,7 +208,6 @@
         <dependency>
             <groupId>com.google.code.findbugs</groupId>
             <artifactId>jsr305</artifactId>
-            <version>2.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.felix</groupId>
@@ -164,6 +217,5 @@
 		    <groupId>com.google.code.gson</groupId>
 		    <artifactId>gson</artifactId>
 		</dependency>
-        
     </dependencies>
 </project>

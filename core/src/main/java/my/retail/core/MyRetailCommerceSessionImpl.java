@@ -44,6 +44,8 @@ import com.day.cq.i18n.I18n;
 public class MyRetailCommerceSessionImpl extends AbstractJcrCommerceSession {
 
     private static final Map<String, BigDecimal> shippingCosts = new HashMap<String, BigDecimal>() {
+
+        private static final long serialVersionUID = 3324673759813249079L;
         {
             // A simple shipping pricing architecture with fixed shipping costs.
 
@@ -99,7 +101,7 @@ public class MyRetailCommerceSessionImpl extends AbstractJcrCommerceSession {
     }
 
     @Override
-    @SuppressWarnings("squid:CallToDeprecatedMethod")
+    @SuppressWarnings("deprecation")
     protected String getOrderStatus(String orderId) throws CommerceException {
         //
         // Status is kept in the vendor section (/var/commerce); need to find corresponding order there.
