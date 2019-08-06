@@ -1,5 +1,7 @@
 package my.retail.core.workflow;
 
+import java.util.Arrays;
+
 import org.apache.commons.mail.Email;
 import org.apache.commons.mail.SimpleEmail;
 import org.apache.felix.scr.annotations.Component;
@@ -19,6 +21,8 @@ import com.adobe.granite.workflow.metadata.MetaDataMap;
 import com.day.cq.mailer.MessageGateway;
 import com.day.cq.mailer.MessageGatewayService;
 
+import my.retail.core.service.EmailService;
+
 @Component
 @Service
 @Properties({
@@ -32,6 +36,9 @@ public class CustomEmailWorkflow implements WorkflowProcess {
     // Inject a MessageGatewayService
     @Reference
     private MessageGatewayService messageGatewayService;
+
+    @Reference
+    private EmailService emailService;
 
     @Override
     public void execute(WorkItem item, WorkflowSession wfsession, MetaDataMap args) throws WorkflowException {
@@ -58,6 +65,8 @@ public class CustomEmailWorkflow implements WorkflowProcess {
 
             // Check the logs to see that messageGateway is not null
             messageGateway.send(email);
+
+            emailService.sendEmail("XXX", "XXX", Arrays.asList("thaisonnguyenbt@gmail.com"), null);
         }
 
         catch (Exception e) {
