@@ -2,13 +2,15 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-06-25T12:57:26.865+08:00"
+        cq:conf="/conf/my-retail"
+        cq:lastModified="{Date}2019-11-29T16:59:52.661+08:00"
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2019-06-25T12:57:26.869+08:00"
         cq:lastRolledoutBy="admin"
+        cq:propertyInheritanceCancelled="[cq:conf]"
         cq:redirectTarget="/content/my-retail/us/en"
         cq:template="/conf/my-retail/settings/wcm/templates/myretail-redirect-page"
-        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,cq:PropertyLiveSyncCancelled]"
         jcr:primaryType="cq:PageContent"
         jcr:title="United States"
         sling:resourceType="my-retail/components/structure/page">
