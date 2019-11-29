@@ -30,7 +30,7 @@ public abstract class BaseSightlyModel {
     protected void doInit() {
 
         try {
-            this.doInit();
+            this.init();
         } catch (Exception e) {
             if (HttpServletResponse.class.isAssignableFrom(response.getClass())) {
                 String requestURI = request.getRequestURI();
