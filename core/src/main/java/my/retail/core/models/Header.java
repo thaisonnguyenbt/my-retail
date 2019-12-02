@@ -101,6 +101,8 @@ public class Header extends BaseSightlyModel {
     private String profilePath;
     private String accountPath;
     private String languageRoot;
+    private String userId;
+    private String anonymousId;
     private Language currentLanguage;
     private boolean isCommunitiesPage;
     private String userPath;
@@ -128,8 +130,8 @@ public class Header extends BaseSightlyModel {
             }
 
             ums = slingScriptHelper.getService(UserManagementService.class);
-            String anonymousId = ums != null ? ums.getAnonymousId() : UserConstants.DEFAULT_ANONYMOUS_ID;
-            String userId = resolver.getUserID();
+            anonymousId = ums != null ? ums.getAnonymousId() : UserConstants.DEFAULT_ANONYMOUS_ID;
+            userId = resolver.getUserID();
 
             CommunityContext communityContext = currentPage.adaptTo(CommunityContext.class);
             if (communityContext != null) {
@@ -382,5 +384,14 @@ public class Header extends BaseSightlyModel {
         }
 
     }
+
+
+	public String getUserId() {
+		return userId;
+	}
+
+	public String getAnonymousId() {
+		return anonymousId;
+	}
 
 }
